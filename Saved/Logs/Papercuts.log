@@ -791,3 +791,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.29-20.06.23:057][261]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_TeddyInteractionTriggerEB3DAE474D0D9E6E19A974BEA00C8401.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_TeddyInteractionTrigger.uasset'
 [2021.01.29-20.06.23:067][261]AssetCheck: New page: Asset Save: BP_TeddyInteractionTrigger
 [2021.01.29-20.06.23:068][261]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_TeddyInteractionTrigger.BP_TeddyInteractionTrigger
+[2021.01.29-20.06.46:956][911]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.29-20.08.20:565][164]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.29-20.08.20:572][164]LogBlueprint: Error: [Compiler FirstPersonCharacter] The property associated with  Player Is Near Teddy  could not be found in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2021.01.29-20.08.20:604][164]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.01.29-20.08.30:917][190]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/BP_TeddyInteractionTrigger.BP_TeddyInteractionTrigger
+[2021.01.29-20.08.32:483][297]BlueprintLog: New page: Compile BP_TeddyInteractionTrigger
+[2021.01.29-20.08.32:534][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.01.29-20.08.40:352][ 86]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.29-20.08.40:397][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.01.29-20.08.42:834][282]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/FirstPersonCharacterA69B54CD41DA4134F37127848636B89C.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.01.29-20.08.42:852][282]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.01.29-20.08.42:852][282]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.29-20.08.43:767][381]LogSlate: Window 'BP_TeddyInteractionTrigger' being destroyed
+[2021.01.29-20.08.43:772][381]LogSlate: Window 'BP_TeddyInteractionTrigger' being destroyed
+[2021.01.29-20.08.43:773][381]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-20.08.43:773][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.08.43:831][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.29-20.08.43:831][381]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-20.08.43:831][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.08.46:610][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mainscene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.29-20.08.46:634][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.01.29-20.08.46:774][682]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Mainscene05A17419483AA4EE9C5FE1A371B8F06E.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap'
+[2021.01.29-20.08.46:793][682]LogFileHelpers: Saving map 'Mainscene' took 0.184
+[2021.01.29-20.08.46:803][682]AssetCheck: New page: Asset Save: Mainscene
+[2021.01.29-20.08.46:803][682]LogContentValidation: Display: Validating World /Game/Mainscene.Mainscene
