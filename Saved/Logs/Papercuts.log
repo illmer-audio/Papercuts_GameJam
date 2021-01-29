@@ -1,8 +1,8 @@
-﻿Log file open, 01/29/21 11:49:14
+﻿Log file open, 01/29/21 12:18:41
 LogInit: Display: Running engine for game: Papercuts
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.042870
+LogStats: Stats thread started at 0.197341
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -195,856 +195,685 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
-[2021.01.29-10.49.15:365][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.01.29-10.49.15:365][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.01.29-10.49.15:366][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
-[2021.01.29-10.49.15:366][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
-[2021.01.29-10.49.15:375][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.29-10.49.15:375][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.29-10.49.15:376][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.01.29-10.49.15:377][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.01.29-10.49.15:377][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.29-10.49.15:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.01.29-10.49.15:378][  0]LogHAL: Display: Platform has ~ 32 GB [34271223808 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.01.29-10.49.15:378][  0]LogInit: Going up to parent DeviceProfile []
-[2021.01.29-10.49.15:379][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.29-10.49.15:379][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.01.29-10.49.15:380][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.01.29-10.49.15:381][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.01.29-10.49.15:381][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.01.29-10.49.15:381][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.01.29-10.49.15:381][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
-[2021.01.29-10.49.15:381][  0]LogInit: Computer: DESKTOP-0TEG01M
-[2021.01.29-10.49.15:381][  0]LogInit: User: thoma
-[2021.01.29-10.49.15:381][  0]LogInit: CPU Page size=4096, Cores=12
-[2021.01.29-10.49.15:381][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.01.29-10.49.15:381][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2021.01.29-10.49.15:382][  0]LogMemory: Platform Memory Stats for Windows
-[2021.01.29-10.49.15:382][  0]LogMemory: Process Physical Memory: 117.02 MB used, 117.02 MB peak
-[2021.01.29-10.49.15:382][  0]LogMemory: Process Virtual Memory: 99.90 MB used, 99.91 MB peak
-[2021.01.29-10.49.15:382][  0]LogMemory: Physical Memory: 9429.65 MB used,  23253.94 MB free, 32683.59 MB total
-[2021.01.29-10.49.15:382][  0]LogMemory: Virtual Memory: 5193.02 MB used,  134212536.00 MB free, 134217728.00 MB total
-[2021.01.29-10.49.15:388][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.01.29-10.49.15:583][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.01.29-10.49.15:594][  0]LogInit: Using OS detected language (de-DE).
-[2021.01.29-10.49.15:594][  0]LogInit: Using OS detected locale (de-AT).
-[2021.01.29-10.49.15:606][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
-[2021.01.29-10.49.15:606][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
-[2021.01.29-10.49.15:606][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
-[2021.01.29-10.49.15:606][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
-[2021.01.29-10.49.15:606][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
-[2021.01.29-10.49.15:607][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
-[2021.01.29-10.49.15:607][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
-[2021.01.29-10.49.15:607][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
-[2021.01.29-10.49.15:608][  0]LogInit: Setting process to per monitor DPI aware
-[2021.01.29-10.49.15:669][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.01.29-10.49.15:670][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.01.29-10.49.16:057][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.29-10.49.16:057][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.01.29-10.49.16:057][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.01.29-10.49.16:057][  0]LogD3D11RHI: D3D11 adapters:
-[2021.01.29-10.49.16:140][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3090' (Feature Level 11_0)
-[2021.01.29-10.49.16:140][  0]LogD3D11RHI:       24348/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2021.01.29-10.49.16:143][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.01.29-10.49.16:143][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.01.29-10.49.16:143][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.01.29-10.49.16:149][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.01.29-10.49.16:149][  0]LogD3D11RHI:     GPU DeviceId: 0x2204 (for the marketing name, search the web for "GPU Device Id")
-[2021.01.29-10.49.16:149][  0]LogWindows: EnumDisplayDevices:
-[2021.01.29-10.49.16:149][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3090' (P:1 D:1)
-[2021.01.29-10.49.16:150][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3090' (P:0 D:1)
-[2021.01.29-10.49.16:150][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3090' (P:0 D:1)
-[2021.01.29-10.49.16:150][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3090' (P:0 D:0)
-[2021.01.29-10.49.16:150][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.01.29-10.49.16:150][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3090
-[2021.01.29-10.49.16:150][  0]LogD3D11RHI:   Driver Version: 461.09 (internal:27.21.14.6109, unified:461.09)
-[2021.01.29-10.49.16:150][  0]LogD3D11RHI:      Driver Date: 12-31-2020
-[2021.01.29-10.49.16:150][  0]LogRHI: Texture pool is 17043 MB (70% of 24348 MB)
-[2021.01.29-10.49.16:207][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.01.29-10.49.16:207][  0]LogD3D11RHI: Async texture creation enabled
-[2021.01.29-10.49.16:207][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.01.29-10.49.16:237][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.01.29-10.49.18:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.01.29-10.49.18:092][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.01.29-10.49.18:092][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.01.29-10.49.18:092][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.01.29-10.49.18:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.01.29-10.49.18:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.01.29-10.49.18:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.01.29-10.49.18:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.01.29-10.49.18:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.01.29-10.49.18:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.01.29-10.49.18:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.01.29-10.49.18:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.01.29-10.49.18:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.01.29-10.49.18:148][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.01.29-10.49.18:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.01.29-10.49.18:175][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.01.29-10.49.18:189][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.01.29-10.49.18:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.01.29-10.49.18:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.01.29-10.49.18:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.01.29-10.49.18:258][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.01.29-10.49.18:258][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.01.29-10.49.18:277][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.01.29-10.49.18:277][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.01.29-10.49.18:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.01.29-10.49.18:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.01.29-10.49.18:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.01.29-10.49.18:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.01.29-10.49.18:334][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.01.29-10.49.18:367][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.01.29-10.49.18:591][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Intermediate/Shaders/WorkingDirectory/580/).
-[2021.01.29-10.49.18:591][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/thoma/AppData/Local/Temp/UnrealShaderWorkingDir/F69918584D5438AC7C52E180FA7DFEBA/'.
-[2021.01.29-10.49.18:592][  0]LogXGEController: Cleaning working directory: C:/Users/thoma/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.01.29-10.49.18:592][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.01.29-10.49.18:592][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.01.29-10.49.18:592][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.01.29-10.49.19:488][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.01.29-10.49.19:555][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.01.29-10.49.19:555][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.01.29-10.49.19:555][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.01.29-10.49.19:555][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.01.29-10.49.19:555][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.29-10.49.19:555][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.01.29-10.49.19:568][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.01.29-10.49.19:568][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.29-10.49.19:568][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.01.29-10.49.19:570][  0]LogDerivedDataCache: Using Local data cache path C:/Users/thoma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.01.29-10.49.19:570][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.01.29-10.49.19:570][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.01.29-10.49.19:622][  0]LogSlate: Using FreeType 2.10.0
-[2021.01.29-10.49.19:625][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.01.29-10.49.19:672][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
-[2021.01.29-10.49.20:020][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.29-10.49.20:301][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.01.29-10.49.20:301][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.01.29-10.49.20:301][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.01.29-10.49.20:301][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.01.29-10.49.20:301][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.01.29-10.49.20:343][  0]LogNetVersion: Papercuts 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2034159001)
-[2021.01.29-10.49.21:001][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000028E45786440), frame # 0
-[2021.01.29-10.49.21:001][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028E45716AC0), frame # 0
-[2021.01.29-10.49.21:004][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E45765E00), frame # 0
-[2021.01.29-10.49.21:041][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.021653 seconds
-[2021.01.29-10.49.21:046][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.01.29-10.49.21:046][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.01.29-10.49.21:046][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.01.29-10.49.21:798][  0]LogFMOD: FFMODStudioModule startup
-[2021.01.29-10.49.21:798][  0]LogFMOD:  Lib path = '../../../Engine/Plugins/FMOD/Binaries'
-[2021.01.29-10.49.21:798][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMOD/Binaries/Win64/fmodL.dll
-[2021.01.29-10.49.21:826][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMOD/Binaries/Win64/fmodstudioL.dll
-[2021.01.29-10.49.21:881][  0]LogFMOD: Loading strings bank: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
-[2021.01.29-10.49.21:883][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
-[2021.01.29-10.49.21:883][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character/Steps
-[2021.01.29-10.49.21:883][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master
-[2021.01.29-10.49.21:883][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/Amb/Vinyl
-[2021.01.29-10.49.21:883][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/Music/Music
-[2021.01.29-10.49.21:895][  0]LogFMOD: Default sample rate = 48000
-[2021.01.29-10.49.21:895][  0]LogFMOD: System sample rate = 48000
-[2021.01.29-10.49.21:895][  0]LogFMOD: Matching system sample rate 48000
-[2021.01.29-10.49.21:933][  0]LogFMOD: Default sample rate = 48000
-[2021.01.29-10.49.21:933][  0]LogFMOD: System sample rate = 48000
-[2021.01.29-10.49.21:933][  0]LogFMOD: Matching system sample rate 48000
-[2021.01.29-10.49.22:282][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.01.29-10.49.22:296][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.01.29-10.49.22:510][  0]SourceControl: Source control is disabled
-[2021.01.29-10.49.33:834][  0]LogFMOD: FFMODStudioEditorModule startup
-[2021.01.29-10.49.34:271][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.01.29-10.49.34:331][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.01.29-10.49.34:331][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.01.29-10.49.34:451][  0]LogOcInput: OculusInput pre-init called
-[2021.01.29-10.49.34:478][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.01.29-10.49.34:479][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.01.29-10.49.34:607][  0]LogEngine: Initializing Engine...
-[2021.01.29-10.49.34:608][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.29-10.49.34:608][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.01.29-10.49.34:610][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.01.29-10.49.34:707][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.01.29-10.49.34:733][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.01.29-10.49.34:733][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E57EF1C00), frame # 0
-[2021.01.29-10.49.34:733][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028E4C462980), frame # 0
-[2021.01.29-10.49.34:746][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.29-10.49.34:746][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.29-10.49.34:746][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.29-10.49.34:746][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.29-10.49.34:746][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.29-10.49.34:746][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.29-10.49.34:746][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.29-10.49.34:746][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.29-10.49.34:747][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.29-10.49.34:747][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.29-10.49.34:769][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.29-10.49.34:769][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.01.29-10.49.34:792][  0]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
-[2021.01.29-10.49.34:792][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.29-10.49.34:794][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.29-10.49.34:794][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.29-10.49.34:795][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.29-10.49.34:800][  0]LogInit: FAudioDevice initialized.
-[2021.01.29-10.49.34:801][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.01.29-10.49.34:836][  0]LogDerivedDataCache: Saved boot cache 0.03s 75MB C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.01.29-10.49.34:836][  0]LogInit: Texture streaming: Enabled
-[2021.01.29-10.49.34:874][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.01.29-10.49.34:874][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={33D6670F-400D-CA3E-0552-9A9F53015B0B}
-[2021.01.29-10.49.34:874][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.01.29-10.49.34:878][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.01.29-10.49.36:753][  0]LogInit: Transaction tracking system initialized
-[2021.01.29-10.49.36:826][  0]BlueprintLog: New page: Editor Load
-[2021.01.29-10.49.37:102][  0]LocalizationService: Localization service is disabled
-[2021.01.29-10.49.37:421][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.01.29-10.49.37:422][  0]LogCook: Display: Mobile HDR setting 1
-[2021.01.29-10.49.37:768][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/' took 0.00s
-[2021.01.29-10.49.38:061][  0]LogUnrealEdMisc: Loading editor; pre map load, took 28.218
-[2021.01.29-10.49.38:062][  0]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.01.29-10.49.38:062][  0]LightingResults: New page: Lighting Build
-[2021.01.29-10.49.38:065][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.01.29-10.49.38:065][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-10.49.38:065][  0]MapCheck: New page: Map Check
-[2021.01.29-10.49.38:065][  0]LightingResults: New page: Lighting Build
-[2021.01.29-10.49.38:081][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028E57EF1C00), frame # 0
-[2021.01.29-10.49.38:081][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028E4C462980), frame # 0
-[2021.01.29-10.49.38:082][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2021.01.29-10.49.38:284][  0]LogStaticMesh: Building static mesh Kuppel_comb...
-[2021.01.29-10.49.38:777][  0]LogTexture: Display: Building textures: PROP_Aufsteller_BIB_mtrl_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
-[2021.01.29-10.49.38:777][  0]LogTexture: Display: Building textures: PROP_Aufsteller_BIB_mtrl_BaseColor (AutoDXT, 2048X2048)
-[2021.01.29-10.49.38:777][  0]LogTexture: Display: Building textures: PROP_Aufsteller_BIB_mtrl_Normal (BC5, 2048X2048)
-[2021.01.29-10.49.38:777][  0]LogStaticMesh: Built static mesh [0.49s] /Game/Kapsel/Kuppel_comb.Kuppel_comb
-[2021.01.29-10.49.38:811][  0]LogStaticMesh: Building static mesh PROP_Aufsteller...
-[2021.01.29-10.49.38:820][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Props/PROP_Aufsteller.PROP_Aufsteller
-[2021.01.29-10.49.38:823][  0]LogMaterial: Display: Missing cached shader map for material Aufsteller_MTRL, compiling. 
-[2021.01.29-10.49.38:860][  0]LogMaterial: Display: Missing cached shader map for material CellShading, compiling. 
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 15
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 14
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 13
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 12
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 11
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 10
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 9
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 8
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 7
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 6
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 5
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 4
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 3
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 2
-[2021.01.29-10.49.38:865][  0]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 1
-[2021.01.29-10.49.38:865][  0]LogMaterial: Display: Missing cached shader map for material CellShader, compiling. 
-[2021.01.29-10.49.38:904][  0]LogAIModule: Creating AISystem for world Mainscene
-[2021.01.29-10.49.38:904][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E40E37200), frame # 0
-[2021.01.29-10.49.38:904][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028E40AEBB00), frame # 0
-[2021.01.29-10.49.38:918][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.01.29-10.49.38:934][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
-[2021.01.29-10.49.38:935][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.01.29-10.49.38:935][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,29ms to complete.
-[2021.01.29-10.49.38:935][  0]LogFileHelpers: Loading map 'Mainscene' took 0.873
-[2021.01.29-10.49.38:942][  0]LogUnrealEdMisc: Total Editor Startup Time, took 29.099
-[2021.01.29-10.49.39:093][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-10.49.39:101][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-10.49.39:107][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-10.49.39:113][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-10.49.39:129][  0]LogCollectionManager: Loaded 0 collections in 0.000810 seconds
-[2021.01.29-10.49.39:152][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Collections/' took 0.00s
-[2021.01.29-10.49.39:152][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Developers/thoma/Collections/' took 0.00s
-[2021.01.29-10.49.39:152][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Collections/' took 0.00s
-[2021.01.29-10.49.39:152][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3443 classes and 828 folders.
-[2021.01.29-10.49.39:156][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.01.29-10.49.39:320][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.01.29-10.49.39:321][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2021.01.29-10.49.39:485][  0]LogSlate: Took 0.001327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.01.29-10.49.39:488][  0]LogSlate: Took 0.001186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.01.29-10.49.39:495][  0]LogSlate: Took 0.000997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.01.29-10.49.39:584][  0]LogRenderer: Reallocating scene render targets to support 1572x836 Format 10 NumSamples 1 (Frame:1).
-[2021.01.29-10.49.39:711][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.01.29-10.49.39:711][  0]LogLoad: (Engine Initialization) Total time: 29.87 seconds
-[2021.01.29-10.49.39:711][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.01.29-10.49.39:747][  0]LogAssetRegistry: Asset discovery search completed in 20.0753 seconds
-[2021.01.29-10.49.39:750][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2021.01.29-10.49.39:755][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.01.29-10.49.39:772][  1]LogFMOD: File has changed: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
-[2021.01.29-10.49.39:858][  1]LogFMOD: Loading strings bank: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
-[2021.01.29-10.49.39:870][  1]LogFMOD: Default sample rate = 48000
-[2021.01.29-10.49.39:870][  1]LogFMOD: System sample rate = 48000
-[2021.01.29-10.49.39:870][  1]LogFMOD: Matching system sample rate 48000
-[2021.01.29-10.49.40:031][  1]LogFMOD: Default sample rate = 48000
-[2021.01.29-10.49.40:031][  1]LogFMOD: System sample rate = 48000
-[2021.01.29-10.49.40:031][  1]LogFMOD: Matching system sample rate 48000
-[2021.01.29-10.49.40:513][ 27]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 12
-[2021.01.29-10.49.40:513][ 27]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 11
-[2021.01.29-10.49.40:513][ 27]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 10
-[2021.01.29-10.49.40:513][ 27]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 9
-[2021.01.29-10.49.40:513][ 27]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 8
-[2021.01.29-10.49.41:277][116]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 7
-[2021.01.29-10.49.41:355][123]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 6
-[2021.01.29-10.49.41:355][123]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 5
-[2021.01.29-10.49.41:378][125]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 4
-[2021.01.29-10.49.41:427][130]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 3
-[2021.01.29-10.49.41:536][140]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 2
-[2021.01.29-10.49.41:561][142]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 1
-[2021.01.29-10.49.46:425][709]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.29-10.49.46:475][709]LogFMOD: Creating runtime Studio System
-[2021.01.29-10.49.46:482][709]LogFMOD: Default sample rate = 48000
-[2021.01.29-10.49.46:482][709]LogFMOD: System sample rate = 48000
-[2021.01.29-10.49.46:482][709]LogFMOD: Matching system sample rate 48000
-[2021.01.29-10.49.46:490][709]LogFMOD: Loading Banks
-[2021.01.29-10.49.46:535][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.01.29-10.49.46:535][709]PIE: New page: PIE session: Mainscene (29.01.2021, 12:49:46)
-[2021.01.29-10.49.46:536][709]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.01.29-10.49.46:538][709]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.01.29-10.49.46:538][709]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Mainscene
-[2021.01.29-10.49.46:547][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008969s)
-[2021.01.29-10.49.46:548][709]LogAIModule: Creating AISystem for world Mainscene
-[2021.01.29-10.49.46:548][709]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E7CE08800), frame # 709
-[2021.01.29-10.49.46:548][709]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028E58509A80), frame # 709
-[2021.01.29-10.49.46:548][709]LogPlayLevel: PIE: World Init took: (0.000973s)
-[2021.01.29-10.49.46:548][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mainscene.Mainscene to /Game/UEDPIE_0_Mainscene.Mainscene (0.010429s)
-[2021.01.29-10.49.46:560][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
-[2021.01.29-10.49.46:561][709]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.29-10.49.46:561][709]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.29-10.49.46:561][709]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.29-10.49.46:561][709]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.29-10.49.46:561][709]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.29-10.49.46:561][709]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.29-10.49.46:561][709]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.29-10.49.46:561][709]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.29-10.49.46:562][709]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.29-10.49.46:562][709]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.29-10.49.46:571][709]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.29-10.49.46:571][709]LogAudioMixer: Display: 1: FrontRight
-[2021.01.29-10.49.46:589][709]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
-[2021.01.29-10.49.46:589][709]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.29-10.49.46:589][709]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.29-10.49.46:589][709]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.29-10.49.46:590][709]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.29-10.49.46:601][709]LogInit: FAudioDevice initialized.
-[2021.01.29-10.49.46:606][709]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.01.29-10.49.46:607][709]LogWorld: Bringing World /Game/UEDPIE_0_Mainscene.Mainscene up for play (max tick rate 0) at 2021.01.29-11.49.46
-[2021.01.29-10.49.46:608][709]LogWorld: Bringing up level for play took: 0.001222
-[2021.01.29-10.49.46:608][709]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2021.01.29-10.49.46:612][709]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2021.01.29-10.49.46:613][709]PIE: Server logged in
-[2021.01.29-10.49.46:614][709]PIE: Play in editor total start time 0,176 seconds.
-[2021.01.29-10.50.21:483][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-10.50.21:483][874]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Mainscene
-[2021.01.29-10.50.21:488][874]LogWorld: UWorld::CleanupWorld for Mainscene, bSessionEnded=true, bCleanupResources=true
-[2021.01.29-10.50.21:489][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-10.50.21:498][874]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.29-10.50.21:499][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-10.50.21:521][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-10.50.21:522][874]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028E58509A80), frame # 4874
-[2021.01.29-10.50.21:522][874]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028E7CE08800), frame # 4874
-[2021.01.29-10.50.21:523][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
-[2021.01.29-10.50.21:549][875]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2021.01.29-10.50.35:706][541]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.29-10.50.35:754][541]LogFMOD: Creating runtime Studio System
-[2021.01.29-10.50.35:761][541]LogFMOD: Default sample rate = 48000
-[2021.01.29-10.50.35:761][541]LogFMOD: System sample rate = 48000
-[2021.01.29-10.50.35:761][541]LogFMOD: Matching system sample rate 48000
-[2021.01.29-10.50.35:768][541]LogFMOD: Loading Banks
-[2021.01.29-10.50.35:814][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.01.29-10.50.35:814][541]PIE: New page: PIE session: Mainscene (29.01.2021, 12:50:35)
-[2021.01.29-10.50.35:852][541]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Mainscene
-[2021.01.29-10.50.35:858][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005979s)
-[2021.01.29-10.50.35:859][541]LogAIModule: Creating AISystem for world Mainscene
-[2021.01.29-10.50.35:859][541]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E59DEE000), frame # 6541
-[2021.01.29-10.50.35:859][541]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028E59F07600), frame # 6541
-[2021.01.29-10.50.35:859][541]LogPlayLevel: PIE: World Init took: (0.001454s)
-[2021.01.29-10.50.35:859][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mainscene.Mainscene to /Game/UEDPIE_0_Mainscene.Mainscene (0.007629s)
-[2021.01.29-10.50.35:886][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
-[2021.01.29-10.50.35:887][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.29-10.50.35:887][541]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.29-10.50.35:887][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.29-10.50.35:887][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.29-10.50.35:887][541]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.29-10.50.35:887][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.29-10.50.35:887][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.29-10.50.35:887][541]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.29-10.50.35:887][541]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.29-10.50.35:887][541]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.29-10.50.35:897][541]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.29-10.50.35:897][541]LogAudioMixer: Display: 1: FrontRight
-[2021.01.29-10.50.35:914][541]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
-[2021.01.29-10.50.35:915][541]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.29-10.50.35:915][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.29-10.50.35:915][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.29-10.50.35:915][541]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.29-10.50.35:925][541]LogInit: FAudioDevice initialized.
-[2021.01.29-10.50.35:933][541]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.01.29-10.50.35:934][541]LogWorld: Bringing World /Game/UEDPIE_0_Mainscene.Mainscene up for play (max tick rate 0) at 2021.01.29-11.50.35
-[2021.01.29-10.50.35:934][541]LogWorld: Bringing up level for play took: 0.000937
-[2021.01.29-10.50.35:934][541]LogOnline: OSS: Creating online subsystem instance for: :Context_5
-[2021.01.29-10.50.35:936][541]PIE: Server logged in
-[2021.01.29-10.50.35:937][541]PIE: Play in editor total start time 0,222 seconds.
-[2021.01.29-10.50.47:694][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-10.50.47:694][930]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Mainscene
-[2021.01.29-10.50.47:694][930]LogWorld: UWorld::CleanupWorld for Mainscene, bSessionEnded=true, bCleanupResources=true
-[2021.01.29-10.50.47:694][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-10.50.47:705][930]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.29-10.50.47:706][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-10.50.47:728][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-10.50.47:729][930]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028E59F07600), frame # 7930
-[2021.01.29-10.50.47:729][930]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028E59DEE000), frame # 7930
-[2021.01.29-10.50.47:730][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
-[2021.01.29-10.50.47:759][931]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2021.01.29-10.50.51:121][328]Cmd: DELETE
-[2021.01.29-10.50.51:121][328]Cmd: ACTOR DELETE
-[2021.01.29-10.50.51:128][328]LogEditorActor: Deleted Actor: Ball_C
-[2021.01.29-10.50.51:136][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
-[2021.01.29-10.50.51:137][328]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2021.01.29-10.51.44:845][710]LogSlate: Took 0.006161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.01.29-10.51.44:855][710]LogAssetEditorSubsystem: Opening Asset editor for EditorUtilityWidgetBlueprint /Game/FirstPersonBP/HUD/EyeBlink.EyeBlink
-[2021.01.29-10.51.45:081][710]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
-[2021.01.29-10.51.46:169][710]LogSlate: Took 0.001327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.01.29-10.51.46:185][710]LogSlate: Took 0.001074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.01.29-10.52.59:531][256]LogSlate: Window 'Color Picker' being destroyed
-[2021.01.29-10.53.11:875][658]LogSlate: Window 'Color Picker' being destroyed
-[2021.01.29-10.55.07:544][159]LogSlate: Took 0.006069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.01.29-10.57.29:065][222]LogEditorTransaction: Undo Move Widget
-[2021.01.29-10.57.44:800][813]LogEditorTransaction: Undo Move Widget
-[2021.01.29-11.03.25:561][140]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'SequencerGraphEditor'
-[2021.01.29-11.03.25:617][140]LogSlate: The tab "SequencerGraphEditor" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
-[2021.01.29-11.04.19:266][518]LogSlate: Window 'Sequencer Curves' being destroyed
-[2021.01.29-11.04.19:272][518]LogSlate: Window 'Sequencer Curves' being destroyed
-[2021.01.29-11.04.20:322][643]BlueprintLog: New page: Compile EyeBlink
-[2021.01.29-11.04.20:394][643]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
-[2021.01.29-11.04.47:188][691]BlueprintLog: New page: Compile EyeBlink
-[2021.01.29-11.04.47:221][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
-[2021.01.29-11.04.48:201][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/HUD/EyeBlink" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/HUD/EyeBlink.uasset" SILENT=true
-[2021.01.29-11.04.48:210][789]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/EyeBlinkEFA1E50940EE972154008BB188C0F01A.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/HUD/EyeBlink.uasset'
-[2021.01.29-11.04.48:367][789]AssetCheck: New page: Asset Save: EyeBlink
-[2021.01.29-11.04.48:367][789]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/FirstPersonBP/HUD/EyeBlink.EyeBlink
-[2021.01.29-11.05.22:119][444]LogSlate: Window 'Pick Parent Class' being destroyed
-[2021.01.29-11.05.32:389][652]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/EyeBlinkTrigger.EyeBlinkTrigger
-[2021.01.29-11.05.32:828][653]LogRenderer: Reallocating scene render targets to support 1572x1032 Format 10 NumSamples 1 (Frame:1).
-[2021.01.29-11.06.37:944][ 66]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.01.29-11.08.53:321][623]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
-[2021.01.29-11.08.53:323][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mainscene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Autosaves/Game/Mainscene_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2021.01.29-11.08.53:351][623]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Mainscene_Auto1866613A04D2B31ED576B66A999E6A30F.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Autosaves/Game/Mainscene_Auto1.umap'
-[2021.01.29-11.08.53:352][623]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Mainscene' took 0.064
-[2021.01.29-11.08.53:352][623]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
-[2021.01.29-11.08.53:353][623]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TriggerVolumes/EyeBlinkTrigger] ([1] browsable assets)...
-[2021.01.29-11.08.53:353][623]OBJ SavePackage: Finished generating thumbnails for package [/Game/TriggerVolumes/EyeBlinkTrigger]
-[2021.01.29-11.08.53:357][623]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/EyeBlinkTrigger_Auto16CA4DB194B7C439211CBE48C8A361E1F.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Autosaves/Game/TriggerVolumes/EyeBlinkTrigger_Auto1.uasset'
-[2021.01.29-11.08.53:357][623]LogFileHelpers: Auto-saving content packages took 0.005
-[2021.01.29-11.12.54:945][675]BlueprintLog: New page: Compile EyeBlinkTrigger
-[2021.01.29-11.12.54:998][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
-[2021.01.29-11.12.56:516][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/EyeBlinkTrigger" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/EyeBlinkTrigger.uasset" SILENT=true
-[2021.01.29-11.12.56:521][838]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/EyeBlinkTrigger5A6757D54651A84C1D877B8395A18B13.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/EyeBlinkTrigger.uasset'
-[2021.01.29-11.12.56:667][838]AssetCheck: New page: Asset Save: EyeBlinkTrigger
-[2021.01.29-11.12.56:668][838]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/EyeBlinkTrigger.EyeBlinkTrigger
-[2021.01.29-11.13.27:396][430]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.29-11.13.27:445][430]LogFMOD: Creating runtime Studio System
-[2021.01.29-11.13.27:452][430]LogFMOD: Default sample rate = 48000
-[2021.01.29-11.13.27:452][430]LogFMOD: System sample rate = 48000
-[2021.01.29-11.13.27:452][430]LogFMOD: Matching system sample rate 48000
-[2021.01.29-11.13.27:460][430]LogFMOD: Loading Banks
-[2021.01.29-11.13.27:505][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.01.29-11.13.27:505][430]PIE: New page: PIE session: Mainscene (29.01.2021, 13:13:27)
-[2021.01.29-11.13.27:543][430]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Mainscene
-[2021.01.29-11.13.27:549][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006451s)
-[2021.01.29-11.13.27:550][430]LogAIModule: Creating AISystem for world Mainscene
-[2021.01.29-11.13.27:550][430]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028EBACD5C00), frame # 128430
-[2021.01.29-11.13.27:550][430]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028EA6F79940), frame # 128430
-[2021.01.29-11.13.27:550][430]LogPlayLevel: PIE: World Init took: (0.001127s)
-[2021.01.29-11.13.27:550][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mainscene.Mainscene to /Game/UEDPIE_0_Mainscene.Mainscene (0.007788s)
-[2021.01.29-11.13.27:580][430]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
-[2021.01.29-11.13.27:585][430]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.29-11.13.27:585][430]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.29-11.13.27:585][430]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.29-11.13.27:585][430]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.29-11.13.27:585][430]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.29-11.13.27:585][430]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.29-11.13.27:585][430]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.29-11.13.27:585][430]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.29-11.13.27:585][430]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.29-11.13.27:585][430]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.29-11.13.27:595][430]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.29-11.13.27:595][430]LogAudioMixer: Display: 1: FrontRight
-[2021.01.29-11.13.27:613][430]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
-[2021.01.29-11.13.27:613][430]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.29-11.13.27:613][430]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.29-11.13.27:613][430]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.29-11.13.27:614][430]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.29-11.13.27:625][430]LogInit: FAudioDevice initialized.
-[2021.01.29-11.13.27:633][430]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.01.29-11.13.27:634][430]LogWorld: Bringing World /Game/UEDPIE_0_Mainscene.Mainscene up for play (max tick rate 0) at 2021.01.29-12.13.27
-[2021.01.29-11.13.27:635][430]LogWorld: Bringing up level for play took: 0.001007
-[2021.01.29-11.13.27:635][430]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2021.01.29-11.13.27:636][430]PIE: Server logged in
-[2021.01.29-11.13.27:637][430]PIE: Play in editor total start time 0,231 seconds.
-[2021.01.29-11.13.42:374][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-11.13.42:374][174]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Mainscene
-[2021.01.29-11.13.42:374][174]LogWorld: UWorld::CleanupWorld for Mainscene, bSessionEnded=true, bCleanupResources=true
-[2021.01.29-11.13.42:374][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-11.13.42:380][174]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.29-11.13.42:384][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-11.13.42:423][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-11.13.42:424][174]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028EA6F79940), frame # 130174
-[2021.01.29-11.13.42:424][174]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028EBACD5C00), frame # 130174
-[2021.01.29-11.13.42:427][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
-[2021.01.29-11.13.42:455][175]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2021.01.29-11.14.39:007][776]BlueprintLog: New page: Compile EyeBlink
-[2021.01.29-11.14.39:045][776]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
-[2021.01.29-11.14.42:794][161]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.29-11.14.42:835][161]LogFMOD: Creating runtime Studio System
-[2021.01.29-11.14.42:842][161]LogFMOD: Default sample rate = 48000
-[2021.01.29-11.14.42:842][161]LogFMOD: System sample rate = 48000
-[2021.01.29-11.14.42:842][161]LogFMOD: Matching system sample rate 48000
-[2021.01.29-11.14.42:850][161]LogFMOD: Loading Banks
-[2021.01.29-11.14.42:895][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.01.29-11.14.42:895][161]PIE: New page: PIE session: Mainscene (29.01.2021, 13:14:42)
-[2021.01.29-11.14.42:895][161]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Mainscene
-[2021.01.29-11.14.42:902][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006868s)
-[2021.01.29-11.14.42:903][161]LogAIModule: Creating AISystem for world Mainscene
-[2021.01.29-11.14.42:903][161]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E99A22600), frame # 136161
-[2021.01.29-11.14.42:903][161]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028E72CF0B80), frame # 136161
-[2021.01.29-11.14.42:903][161]LogPlayLevel: PIE: World Init took: (0.001189s)
-[2021.01.29-11.14.42:903][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mainscene.Mainscene to /Game/UEDPIE_0_Mainscene.Mainscene (0.008230s)
-[2021.01.29-11.14.42:932][161]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
-[2021.01.29-11.14.42:933][161]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.29-11.14.42:933][161]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.29-11.14.42:933][161]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.29-11.14.42:934][161]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.29-11.14.42:934][161]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.29-11.14.42:934][161]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.29-11.14.42:934][161]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.29-11.14.42:934][161]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.29-11.14.42:934][161]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.29-11.14.42:934][161]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.29-11.14.42:944][161]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.29-11.14.42:944][161]LogAudioMixer: Display: 1: FrontRight
-[2021.01.29-11.14.42:962][161]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
-[2021.01.29-11.14.42:963][161]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.29-11.14.42:963][161]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.29-11.14.42:963][161]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.29-11.14.42:963][161]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.29-11.14.42:974][161]LogInit: FAudioDevice initialized.
-[2021.01.29-11.14.42:980][161]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.01.29-11.14.42:981][161]LogWorld: Bringing World /Game/UEDPIE_0_Mainscene.Mainscene up for play (max tick rate 0) at 2021.01.29-12.14.42
-[2021.01.29-11.14.42:981][161]LogWorld: Bringing up level for play took: 0.000905
-[2021.01.29-11.14.42:981][161]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2021.01.29-11.14.42:983][161]PIE: Server logged in
-[2021.01.29-11.14.42:983][161]PIE: Play in editor total start time 0,18 seconds.
-[2021.01.29-11.14.56:164][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-11.14.56:164][724]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Mainscene
-[2021.01.29-11.14.56:164][724]LogWorld: UWorld::CleanupWorld for Mainscene, bSessionEnded=true, bCleanupResources=true
-[2021.01.29-11.14.56:164][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-11.14.56:171][724]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.29-11.14.56:175][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-11.14.56:215][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-11.14.56:216][724]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028E72CF0B80), frame # 137724
-[2021.01.29-11.14.56:216][724]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028E99A22600), frame # 137724
-[2021.01.29-11.14.56:219][724]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
-[2021.01.29-11.14.56:248][725]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2021.01.29-11.15.18:059][958]BlueprintLog: New page: Compile EyeBlink
-[2021.01.29-11.15.18:097][958]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
-[2021.01.29-11.15.20:909][230]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.29-11.15.20:955][230]LogFMOD: Creating runtime Studio System
-[2021.01.29-11.15.20:962][230]LogFMOD: Default sample rate = 48000
-[2021.01.29-11.15.20:962][230]LogFMOD: System sample rate = 48000
-[2021.01.29-11.15.20:962][230]LogFMOD: Matching system sample rate 48000
-[2021.01.29-11.15.20:969][230]LogFMOD: Loading Banks
-[2021.01.29-11.15.21:015][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.01.29-11.15.21:015][230]PIE: New page: PIE session: Mainscene (29.01.2021, 13:15:21)
-[2021.01.29-11.15.21:063][230]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Mainscene
-[2021.01.29-11.15.21:069][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005846s)
-[2021.01.29-11.15.21:070][230]LogAIModule: Creating AISystem for world Mainscene
-[2021.01.29-11.15.21:070][230]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028E7B185600), frame # 140230
-[2021.01.29-11.15.21:070][230]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028EDFAADD00), frame # 140230
-[2021.01.29-11.15.21:070][230]LogPlayLevel: PIE: World Init took: (0.001105s)
-[2021.01.29-11.15.21:070][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mainscene.Mainscene to /Game/UEDPIE_0_Mainscene.Mainscene (0.007129s)
-[2021.01.29-11.15.21:099][230]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
-[2021.01.29-11.15.21:100][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.29-11.15.21:100][230]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.29-11.15.21:100][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.29-11.15.21:100][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.29-11.15.21:100][230]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.29-11.15.21:100][230]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.29-11.15.21:100][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.29-11.15.21:100][230]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.29-11.15.21:100][230]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.29-11.15.21:100][230]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.29-11.15.21:110][230]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.29-11.15.21:110][230]LogAudioMixer: Display: 1: FrontRight
-[2021.01.29-11.15.21:129][230]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
-[2021.01.29-11.15.21:129][230]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.29-11.15.21:129][230]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.29-11.15.21:129][230]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.29-11.15.21:129][230]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.29-11.15.21:140][230]LogInit: FAudioDevice initialized.
-[2021.01.29-11.15.21:150][230]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.01.29-11.15.21:151][230]LogWorld: Bringing World /Game/UEDPIE_0_Mainscene.Mainscene up for play (max tick rate 0) at 2021.01.29-12.15.21
-[2021.01.29-11.15.21:151][230]LogWorld: Bringing up level for play took: 0.000895
-[2021.01.29-11.15.21:152][230]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2021.01.29-11.15.21:153][230]PIE: Server logged in
-[2021.01.29-11.15.21:154][230]PIE: Play in editor total start time 0,236 seconds.
-[2021.01.29-11.15.33:234][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-11.15.33:234][662]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Mainscene
-[2021.01.29-11.15.33:234][662]LogWorld: UWorld::CleanupWorld for Mainscene, bSessionEnded=true, bCleanupResources=true
-[2021.01.29-11.15.33:235][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-11.15.33:241][662]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.29-11.15.33:246][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.29-11.15.33:285][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.29-11.15.33:286][662]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028E7B185600), frame # 141662
-[2021.01.29-11.15.33:286][662]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028EDFAADD00), frame # 141662
-[2021.01.29-11.15.33:289][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
-[2021.01.29-11.15.33:318][663]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2021.01.29-11.15.40:472][513]Cmd: DELETE
-[2021.01.29-11.15.40:473][513]Cmd: ACTOR DELETE
-[2021.01.29-11.15.40:474][513]LogEditorActor: Deleted Actor: EyeBlinkTrigger_C
-[2021.01.29-11.15.40:499][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
-[2021.01.29-11.15.40:501][513]LogEditorActor: Deleted 1 Actors (0.028 secs)
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:506][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:507][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.47:507][274]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
-[2021.01.29-11.15.50:526][274]LogSlate: Window 'Save Content' being destroyed
-[2021.01.29-11.15.50:652][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/HUD/EyeBlink" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/HUD/EyeBlink.uasset" SILENT=true
-[2021.01.29-11.15.50:661][274]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/EyeBlinkAA0FA60E4D6671E53A0DD5B76B86165C.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/HUD/EyeBlink.uasset'
+[2021.01.29-11.18.41:501][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.29-11.18.41:501][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.29-11.18.41:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.29-11.18.41:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.29-11.18.41:502][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.29-11.18.41:512][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.29-11.18.41:512][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.29-11.18.41:513][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.29-11.18.41:514][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.29-11.18.41:514][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.29-11.18.41:514][  0]LogHAL: Display: Platform has ~ 32 GB [34271223808 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.29-11.18.41:514][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.29-11.18.41:514][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:514][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.29-11.18.41:515][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.29-11.18.41:516][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.29-11.18.41:517][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.29-11.18.41:517][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.29-11.18.41:517][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.29-11.18.41:517][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.29-11.18.41:517][  0]LogInit: Computer: DESKTOP-0TEG01M
+[2021.01.29-11.18.41:517][  0]LogInit: User: thoma
+[2021.01.29-11.18.41:517][  0]LogInit: CPU Page size=4096, Cores=12
+[2021.01.29-11.18.41:517][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.29-11.18.41:517][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.01.29-11.18.41:517][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.29-11.18.41:517][  0]LogMemory: Process Physical Memory: 116.86 MB used, 116.87 MB peak
+[2021.01.29-11.18.41:517][  0]LogMemory: Process Virtual Memory: 100.27 MB used, 100.27 MB peak
+[2021.01.29-11.18.41:517][  0]LogMemory: Physical Memory: 10993.93 MB used,  21689.65 MB free, 32683.59 MB total
+[2021.01.29-11.18.41:517][  0]LogMemory: Virtual Memory: 5193.02 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2021.01.29-11.18.41:524][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.29-11.18.41:577][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.29-11.18.41:577][  0]LogInit: Using OS detected language (de-DE).
+[2021.01.29-11.18.41:577][  0]LogInit: Using OS detected locale (de-AT).
+[2021.01.29-11.18.41:579][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2021.01.29-11.18.41:579][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
+[2021.01.29-11.18.41:579][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
+[2021.01.29-11.18.41:580][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
+[2021.01.29-11.18.41:580][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
+[2021.01.29-11.18.41:580][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
+[2021.01.29-11.18.41:580][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
+[2021.01.29-11.18.41:580][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
+[2021.01.29-11.18.41:581][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.29-11.18.41:625][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.29-11.18.41:625][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.29-11.18.41:887][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.29-11.18.41:887][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.29-11.18.41:887][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.29-11.18.41:887][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.29-11.18.41:961][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3090' (Feature Level 11_0)
+[2021.01.29-11.18.41:961][  0]LogD3D11RHI:       24348/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2021.01.29-11.18.41:963][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.29-11.18.41:963][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.29-11.18.41:963][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.29-11.18.41:969][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.29-11.18.41:969][  0]LogD3D11RHI:     GPU DeviceId: 0x2204 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.29-11.18.41:969][  0]LogWindows: EnumDisplayDevices:
+[2021.01.29-11.18.41:969][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3090' (P:1 D:1)
+[2021.01.29-11.18.41:970][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3090' (P:0 D:1)
+[2021.01.29-11.18.41:970][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3090' (P:0 D:1)
+[2021.01.29-11.18.41:970][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3090' (P:0 D:0)
+[2021.01.29-11.18.41:970][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.29-11.18.41:970][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3090
+[2021.01.29-11.18.41:970][  0]LogD3D11RHI:   Driver Version: 461.09 (internal:27.21.14.6109, unified:461.09)
+[2021.01.29-11.18.41:970][  0]LogD3D11RHI:      Driver Date: 12-31-2020
+[2021.01.29-11.18.41:970][  0]LogRHI: Texture pool is 17043 MB (70% of 24348 MB)
+[2021.01.29-11.18.42:025][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.29-11.18.42:025][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.29-11.18.42:025][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.29-11.18.42:046][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.29-11.18.42:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.29-11.18.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.29-11.18.42:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.29-11.18.42:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.29-11.18.42:400][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.29-11.18.42:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.29-11.18.42:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.29-11.18.42:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.29-11.18.42:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.29-11.18.42:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.29-11.18.42:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.29-11.18.42:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.29-11.18.42:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.29-11.18.42:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.29-11.18.42:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.29-11.18.42:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.29-11.18.42:511][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.29-11.18.42:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.29-11.18.42:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.29-11.18.42:530][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.29-11.18.42:539][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.29-11.18.42:598][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Intermediate/Shaders/WorkingDirectory/4200/).
+[2021.01.29-11.18.42:598][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/thoma/AppData/Local/Temp/UnrealShaderWorkingDir/6BA22E8447A44D99128C2C810FD51BA4/'.
+[2021.01.29-11.18.42:598][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.29-11.18.42:598][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.29-11.18.42:598][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.29-11.18.43:356][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.29-11.18.43:392][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.29-11.18.43:393][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.29-11.18.43:393][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.29-11.18.43:393][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.29-11.18.43:393][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.29-11.18.43:393][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.29-11.18.43:403][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.29-11.18.43:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.29-11.18.43:404][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.29-11.18.43:405][  0]LogDerivedDataCache: Using Local data cache path C:/Users/thoma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.29-11.18.43:405][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.29-11.18.43:405][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.29-11.18.43:455][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.29-11.18.43:456][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.29-11.18.43:482][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.01.29-11.18.43:704][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.29-11.18.43:808][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.29-11.18.43:808][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.29-11.18.43:808][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.29-11.18.43:808][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.29-11.18.43:808][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.29-11.18.43:829][  0]LogNetVersion: Papercuts 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2034159001)
+[2021.01.29-11.18.44:242][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000018B9E02A440), frame # 0
+[2021.01.29-11.18.44:242][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018B9DFCAAC0), frame # 0
+[2021.01.29-11.18.44:243][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018B9E009E00), frame # 0
+[2021.01.29-11.18.44:274][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.024726 seconds
+[2021.01.29-11.18.44:279][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.29-11.18.44:279][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.29-11.18.44:279][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.29-11.18.44:527][  0]LogFMOD: FFMODStudioModule startup
+[2021.01.29-11.18.44:527][  0]LogFMOD:  Lib path = '../../../Engine/Plugins/FMOD/Binaries'
+[2021.01.29-11.18.44:527][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMOD/Binaries/Win64/fmodL.dll
+[2021.01.29-11.18.44:530][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMOD/Binaries/Win64/fmodstudioL.dll
+[2021.01.29-11.18.44:555][  0]LogFMOD: Loading strings bank: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
+[2021.01.29-11.18.44:557][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2021.01.29-11.18.44:557][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character/Steps
+[2021.01.29-11.18.44:557][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master
+[2021.01.29-11.18.44:557][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/Amb/Vinyl
+[2021.01.29-11.18.44:557][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/Music/Music
+[2021.01.29-11.18.44:568][  0]LogFMOD: Default sample rate = 48000
+[2021.01.29-11.18.44:568][  0]LogFMOD: System sample rate = 48000
+[2021.01.29-11.18.44:568][  0]LogFMOD: Matching system sample rate 48000
+[2021.01.29-11.18.44:588][  0]LogFMOD: Default sample rate = 48000
+[2021.01.29-11.18.44:588][  0]LogFMOD: System sample rate = 48000
+[2021.01.29-11.18.44:588][  0]LogFMOD: Matching system sample rate 48000
+[2021.01.29-11.18.44:691][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.29-11.18.44:696][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.29-11.18.44:776][  0]SourceControl: Source control is disabled
+[2021.01.29-11.18.45:406][  0]LogFMOD: FFMODStudioEditorModule startup
+[2021.01.29-11.18.45:516][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.29-11.18.45:536][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.29-11.18.45:536][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.29-11.18.45:583][  0]LogOcInput: OculusInput pre-init called
+[2021.01.29-11.18.45:592][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.29-11.18.45:592][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.29-11.18.45:655][  0]LogEngine: Initializing Engine...
+[2021.01.29-11.18.45:656][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.29-11.18.45:656][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.29-11.18.45:656][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.29-11.18.45:750][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.29-11.18.45:758][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.29-11.18.45:758][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018BA5E79C00), frame # 0
+[2021.01.29-11.18.45:758][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018BA5E8E480), frame # 0
+[2021.01.29-11.18.45:766][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-11.18.45:766][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-11.18.45:766][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-11.18.45:766][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-11.18.45:766][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-11.18.45:766][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-11.18.45:766][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-11.18.45:766][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-11.18.45:766][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-11.18.45:766][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-11.18.45:779][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-11.18.45:779][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-11.18.45:801][  0]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.29-11.18.45:803][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.29-11.18.45:806][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.29-11.18.45:806][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.29-11.18.45:806][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.29-11.18.45:811][  0]LogInit: FAudioDevice initialized.
+[2021.01.29-11.18.45:811][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.29-11.18.45:850][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.29-11.18.45:852][  0]LogInit: Texture streaming: Enabled
+[2021.01.29-11.18.45:869][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.29-11.18.45:869][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.29-11.18.45:873][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.29-11.18.45:910][  0]LogInit: Transaction tracking system initialized
+[2021.01.29-11.18.45:934][  0]BlueprintLog: New page: Editor Load
+[2021.01.29-11.18.46:005][  0]LocalizationService: Localization service is disabled
+[2021.01.29-11.18.46:152][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.29-11.18.46:152][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.29-11.18.46:294][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/' took 0.00s
+[2021.01.29-11.18.46:478][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.110
+[2021.01.29-11.18.46:478][  0]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.29-11.18.46:479][  0]LightingResults: New page: Lighting Build
+[2021.01.29-11.18.46:479][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-11.18.46:479][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-11.18.46:479][  0]MapCheck: New page: Map Check
+[2021.01.29-11.18.46:479][  0]LightingResults: New page: Lighting Build
+[2021.01.29-11.18.46:491][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018BA5E79C00), frame # 0
+[2021.01.29-11.18.46:491][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018BA5E8E480), frame # 0
+[2021.01.29-11.18.46:492][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.01.29-11.18.46:681][  0]LogAIModule: Creating AISystem for world Mainscene
+[2021.01.29-11.18.46:681][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018B94F0FE00), frame # 0
+[2021.01.29-11.18.46:681][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018B94F1BB00), frame # 0
+[2021.01.29-11.18.46:687][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.29-11.18.46:699][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.01.29-11.18.46:699][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.29-11.18.46:699][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,079ms to complete.
+[2021.01.29-11.18.46:699][  0]LogFileHelpers: Loading map 'Mainscene' took 0.221
+[2021.01.29-11.18.46:700][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.332
+[2021.01.29-11.18.46:838][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-11.18.46:845][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-11.18.46:851][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-11.18.46:857][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-11.18.46:863][  0]LogCollectionManager: Loaded 0 collections in 0.000801 seconds
+[2021.01.29-11.18.46:879][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Collections/' took 0.00s
+[2021.01.29-11.18.46:879][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Developers/thoma/Collections/' took 0.00s
+[2021.01.29-11.18.46:879][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Collections/' took 0.00s
+[2021.01.29-11.18.46:879][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3443 classes and 828 folders.
+[2021.01.29-11.18.46:881][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.29-11.18.46:971][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.29-11.18.46:972][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.01.29-11.18.47:069][  0]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.29-11.18.47:070][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.29-11.18.47:075][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.29-11.18.47:145][  0]LogRenderer: Reallocating scene render targets to support 1572x836 Format 10 NumSamples 1 (Frame:1).
+[2021.01.29-11.18.47:217][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.29-11.18.47:217][  0]LogLoad: (Engine Initialization) Total time: 7.85 seconds
+[2021.01.29-11.18.47:217][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.29-11.18.47:250][  0]LogAssetRegistry: Asset discovery search completed in 3.7694 seconds
+[2021.01.29-11.18.47:253][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.01.29-11.18.47:256][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.29-11.18.47:272][  1]LogFMOD: File has changed: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
+[2021.01.29-11.18.47:378][  1]LogFMOD: Loading strings bank: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
+[2021.01.29-11.18.47:387][  1]LogFMOD: Default sample rate = 48000
+[2021.01.29-11.18.47:387][  1]LogFMOD: System sample rate = 48000
+[2021.01.29-11.18.47:387][  1]LogFMOD: Matching system sample rate 48000
+[2021.01.29-11.18.47:530][  1]LogFMOD: Default sample rate = 48000
+[2021.01.29-11.18.47:530][  1]LogFMOD: System sample rate = 48000
+[2021.01.29-11.18.47:530][  1]LogFMOD: Matching system sample rate 48000
+[2021.01.29-11.18.56:048][398]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.29-11.18.56:066][398]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/EyeBlinkTrigger.EyeBlinkTrigger
+[2021.01.29-11.18.56:240][398]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.01.29-11.18.57:021][398]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.29-11.18.57:050][399]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.29-11.22.23:275][277]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.29-11.22.44:123][702]BlueprintLog: New page: Compile EyeBlinkTrigger
+[2021.01.29-11.22.44:125][702]LogBlueprint: Error: [Compiler EyeBlinkTrigger] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2021.01.29-11.22.44:161][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.01.29-11.22.44:198][702]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.29-11.22.49:987][350]BlueprintLog: New page: Compile EyeBlinkTrigger
+[2021.01.29-11.22.50:016][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.01.29-11.23.07:544][394]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Geometry/BallPit/Ball.Ball
+[2021.01.29-11.23.51:788][587]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.29-11.24.19:110][802]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.29-11.24.53:992][966]BlueprintLog: New page: Compile Ball
+[2021.01.29-11.24.54:029][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.01.29-11.24.56:849][274]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Geometry/BallPit/BallMaterial.BallMaterial
+[2021.01.29-11.24.56:855][274]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.24.57:124][274]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.24.57:130][274]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 9
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 8
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 7
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 6
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 5
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 4
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 3
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 2
+[2021.01.29-11.24.57:140][274]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 1
+[2021.01.29-11.24.57:140][274]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.01.29-11.24.57:254][275]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 4
+[2021.01.29-11.24.57:254][275]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 3
+[2021.01.29-11.24.57:255][275]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 2
+[2021.01.29-11.24.57:255][275]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 1
+[2021.01.29-11.24.58:017][329]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.01.29-11.24.58:017][329]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.01.29-11.24.58:017][329]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.01.29-11.24.58:017][329]MaterialEditorStats: Texture samplers: 2/16
+[2021.01.29-11.25.42:054][560]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.01.29-11.25.42:058][560]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.25.42:064][560]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 4
+[2021.01.29-11.25.42:064][560]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 3
+[2021.01.29-11.25.42:064][560]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 2
+[2021.01.29-11.25.42:064][560]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 1
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 9
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 8
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 7
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 6
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 5
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 4
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 3
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 2
+[2021.01.29-11.25.42:094][563]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 1
+[2021.01.29-11.25.42:957][621]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.01.29-11.25.42:957][621]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.01.29-11.25.42:957][621]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.01.29-11.25.42:957][621]MaterialEditorStats: Texture samplers: 2/16
+[2021.01.29-11.25.43:743][713]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.01.29-11.25.43:747][713]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 4
+[2021.01.29-11.25.43:747][713]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 3
+[2021.01.29-11.25.43:747][713]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 2
+[2021.01.29-11.25.43:747][713]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 1
+[2021.01.29-11.25.43:748][713]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 9
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 8
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 7
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 6
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 5
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 4
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 3
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 2
+[2021.01.29-11.25.43:754][713]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 1
+[2021.01.29-11.25.43:756][713]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.01.29-11.25.43:760][713]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.25.43:774][713]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 13
+[2021.01.29-11.25.43:775][713]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 12
+[2021.01.29-11.25.43:775][713]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 11
+[2021.01.29-11.25.43:775][713]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 10
+[2021.01.29-11.25.43:775][713]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 9
+[2021.01.29-11.25.43:775][713]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 8
+[2021.01.29-11.25.43:775][713]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 7
+[2021.01.29-11.25.43:776][713]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.01.29-11.25.43:782][713]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.25.43:789][713]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.29-11.25.44:096][733]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 13
+[2021.01.29-11.25.44:157][736]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 12
+[2021.01.29-11.25.44:157][736]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 11
+[2021.01.29-11.25.44:187][738]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 10
+[2021.01.29-11.25.44:230][741]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 9
+[2021.01.29-11.25.44:246][742]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 8
+[2021.01.29-11.25.44:286][745]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 7
+[2021.01.29-11.25.44:359][750]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 6
+[2021.01.29-11.25.44:376][751]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 5
+[2021.01.29-11.25.44:376][751]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 4
+[2021.01.29-11.25.44:407][753]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 3
+[2021.01.29-11.25.44:408][753]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 2
+[2021.01.29-11.25.44:442][755]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 1
+[2021.01.29-11.25.44:981][786]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.01.29-11.25.44:981][786]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.01.29-11.25.44:981][786]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.01.29-11.25.44:981][786]MaterialEditorStats: Texture samplers: 2/16
+[2021.01.29-11.25.51:230][529]LogMaterialEditor: Applying material BallMaterial
+[2021.01.29-11.25.51:735][529]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 9
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 8
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 7
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 6
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 5
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 4
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 3
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 2
+[2021.01.29-11.25.51:770][529]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 1
+[2021.01.29-11.25.51:779][529]LogMaterial: Display: Missing cached shader map for material BallMaterial, compiling. 
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 15
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 14
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 13
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 12
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 11
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 10
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 9
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 8
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 7
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 6
+[2021.01.29-11.25.51:799][529]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 5
+[2021.01.29-11.25.51:825][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.01.29-11.25.51:830][529]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-11.25.52:398][529]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 6
+[2021.01.29-11.25.52:398][529]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 5
+[2021.01.29-11.25.52:398][529]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 4
+[2021.01.29-11.25.52:398][529]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 3
+[2021.01.29-11.25.52:398][529]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 2
+[2021.01.29-11.25.52:398][529]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 1
+[2021.01.29-11.25.52:657][529]TextureStreamingBuild: Display: Compiling optional shaders took 0.832 seconds.
+[2021.01.29-11.25.52:695][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.01.29-11.25.52:807][536]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.01.29-11.25.52:807][536]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.01.29-11.25.52:807][536]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.01.29-11.25.52:807][536]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.29-11.25.53:393][606]LogMaterialEditor: Saving and Compiling material BallMaterial
+[2021.01.29-11.25.53:498][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/BallPit/BallMaterial" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Geometry/BallPit/BallMaterial.uasset" SILENT=true
+[2021.01.29-11.25.53:505][606]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BallMaterial334513774CB91CE77E32BDACBA78D959.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Geometry/BallPit/BallMaterial.uasset'
+[2021.01.29-11.25.53:514][606]AssetCheck: New page: Asset Save: BallMaterial
+[2021.01.29-11.25.53:514][606]LogContentValidation: Display: Validating Material /Game/Geometry/BallPit/BallMaterial.BallMaterial
+[2021.01.29-11.25.59:791][752]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-11.25.59:791][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-11.26.01:574][955]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-11.26.01:574][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-11.26.11:098][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.01.29-11.26.11:101][974]LogMetaData: Removing '/Game/Geometry/BallPit/BP_Ball.BP_Ball:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Geometry/BallPit/Ball.PackageMetaData'
+[2021.01.29-11.26.11:101][974]LogMetaData: Removing '/Game/Geometry/BallPit/BP_Ball.BP_Ball_C' ref from Metadata '/Game/Geometry/BallPit/Ball.PackageMetaData'
+[2021.01.29-11.26.11:101][974]LogMetaData: Removing '/Game/Geometry/BallPit/BP_Ball.BP_Ball:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Geometry/BallPit/Ball.PackageMetaData'
+[2021.01.29-11.26.11:101][974]LogMetaData: Removing '/Game/Geometry/BallPit/BP_Ball.BP_Ball:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Geometry/BallPit/Ball.PackageMetaData'
+[2021.01.29-11.26.11:101][974]LogMetaData: Removing '/Game/Geometry/BallPit/BP_Ball.BP_Ball:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Geometry/BallPit/Ball.PackageMetaData'
+[2021.01.29-11.26.11:101][974]LogMetaData: Removing '/Game/Geometry/BallPit/BP_Ball.SKEL_BP_Ball_C' ref from Metadata '/Game/Geometry/BallPit/Ball.PackageMetaData'
+[2021.01.29-11.26.11:128][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/BallPit/BP_Ball" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Geometry/BallPit/BP_Ball.uasset" SILENT=true
+[2021.01.29-11.26.11:138][974]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_Ball15535DDC42C5F8007759D290CBC43105.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Geometry/BallPit/BP_Ball.uasset'
+[2021.01.29-11.26.11:291][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/BallPit/Ball" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Geometry/BallPit/Ball.uasset" SILENT=true
+[2021.01.29-11.26.11:293][974]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Ball73297DD1415EFC990A70CC9AD827C7D8.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Geometry/BallPit/Ball.uasset'
+[2021.01.29-11.26.11:597][974]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.29-11.26.11:597][974]LogContentValidation: Display: Validating Blueprint /Game/Geometry/BallPit/BP_Ball.BP_Ball
+[2021.01.29-11.26.11:597][974]LogContentValidation: Display: Validating ObjectRedirector /Game/Geometry/BallPit/Ball.Ball
+[2021.01.29-11.26.11:597][974]LogContentValidation: Display: Validating ObjectRedirector /Game/Geometry/BallPit/Ball.Ball_C
+[2021.01.29-11.26.15:626][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mainscene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.29-11.26.15:645][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.01.29-11.26.15:672][437]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Mainscene80B6516B4F1AB8624840B5A41D5D272B.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap'
+[2021.01.29-11.26.15:697][437]AssetCheck: New page: Asset Save: Mainscene
+[2021.01.29-11.26.15:697][437]LogContentValidation: Display: Validating World /Game/Mainscene.Mainscene
+[2021.01.29-11.26.36:204][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.01.29-11.26.36:210][758]LogMetaData: Removing '/Game/TriggerVolumes/BP_EyeBlinkTrigger.BP_EyeBlinkTrigger:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TriggerVolumes/EyeBlinkTrigger.PackageMetaData'
+[2021.01.29-11.26.36:210][758]LogMetaData: Removing '/Game/TriggerVolumes/BP_EyeBlinkTrigger.BP_EyeBlinkTrigger_C' ref from Metadata '/Game/TriggerVolumes/EyeBlinkTrigger.PackageMetaData'
+[2021.01.29-11.26.36:210][758]LogMetaData: Removing '/Game/TriggerVolumes/BP_EyeBlinkTrigger.BP_EyeBlinkTrigger:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TriggerVolumes/EyeBlinkTrigger.PackageMetaData'
+[2021.01.29-11.26.36:210][758]LogMetaData: Removing '/Game/TriggerVolumes/BP_EyeBlinkTrigger.BP_EyeBlinkTrigger:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TriggerVolumes/EyeBlinkTrigger.PackageMetaData'
+[2021.01.29-11.26.36:210][758]LogMetaData: Removing '/Game/TriggerVolumes/BP_EyeBlinkTrigger.BP_EyeBlinkTrigger:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TriggerVolumes/EyeBlinkTrigger.PackageMetaData'
+[2021.01.29-11.26.36:210][758]LogMetaData: Removing '/Game/TriggerVolumes/BP_EyeBlinkTrigger.SKEL_BP_EyeBlinkTrigger_C' ref from Metadata '/Game/TriggerVolumes/EyeBlinkTrigger.PackageMetaData'
+[2021.01.29-11.26.36:241][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/BP_EyeBlinkTrigger" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_EyeBlinkTrigger.uasset" SILENT=true
+[2021.01.29-11.26.36:247][758]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_EyeBlinkTrigger882178C6433E77F3E51BAB8A106FCF01.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_EyeBlinkTrigger.uasset'
+[2021.01.29-11.26.36:387][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/EyeBlinkTrigger" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/EyeBlinkTrigger.uasset" SILENT=true
+[2021.01.29-11.26.36:393][758]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/EyeBlinkTrigger1DBF350C4E24D2C44969C5A8C09CA5E4.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/EyeBlinkTrigger.uasset'
+[2021.01.29-11.26.36:684][758]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.29-11.26.36:684][758]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_EyeBlinkTrigger.BP_EyeBlinkTrigger
+[2021.01.29-11.26.36:684][758]LogContentValidation: Display: Validating ObjectRedirector /Game/TriggerVolumes/EyeBlinkTrigger.EyeBlinkTrigger
+[2021.01.29-11.26.36:684][758]LogContentValidation: Display: Validating ObjectRedirector /Game/TriggerVolumes/EyeBlinkTrigger.EyeBlinkTrigger_C
+[2021.01.29-11.26.40:525][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:525][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.40:526][164]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.29-11.26.44:982][164]LogSlate: Window 'Submit Files' being destroyed
