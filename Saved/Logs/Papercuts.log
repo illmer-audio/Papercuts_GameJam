@@ -695,3 +695,223 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.29-20.11.13:666][940]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.29-20.11.13:666][940]LogContentValidation: Display: Validating World /Game/Mainscene.Mainscene
 [2021.01.29-20.11.13:667][940]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_TeddyInteractionTrigger.BP_TeddyInteractionTrigger
+[2021.01.29-20.17.07:715][540]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.01.29-20.17.13:609][184]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/TestTeddy.TestTeddy
+[2021.01.29-20.17.25:142][366]BlueprintLog: New page: Compile TestTeddy
+[2021.01.29-20.17.25:176][366]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.01.29-20.18.39:242][105]BlueprintLog: New page: Compile BP_TeddyInteractionTrigger
+[2021.01.29-20.18.39:246][105]LogBlueprint: Error: [Compiler BP_TeddyInteractionTrigger] The type of  Object  is undetermined.  Connect something to  Cast To TestTeddy  to imply a specific type.
+[2021.01.29-20.18.39:247][105]LogBlueprint: Error: [Compiler BP_TeddyInteractionTrigger] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2021.01.29-20.18.39:286][105]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.01.29-20.19.01:238][199]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.29-20.19.24:432][488]BlueprintLog: New page: Compile BP_TeddyInteractionTrigger
+[2021.01.29-20.19.24:474][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.01.29-20.19.26:093][637]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_TeddyInteractionTrigger4AB512654B0AB4B2A34A82ACDC3BA851.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_TeddyInteractionTrigger.uasset'
+[2021.01.29-20.19.26:103][637]AssetCheck: New page: Asset Save: BP_TeddyInteractionTrigger
+[2021.01.29-20.19.26:103][637]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_TeddyInteractionTrigger.BP_TeddyInteractionTrigger
+[2021.01.29-20.19.28:235][821]LogTemp: Repeating last play command: Simulate
+[2021.01.29-20.19.28:291][821]LogFMOD: Creating runtime Studio System
+[2021.01.29-20.19.28:298][821]LogFMOD: Default sample rate = 48000
+[2021.01.29-20.19.28:298][821]LogFMOD: System sample rate = 48000
+[2021.01.29-20.19.28:298][821]LogFMOD: Matching system sample rate 48000
+[2021.01.29-20.19.28:307][821]LogFMOD: Loading Banks
+[2021.01.29-20.19.28:350][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.29-20.19.28:350][821]PIE: New page: SIE session: Mainscene (29.01.2021, 22:19:28)
+[2021.01.29-20.19.28:351][821]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.29-20.19.28:352][821]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.29-20.19.28:352][821]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Mainscene
+[2021.01.29-20.19.28:360][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008533s)
+[2021.01.29-20.19.28:361][821]LogAIModule: Creating AISystem for world Mainscene
+[2021.01.29-20.19.28:361][821]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020536644A00), frame # 32821
+[2021.01.29-20.19.28:361][821]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051446DF80), frame # 32821
+[2021.01.29-20.19.28:362][821]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2021.01.29-20.19.28:362][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mainscene.Mainscene to /Game/UEDPIE_0_Mainscene.Mainscene (0.009997s)
+[2021.01.29-20.19.28:388][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.01.29-20.19.28:389][821]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-20.19.28:389][821]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-20.19.28:389][821]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-20.19.28:389][821]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-20.19.28:389][821]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-20.19.28:389][821]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-20.19.28:389][821]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-20.19.28:389][821]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-20.19.28:390][821]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-20.19.28:390][821]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-20.19.28:400][821]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-20.19.28:400][821]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-20.19.28:422][821]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.29-20.19.28:422][821]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.29-20.19.28:422][821]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.29-20.19.28:422][821]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.29-20.19.28:422][821]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.29-20.19.28:436][821]LogInit: FAudioDevice initialized.
+[2021.01.29-20.19.28:447][821]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.29-20.19.28:449][821]LogWorld: Bringing World /Game/UEDPIE_0_Mainscene.Mainscene up for play (max tick rate 0) at 2021.01.29-21.19.28
+[2021.01.29-20.19.28:449][821]LogWorld: Bringing up level for play took: 0.001105
+[2021.01.29-20.19.28:449][821]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.01.29-20.19.28:461][821]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.01.29-20.19.28:462][821]Cmd: r.FullScreenMode 0
+[2021.01.29-20.19.28:462][821]r.FullScreenMode = "0"
+[2021.01.29-20.19.28:462][821]PIE: Server logged in
+[2021.01.29-20.19.28:463][821]PIE: Play in editor total start time 0,215 seconds.
+[2021.01.29-20.19.29:391][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kuppel_comb)
+[2021.01.29-20.19.31:637][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.19.42:521][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.19.42:521][297]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Mainscene
+[2021.01.29-20.19.42:521][297]LogWorld: UWorld::CleanupWorld for Mainscene, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-20.19.42:521][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.19.42:552][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.29-20.19.42:555][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.19.42:596][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.19.42:599][297]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051446DF80), frame # 34297
+[2021.01.29-20.19.42:599][297]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020536644A00), frame # 34297
+[2021.01.29-20.19.42:619][297]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2021.01.29-20.19.42:671][298]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.01.29-20.20.02:645][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mainscene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.29-20.20.02:676][550]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.01.29-20.20.02:829][550]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Mainscene462E2F8140DB5BB4F8B6B282A2815146.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap'
+[2021.01.29-20.20.02:866][550]AssetCheck: New page: Asset Save: Mainscene
+[2021.01.29-20.20.02:866][550]LogContentValidation: Display: Validating World /Game/Mainscene.Mainscene
+[2021.01.29-20.20.03:462][619]LogTemp: Repeating last play command: Simulate
+[2021.01.29-20.20.03:511][619]LogFMOD: Creating runtime Studio System
+[2021.01.29-20.20.03:518][619]LogFMOD: Default sample rate = 48000
+[2021.01.29-20.20.03:518][619]LogFMOD: System sample rate = 48000
+[2021.01.29-20.20.03:518][619]LogFMOD: Matching system sample rate 48000
+[2021.01.29-20.20.03:527][619]LogFMOD: Loading Banks
+[2021.01.29-20.20.03:571][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.29-20.20.03:571][619]PIE: New page: SIE session: Mainscene (29.01.2021, 22:20:03)
+[2021.01.29-20.20.03:609][619]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Mainscene
+[2021.01.29-20.20.03:617][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008118s)
+[2021.01.29-20.20.03:618][619]LogAIModule: Creating AISystem for world Mainscene
+[2021.01.29-20.20.03:618][619]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002053512A200), frame # 36619
+[2021.01.29-20.20.03:618][619]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000204953D0900), frame # 36619
+[2021.01.29-20.20.03:618][619]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2021.01.29-20.20.03:618][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mainscene.Mainscene to /Game/UEDPIE_0_Mainscene.Mainscene (0.009645s)
+[2021.01.29-20.20.03:650][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.01.29-20.20.03:651][619]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-20.20.03:651][619]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-20.20.03:651][619]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-20.20.03:651][619]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-20.20.03:651][619]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-20.20.03:651][619]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-20.20.03:651][619]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-20.20.03:651][619]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-20.20.03:652][619]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-20.20.03:652][619]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-20.20.03:661][619]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-20.20.03:661][619]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-20.20.03:679][619]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.29-20.20.03:679][619]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.29-20.20.03:679][619]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.29-20.20.03:679][619]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.29-20.20.03:679][619]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.29-20.20.03:692][619]LogInit: FAudioDevice initialized.
+[2021.01.29-20.20.03:702][619]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.29-20.20.03:704][619]LogWorld: Bringing World /Game/UEDPIE_0_Mainscene.Mainscene up for play (max tick rate 0) at 2021.01.29-21.20.03
+[2021.01.29-20.20.03:704][619]LogWorld: Bringing up level for play took: 0.001562
+[2021.01.29-20.20.03:704][619]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.01.29-20.20.03:715][619]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	BP_TeddyInteractionTrigger_C /Game/UEDPIE_0_Mainscene.Mainscene:PersistentLevel.BP_TeddyInteractionTrigger_C_123
+	Function /Game/TriggerVolumes/BP_TeddyInteractionTrigger.BP_TeddyInteractionTrigger_C:ExecuteUbergraph_BP_TeddyInteractionTrigger:0000
+[2021.01.29-20.20.03:715][619]PIE: Error: Infinite loop detected. Blueprint:  BP_TeddyInteractionTrigger Function:  Get All Actors Of Class Call Stack:  Show
+[2021.01.29-20.20.03:726][619]PIE: Server logged in
+[2021.01.29-20.20.03:727][619]PIE: Play in editor total start time 0,255 seconds.
+[2021.01.29-20.20.03:810][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.20.03:810][619]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Mainscene
+[2021.01.29-20.20.03:811][619]LogWorld: UWorld::CleanupWorld for Mainscene, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-20.20.03:811][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.20.03:823][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.29-20.20.03:827][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.20.03:855][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.20.03:870][619]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000204953D0900), frame # 36619
+[2021.01.29-20.20.03:870][619]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002053512A200), frame # 36619
+[2021.01.29-20.20.03:873][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.01.29-20.20.04:035][620]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.01.29-20.20.10:601][342]BlueprintLog: New page: Compile BP_TeddyInteractionTrigger
+[2021.01.29-20.20.10:651][342]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.01.29-20.21.15:933][124]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_TeddyInteractionTrigger26687F9E4462C6FB1ADE638CCA6C206A.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_TeddyInteractionTrigger.uasset'
+[2021.01.29-20.21.15:952][124]AssetCheck: New page: Asset Save: BP_TeddyInteractionTrigger
+[2021.01.29-20.21.15:952][124]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_TeddyInteractionTrigger.BP_TeddyInteractionTrigger
+[2021.01.29-20.21.16:460][178]BlueprintLog: New page: Compile BP_TeddyInteractionTrigger
+[2021.01.29-20.21.16:504][178]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2021.01.29-20.21.20:572][593]LogSlate: Window 'Message Log' being destroyed
+[2021.01.29-20.21.20:580][593]LogSlate: Window 'Message Log' being destroyed
+[2021.01.29-20.21.24:531][909]LogTemp: Repeating last play command: Simulate
+[2021.01.29-20.21.24:579][909]LogFMOD: Creating runtime Studio System
+[2021.01.29-20.21.24:587][909]LogFMOD: Default sample rate = 48000
+[2021.01.29-20.21.24:587][909]LogFMOD: System sample rate = 48000
+[2021.01.29-20.21.24:587][909]LogFMOD: Matching system sample rate 48000
+[2021.01.29-20.21.24:595][909]LogFMOD: Loading Banks
+[2021.01.29-20.21.24:640][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.29-20.21.24:640][909]PIE: New page: SIE session: Mainscene (29.01.2021, 22:21:24)
+[2021.01.29-20.21.24:640][909]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Mainscene
+[2021.01.29-20.21.24:649][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009245s)
+[2021.01.29-20.21.24:650][909]LogAIModule: Creating AISystem for world Mainscene
+[2021.01.29-20.21.24:650][909]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002050536F000), frame # 44909
+[2021.01.29-20.21.24:650][909]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000205062C3240), frame # 44909
+[2021.01.29-20.21.24:651][909]LogPlayLevel: PIE: World Init took: (0.001434s)
+[2021.01.29-20.21.24:651][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mainscene.Mainscene to /Game/UEDPIE_0_Mainscene.Mainscene (0.010848s)
+[2021.01.29-20.21.24:681][909]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2021.01.29-20.21.24:686][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-20.21.24:686][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-20.21.24:686][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-20.21.24:686][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-20.21.24:686][909]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-20.21.24:686][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-20.21.24:686][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-20.21.24:686][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-20.21.24:686][909]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-20.21.24:686][909]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-20.21.24:696][909]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-20.21.24:696][909]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-20.21.24:714][909]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.29-20.21.24:714][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.29-20.21.24:714][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.29-20.21.24:715][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.29-20.21.24:715][909]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.29-20.21.24:728][909]LogInit: FAudioDevice initialized.
+[2021.01.29-20.21.24:733][909]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.29-20.21.24:734][909]LogWorld: Bringing World /Game/UEDPIE_0_Mainscene.Mainscene up for play (max tick rate 0) at 2021.01.29-21.21.24
+[2021.01.29-20.21.24:735][909]LogWorld: Bringing up level for play took: 0.001288
+[2021.01.29-20.21.24:735][909]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.01.29-20.21.24:740][909]Cmd: r.FullScreenMode 0
+[2021.01.29-20.21.24:740][909]r.FullScreenMode = "0"
+[2021.01.29-20.21.24:740][909]PIE: Server logged in
+[2021.01.29-20.21.24:741][909]PIE: Play in editor total start time 0,195 seconds.
+[2021.01.29-20.21.25:852][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.21.27:124][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kuppel_comb)
+[2021.01.29-20.21.38:475][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.21.38:476][389]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.29-20.21.47:800][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.21.47:800][458]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Mainscene
+[2021.01.29-20.21.47:800][458]LogWorld: UWorld::CleanupWorld for Mainscene, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-20.21.47:801][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.21.47:829][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.29-20.21.47:833][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.21.47:873][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.21.47:874][458]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000205062C3240), frame # 47458
+[2021.01.29-20.21.47:874][458]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002050536F000), frame # 47458
+[2021.01.29-20.21.47:878][458]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.01.29-20.21.47:956][459]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.01.29-20.21.52:815][962]LogEditorViewport: Clicking on Actor (LMB): TestTeddy_C (TestTeddy)
+[2021.01.29-20.21.53:895][ 61]Cmd: DELETE
+[2021.01.29-20.21.53:895][ 61]Cmd: ACTOR DELETE
+[2021.01.29-20.21.53:897][ 61]LogEditorActor: Deleted Actor: TestTeddy_C
+[2021.01.29-20.21.53:925][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.01.29-20.21.53:930][ 61]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2021.01.29-20.21.54:445][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kuppel_comb)
+[2021.01.29-20.21.55:497][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kuppel_comb)
+[2021.01.29-20.21.57:709][403]Cmd: DELETE
+[2021.01.29-20.21.57:709][403]Cmd: ACTOR DELETE
+[2021.01.29-20.21.57:711][403]LogEditorActor: Deleted Actor: BP_TeddyInteractionTrigger_C
+[2021.01.29-20.21.57:743][403]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.01.29-20.21.57:747][403]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2021.01.29-20.22.04:702][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mainscene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.29-20.22.04:733][112]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.01.29-20.22.04:862][112]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Mainscene4E4F6E29486C956030E035AA08DD98D3.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Mainscene.umap'
+[2021.01.29-20.22.04:882][112]LogFileHelpers: Saving map 'Mainscene' took 0.180
+[2021.01.29-20.22.04:890][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/TestTeddy" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/TestTeddy.uasset" SILENT=true
+[2021.01.29-20.22.04:906][112]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/TestTeddyBD080B7E448E88856E40669A0BB0F992.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/TestTeddy.uasset'
+[2021.01.29-20.22.05:076][112]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.29-20.22.05:076][112]LogContentValidation: Display: Validating World /Game/Mainscene.Mainscene
+[2021.01.29-20.22.05:076][112]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/TestTeddy.TestTeddy
