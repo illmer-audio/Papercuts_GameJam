@@ -781,3 +781,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.29-18.51.40:663][859]SourceControl: [main e9c3973] Press E Event
 [2021.01.29-18.51.40:663][859]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2021.01.29-18.51.40:671][859]SourceControl: Commited [main e9c3973] Press E Event.
+[2021.01.29-18.52.22:504][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/BP_BookInteractionTrigger" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_BookInteractionTrigger.uasset" SILENT=true
+[2021.01.29-18.52.22:529][931]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_BookInteractionTrigger3ADB620E41432B50A8307486CA1DD975.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_BookInteractionTrigger.uasset'
+[2021.01.29-18.52.22:541][931]AssetCheck: New page: Asset Save: BP_BookInteractionTrigger
+[2021.01.29-18.52.22:542][931]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_BookInteractionTrigger.BP_BookInteractionTrigger
+[2021.01.29-18.52.23:068][984]BlueprintLog: New page: Compile BP_BookInteractionTrigger
+[2021.01.29-18.52.23:136][984]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.01.29-18.52.23:183][984]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.29-18.52.36:088][405]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.29-18.52.36:306][405]LogSourceControl: commit successful: [main 79b400d] Press E Trigger
+[2021.01.29-18.52.36:373][405]SourceControl: [main 79b400d] Press E Trigger
+[2021.01.29-18.52.36:373][405]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2021.01.29-18.52.36:380][405]SourceControl: Commited [main 79b400d] Press E Trigger.
