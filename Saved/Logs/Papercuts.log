@@ -849,3 +849,122 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.30-21.15.16:811][982]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.30-21.15.16:811][982]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
 [2021.01.30-21.15.16:811][982]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.30-21.18.00:470][186]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.30-21.18.56:599][857]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-21.18.59:778][ 52]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-21.19.09:113][812]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-21.19.46:012][265]BlueprintLog: New page: Collapse to Function
+[2021.01.30-21.20.11:281][545]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-21.20.34:578][626]LogBlueprint: Error: [Compiler ] Delay  cannot be placed in function graph
+[2021.01.30-21.20.34:578][626]BlueprintLog: New page: Collapse to Function
+[2021.01.30-21.20.34:578][626]BlueprintLog: Error: Delay  cannot be placed in function graph
+[2021.01.30-21.22.17:171][ 39]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-21.22.25:642][639]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-21.23.16:893][302]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.30-21.23.17:013][302]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.01.30-21.23.25:848][210]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Bib_scene.Bib_scene
+[2021.01.30-21.23.25:874][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.01.30-21.23.30:302][210]LogSlate: Window 'Save Content' being destroyed
+[2021.01.30-21.23.30:691][210]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/FirstPersonCharacter7F9510DC4C84990A363246BAF1D16383.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.01.30-21.23.30:692][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-21.23.30:714][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.01.30-21.23.31:376][210]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene2A32CFCF46BA8054E377FA8A11E637B7.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.30-21.23.31:402][210]LogFileHelpers: Saving map 'Kuppel_Scene' took 0.710
+[2021.01.30-21.23.31:402][210]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Bib_scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.30-21.23.31:402][210]LightingResults: New page: Lighting Build
+[2021.01.30-21.23.31:402][210]LoadErrors: New page: Loading map: Bib_scene.umap
+[2021.01.30-21.23.31:406][210]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-21.23.31:406][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-21.23.31:406][210]MapCheck: New page: Map Check
+[2021.01.30-21.23.31:406][210]LightingResults: New page: Lighting Build
+[2021.01.30-21.23.31:433][210]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAE37DB600), frame # 43210
+[2021.01.30-21.23.31:433][210]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA9C539400), frame # 43210
+[2021.01.30-21.23.31:436][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.01.30-21.23.31:780][210]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.30-21.23.31:780][210]LogAIModule: Creating AISystem for world Bib_scene
+[2021.01.30-21.23.31:780][210]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BB09E2E600), frame # 43210
+[2021.01.30-21.23.31:780][210]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BB097AE340), frame # 43210
+[2021.01.30-21.23.31:813][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.01.30-21.23.31:838][210]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.30-21.23.31:838][210]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,252ms to complete.
+[2021.01.30-21.23.31:838][210]LogFileHelpers: Loading map 'Bib_scene' took 0.436
+[2021.01.30-21.23.31:898][210]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.30-21.23.31:898][210]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.30-21.23.31:898][210]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.30-21.23.33:815][424]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-21.23.33:858][424]LogFMOD: Creating runtime Studio System
+[2021.01.30-21.23.33:865][424]LogFMOD: Default sample rate = 48000
+[2021.01.30-21.23.33:866][424]LogFMOD: System sample rate = 48000
+[2021.01.30-21.23.33:866][424]LogFMOD: Matching system sample rate 48000
+[2021.01.30-21.23.33:874][424]LogFMOD: Loading Banks
+[2021.01.30-21.23.33:918][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-21.23.33:918][424]PIE: New page: PIE session: Bib_scene (30.01.2021, 23:23:33)
+[2021.01.30-21.23.33:918][424]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Bib_scene
+[2021.01.30-21.23.33:969][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051264s)
+[2021.01.30-21.23.33:970][424]LogAIModule: Creating AISystem for world Bib_scene
+[2021.01.30-21.23.33:970][424]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BAAC3DAC00), frame # 43424
+[2021.01.30-21.23.33:970][424]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BAFFDDBD80), frame # 43424
+[2021.01.30-21.23.33:970][424]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2021.01.30-21.23.33:970][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bib_scene.Bib_scene to /Game/UEDPIE_0_Bib_scene.Bib_scene (0.052634s)
+[2021.01.30-21.23.33:997][424]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.01.30-21.23.33:998][424]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-21.23.33:998][424]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-21.23.33:999][424]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-21.23.33:999][424]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-21.23.33:999][424]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-21.23.33:999][424]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-21.23.33:999][424]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-21.23.33:999][424]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-21.23.33:999][424]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-21.23.33:999][424]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-21.23.34:010][424]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-21.23.34:010][424]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-21.23.34:029][424]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-21.23.34:029][424]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-21.23.34:029][424]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-21.23.34:029][424]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-21.23.34:030][424]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-21.23.34:041][424]LogInit: FAudioDevice initialized.
+[2021.01.30-21.23.34:047][424]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-21.23.34:066][424]LogWorld: Bringing World /Game/UEDPIE_0_Bib_scene.Bib_scene up for play (max tick rate 0) at 2021.01.30-22.23.34
+[2021.01.30-21.23.34:067][424]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-21.23.34:067][424]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-21.23.34:067][424]LogFMOD: Warning: Failed to set initial parameter Music_Intensity
+[2021.01.30-21.23.34:067][424]LogFMOD: Warning: Failed to set initial parameter IntroYN
+[2021.01.30-21.23.34:067][424]LogFMOD: Warning: Failed to set initial parameter MusicStop
+[2021.01.30-21.23.34:067][424]LogWorld: Bringing up level for play took: 0.019269
+[2021.01.30-21.23.34:067][424]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.01.30-21.23.34:070][424]PIE: Server logged in
+[2021.01.30-21.23.34:071][424]PIE: Play in editor total start time 0,239 seconds.
+[2021.01.30-21.23.44:240][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-21.23.45:665][809]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-21.23.45:665][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-21.23.45:665][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-21.23.45:665][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-21.23.45:665][809]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-21.23.48:308][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-21.23.48:308][109]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Bib_scene
+[2021.01.30-21.23.48:308][109]LogWorld: UWorld::CleanupWorld for Bib_scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-21.23.48:313][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-21.23.48:319][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-21.23.48:323][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-21.23.48:345][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-21.23.48:368][109]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BAAC3DAC00), frame # 45109
+[2021.01.30-21.23.48:368][109]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAFFDDBD80), frame # 45109
+[2021.01.30-21.23.48:370][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.01.30-21.23.48:404][110]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.01.30-21.24.13:458][389]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.30-21.24.13:516][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.01.30-21.24.18:132][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bib_scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Bib_scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-21.24.18:158][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.01.30-21.24.19:674][818]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Bib_sceneA985600B4234861237C925BD541635F1.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Bib_scene.umap'
+[2021.01.30-21.24.19:699][818]LogFileHelpers: Saving map 'Bib_scene' took 1.567
+[2021.01.30-21.24.19:700][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-21.24.19:767][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.01.30-21.24.20:430][818]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene183941F143EF46B7E612639660ECC56C.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.30-21.24.20:457][818]LogFileHelpers: Saving map 'Kuppel_Scene' took 0.758
+[2021.01.30-21.24.20:651][818]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/FirstPersonCharacterFB87FEF0404A6F182405B4895C33124C.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.01.30-21.24.20:674][818]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.30-21.24.20:674][818]LogContentValidation: Display: Validating World /Game/Bib_scene.Bib_scene
+[2021.01.30-21.24.20:674][818]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.30-21.24.20:674][818]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
