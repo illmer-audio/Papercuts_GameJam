@@ -2492,3 +2492,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.30-04.05.03:212][585]LogFMOD: Default sample rate = 48000
 [2021.01.30-04.05.03:212][585]LogFMOD: System sample rate = 48000
 [2021.01.30-04.05.03:212][585]LogFMOD: Matching system sample rate 48000
+[2021.01.30-04.05.25:012][650]LogEditorViewport: Clicking Background
+[2021.01.30-04.05.27:223][869]LogEditorViewport: Clicking on Actor (LMB): BodenBP_C (BodenBP)
+[2021.01.30-04.05.29:343][ 55]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/BodenBP.BodenBP
+[2021.01.30-04.05.57:431][715]LogRenderer: Reallocating scene render targets to support 2700x996 Format 10 NumSamples 1 (Frame:1).
+[2021.01.30-04.06.10:054][789]LogEditorViewport: Clicking on Actor (LMB): StuhlBP_C (StuhlBP)
+[2021.01.30-04.06.12:856][ 37]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Geometry/Assets/StuhlBP.StuhlBP
+[2021.01.30-04.06.16:061][228]BlueprintLog: New page: Compile StuhlBP
+[2021.01.30-04.06.16:125][228]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.01.30-04.06.19:221][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Assets/StuhlBP" FILE="D:/Projekte/GameJam2021_Papercut/Papercuts/Papercuts_GameJam/Content/Geometry/Assets/StuhlBP.uasset" SILENT=true
+[2021.01.30-04.06.19:246][421]LogSavePackage: Moving 'D:/Projekte/GameJam2021_Papercut/Papercuts/Papercuts_GameJam/Saved/StuhlBP88B6B768462A0BB574DB729437C4BAB2.tmp' to 'D:/Projekte/GameJam2021_Papercut/Papercuts/Papercuts_GameJam/Content/Geometry/Assets/StuhlBP.uasset'
+[2021.01.30-04.06.19:259][421]AssetCheck: New page: Asset Save: StuhlBP
+[2021.01.30-04.06.19:260][421]LogContentValidation: Display: Validating Blueprint /Game/Geometry/Assets/StuhlBP.StuhlBP
