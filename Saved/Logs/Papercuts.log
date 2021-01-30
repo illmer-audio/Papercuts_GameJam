@@ -722,3 +722,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.30-16.06.46:394][128]LogFileHelpers: Saving map 'Buero_Scene' took 1.175
 [2021.01.30-16.06.46:422][128]AssetCheck: New page: Asset Save: Buero_Scene
 [2021.01.30-16.06.46:422][128]LogContentValidation: Display: Validating World /Game/Buero_Scene.Buero_Scene
+[2021.01.30-16.07.32:364][543]LogFMOD: File has changed: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
+[2021.01.30-16.07.32:452][543]LogFMOD: Loading strings bank: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
+[2021.01.30-16.07.32:454][543]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/BIB/PaperFalls
+[2021.01.30-16.07.32:465][543]LogFMOD: Default sample rate = 48000
+[2021.01.30-16.07.32:465][543]LogFMOD: System sample rate = 48000
+[2021.01.30-16.07.32:465][543]LogFMOD: Matching system sample rate 48000
+[2021.01.30-16.07.32:616][543]LogFMOD: Default sample rate = 48000
+[2021.01.30-16.07.32:616][543]LogFMOD: System sample rate = 48000
+[2021.01.30-16.07.32:616][543]LogFMOD: Matching system sample rate 48000
