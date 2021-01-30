@@ -1428,3 +1428,408 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.30-14.29.18:934][674]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
 [2021.01.30-14.29.18:934][674]SourceControl:  create mode 100644 Content/TriggerVolumes/BP_DoorInteractionTrigger.uasset
 [2021.01.30-14.29.18:945][674]SourceControl: Commited [main 407e626] DoorInteraction.
+[2021.01.30-14.30.42:515][382]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.30-14.30.42:524][382]LogBlueprint: Error: [Compiler FirstPersonCharacter] This blueprint (self) is not a PlayerCameraManager, therefore ' Target ' must have a connection.
+[2021.01.30-14.30.42:573][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.01.30-14.31.00:113][372]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.30-14.31.00:173][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.01.30-14.31.03:280][711]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-14.31.03:327][711]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.31.03:335][711]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.31.03:335][711]LogFMOD: System sample rate = 48000
+[2021.01.30-14.31.03:335][711]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.31.03:344][711]LogFMOD: Loading Banks
+[2021.01.30-14.31.03:388][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.31.03:388][711]PIE: New page: PIE session: Flur (30.01.2021, 16:31:03)
+[2021.01.30-14.31.03:427][711]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.31.03:441][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014633s)
+[2021.01.30-14.31.03:442][711]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.31.03:442][711]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C96CFA3E00), frame # 94711
+[2021.01.30-14.31.03:442][711]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C92D85DD00), frame # 94711
+[2021.01.30-14.31.03:443][711]LogPlayLevel: PIE: World Init took: (0.001550s)
+[2021.01.30-14.31.03:443][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.016477s)
+[2021.01.30-14.31.03:476][711]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.01.30-14.31.03:477][711]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.31.03:477][711]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.31.03:477][711]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.31.03:477][711]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.31.03:477][711]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.31.03:477][711]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.31.03:477][711]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.31.03:477][711]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.31.03:478][711]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.31.03:478][711]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.31.03:488][711]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.31.03:488][711]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.31.03:506][711]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.31.03:506][711]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.31.03:506][711]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.31.03:506][711]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.31.03:507][711]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.31.03:518][711]LogInit: FAudioDevice initialized.
+[2021.01.30-14.31.03:523][711]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.31.03:526][711]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.31.03
+[2021.01.30-14.31.03:526][711]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.31.03:526][711]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.31.03:526][711]LogWorld: Bringing up level for play took: 0.002933
+[2021.01.30-14.31.03:526][711]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.01.30-14.31.03:528][711]PIE: Server logged in
+[2021.01.30-14.31.03:529][711]PIE: Play in editor total start time 0,233 seconds.
+[2021.01.30-14.31.04:068][773]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.31.04:249][795]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.31.10:883][591]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.31.12:801][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.31.12:801][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-14.31.12:801][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors_1' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-14.31.12:801][821]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.31.15:800][181]LogNet: Browse: /Game/Bib_scene
+[2021.01.30-14.31.15:800][181]LogLoad: LoadMap: /Game/Bib_scene
+[2021.01.30-14.31.15:800][181]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.31.15:800][181]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.31.15:801][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.31.15:856][181]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C92D85DD00), frame # 96181
+[2021.01.30-14.31.15:856][181]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C96CFA3E00), frame # 96181
+[2021.01.30-14.31.15:859][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.01.30-14.31.15:910][181]LogAIModule: Creating AISystem for world Bib_scene
+[2021.01.30-14.31.15:910][181]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C95149E800), frame # 96181
+[2021.01.30-14.31.15:910][181]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C9499F1F80), frame # 96181
+[2021.01.30-14.31.15:911][181]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.31.15:919][181]LogWorld: Bringing World /Game/UEDPIE_0_Bib_scene.Bib_scene up for play (max tick rate 0) at 2021.01.30-15.31.15
+[2021.01.30-14.31.15:919][181]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.31.15:919][181]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.31.15:919][181]LogFMOD: Warning: Failed to set initial parameter Music_Intensity
+[2021.01.30-14.31.15:919][181]LogWorld: Bringing up level for play took: 0.009001
+[2021.01.30-14.31.15:921][181]LogLoad: Took 0.120558 seconds to LoadMap(/Game/Bib_scene)
+[2021.01.30-14.31.17:567][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.31.17:567][361]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Bib_scene
+[2021.01.30-14.31.17:567][361]LogWorld: UWorld::CleanupWorld for Bib_scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.31.17:569][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.31.17:579][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.31.17:584][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.31.17:624][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.31.17:625][361]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C9499F1F80), frame # 96361
+[2021.01.30-14.31.17:626][361]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C95149E800), frame # 96361
+[2021.01.30-14.31.17:629][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.01.30-14.31.17:664][362]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.01.30-14.31.31:867][ 35]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.30-14.31.31:929][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.01.30-14.31.34:346][297]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-14.31.34:388][297]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.31.34:395][297]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.31.34:395][297]LogFMOD: System sample rate = 48000
+[2021.01.30-14.31.34:395][297]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.31.34:403][297]LogFMOD: Loading Banks
+[2021.01.30-14.31.34:449][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.31.34:449][297]PIE: New page: PIE session: Flur (30.01.2021, 16:31:34)
+[2021.01.30-14.31.34:449][297]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.31.34:463][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014156s)
+[2021.01.30-14.31.34:464][297]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.31.34:464][297]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C96CFDBE00), frame # 98297
+[2021.01.30-14.31.34:464][297]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8E6881940), frame # 98297
+[2021.01.30-14.31.34:465][297]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2021.01.30-14.31.34:465][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.015858s)
+[2021.01.30-14.31.34:499][297]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2021.01.30-14.31.34:500][297]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.31.34:500][297]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.31.34:500][297]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.31.34:500][297]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.31.34:500][297]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.31.34:500][297]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.31.34:500][297]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.31.34:500][297]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.31.34:500][297]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.31.34:500][297]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.31.34:510][297]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.31.34:510][297]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.31.34:528][297]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.31.34:528][297]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.31.34:528][297]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.31.34:528][297]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.31.34:528][297]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.31.34:539][297]LogInit: FAudioDevice initialized.
+[2021.01.30-14.31.34:544][297]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.31.34:547][297]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.31.34
+[2021.01.30-14.31.34:547][297]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.31.34:547][297]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.31.34:547][297]LogWorld: Bringing up level for play took: 0.003245
+[2021.01.30-14.31.34:548][297]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.01.30-14.31.34:549][297]PIE: Server logged in
+[2021.01.30-14.31.34:550][297]PIE: Play in editor total start time 0,188 seconds.
+[2021.01.30-14.31.35:085][358]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.31.35:247][375]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.31.41:897][173]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.31.43:822][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.31.43:822][404]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-14.31.43:822][404]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors_1' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-14.31.43:822][404]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.31.46:822][764]LogNet: Browse: /Game/Bib_scene
+[2021.01.30-14.31.46:822][764]LogLoad: LoadMap: /Game/Bib_scene
+[2021.01.30-14.31.46:822][764]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.31.46:822][764]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.31.46:823][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.31.46:850][764]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C8E6881940), frame # 99764
+[2021.01.30-14.31.46:850][764]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C96CFDBE00), frame # 99764
+[2021.01.30-14.31.46:853][764]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.01.30-14.31.46:903][764]LogAIModule: Creating AISystem for world Bib_scene
+[2021.01.30-14.31.46:903][764]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C92E704800), frame # 99764
+[2021.01.30-14.31.46:903][764]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C92E47CF40), frame # 99764
+[2021.01.30-14.31.46:904][764]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.31.46:914][764]LogWorld: Bringing World /Game/UEDPIE_0_Bib_scene.Bib_scene up for play (max tick rate 0) at 2021.01.30-15.31.46
+[2021.01.30-14.31.46:914][764]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.31.46:914][764]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.31.46:914][764]LogFMOD: Warning: Failed to set initial parameter Music_Intensity
+[2021.01.30-14.31.46:914][764]LogWorld: Bringing up level for play took: 0.010294
+[2021.01.30-14.31.46:916][764]LogLoad: Took 0.094235 seconds to LoadMap(/Game/Bib_scene)
+[2021.01.30-14.31.48:627][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.31.48:627][952]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Bib_scene
+[2021.01.30-14.31.48:628][952]LogWorld: UWorld::CleanupWorld for Bib_scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.31.48:629][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.31.48:634][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.31.48:638][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.31.48:678][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.31.48:679][952]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C92E47CF40), frame # 99952
+[2021.01.30-14.31.48:679][952]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C92E704800), frame # 99952
+[2021.01.30-14.31.48:683][952]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.01.30-14.31.48:715][953]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.01.30-14.33.52:555][542]LogAssetEditorSubsystem: Opening Asset editor for World /Game/EndScene.EndScene
+[2021.01.30-14.33.52:583][542]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.01.30-14.33.56:543][542]LogSlate: Window 'Save Content' being destroyed
+[2021.01.30-14.33.56:843][542]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/FirstPersonCharacter3031554B45D1ABE3AEFAD8AD1BA6819A.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.01.30-14.33.56:844][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flur" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-14.33.56:873][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.01.30-14.33.57:130][542]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Flur7059FC8245BA786E9B236D8534819A05.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap'
+[2021.01.30-14.33.57:152][542]LogFileHelpers: Saving map 'Flur' took 0.308
+[2021.01.30-14.33.57:152][542]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/EndScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.30-14.33.57:153][542]LightingResults: New page: Lighting Build
+[2021.01.30-14.33.57:153][542]LoadErrors: New page: Loading map: EndScene.umap
+[2021.01.30-14.33.57:207][542]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.33.57:207][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.33.57:248][542]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.33.57:249][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.33.57:249][542]MapCheck: New page: Map Check
+[2021.01.30-14.33.57:249][542]LightingResults: New page: Lighting Build
+[2021.01.30-14.33.57:274][542]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C8C4A1B740), frame # 107542
+[2021.01.30-14.33.57:274][542]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C8C90A8400), frame # 107542
+[2021.01.30-14.33.57:278][542]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.01.30-14.33.57:374][542]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.30-14.33.57:374][542]LogAIModule: Creating AISystem for world EndScene
+[2021.01.30-14.33.57:374][542]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C9440AE200), frame # 107542
+[2021.01.30-14.33.57:375][542]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8C573E980), frame # 107542
+[2021.01.30-14.33.57:402][542]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.01.30-14.33.57:423][542]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.30-14.33.57:424][542]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,064ms to complete.
+[2021.01.30-14.33.57:424][542]LogFileHelpers: Loading map 'EndScene' took 0.272
+[2021.01.30-14.33.57:461][542]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.30-14.33.57:461][542]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.30-14.33.57:461][542]LogContentValidation: Display: Validating World /Game/Flur.Flur
+[2021.01.30-14.33.59:326][756]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-14.33.59:368][756]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.33.59:375][756]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.33.59:375][756]LogFMOD: System sample rate = 48000
+[2021.01.30-14.33.59:375][756]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.33.59:384][756]LogFMOD: Loading Banks
+[2021.01.30-14.33.59:428][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.33.59:428][756]PIE: New page: PIE session: EndScene (30.01.2021, 16:33:59)
+[2021.01.30-14.33.59:428][756]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndScene
+[2021.01.30-14.33.59:430][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002226s)
+[2021.01.30-14.33.59:431][756]LogAIModule: Creating AISystem for world EndScene
+[2021.01.30-14.33.59:431][756]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C92F1D5E00), frame # 107756
+[2021.01.30-14.33.59:431][756]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C9514F4680), frame # 107756
+[2021.01.30-14.33.59:431][756]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2021.01.30-14.33.59:431][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndScene.EndScene to /Game/UEDPIE_0_EndScene.EndScene (0.003284s)
+[2021.01.30-14.33.59:461][756]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.01.30-14.33.59:462][756]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.33.59:462][756]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.33.59:462][756]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.33.59:462][756]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.33.59:462][756]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.33.59:462][756]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.33.59:462][756]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.33.59:462][756]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.33.59:462][756]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.33.59:462][756]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.33.59:473][756]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.33.59:473][756]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.33.59:491][756]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.33.59:492][756]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.33.59:492][756]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.33.59:492][756]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.33.59:492][756]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.33.59:503][756]LogInit: FAudioDevice initialized.
+[2021.01.30-14.33.59:508][756]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.33.59:509][756]LogWorld: Bringing World /Game/UEDPIE_0_EndScene.EndScene up for play (max tick rate 0) at 2021.01.30-15.33.59
+[2021.01.30-14.33.59:510][756]LogWorld: Bringing up level for play took: 0.001966
+[2021.01.30-14.33.59:511][756]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.01.30-14.33.59:513][756]PIE: Server logged in
+[2021.01.30-14.33.59:514][756]PIE: Play in editor total start time 0,172 seconds.
+[2021.01.30-14.35.04:018][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.35.04:018][465]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndScene
+[2021.01.30-14.35.04:018][465]LogWorld: UWorld::CleanupWorld for EndScene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.35.04:018][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.35.04:027][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.35.04:031][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.35.04:068][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.35.04:069][465]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C9514F4680), frame # 115465
+[2021.01.30-14.35.04:069][465]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C92F1D5E00), frame # 115465
+[2021.01.30-14.35.04:072][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.01.30-14.35.04:103][466]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.01.30-14.35.06:691][741]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Buero_Scene.Buero_Scene
+[2021.01.30-14.35.06:721][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.01.30-14.35.06:722][741]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Buero_Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.30-14.35.06:722][741]LightingResults: New page: Lighting Build
+[2021.01.30-14.35.06:722][741]LoadErrors: New page: Loading map: Buero_Scene.umap
+[2021.01.30-14.35.06:756][741]LogWorld: UWorld::CleanupWorld for EndScene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.35.06:756][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.35.06:757][741]MapCheck: New page: Map Check
+[2021.01.30-14.35.06:757][741]LightingResults: New page: Lighting Build
+[2021.01.30-14.35.06:781][741]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C8C573E980), frame # 115741
+[2021.01.30-14.35.06:781][741]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C9440AE200), frame # 115741
+[2021.01.30-14.35.06:784][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.01.30-14.35.06:815][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.01.30-14.35.06:845][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.01.30-14.35.07:181][741]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.30-14.35.07:181][741]LogAIModule: Creating AISystem for world Buero_Scene
+[2021.01.30-14.35.07:181][741]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C94AC55000), frame # 115741
+[2021.01.30-14.35.07:181][741]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C946122200), frame # 115741
+[2021.01.30-14.35.07:214][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.01.30-14.35.07:236][741]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.30-14.35.07:236][741]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,145ms to complete.
+[2021.01.30-14.35.07:236][741]LogFileHelpers: Loading map 'Buero_Scene' took 0.513
+[2021.01.30-14.35.09:224][967]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-14.35.09:278][967]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.35.09:285][967]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.35.09:285][967]LogFMOD: System sample rate = 48000
+[2021.01.30-14.35.09:285][967]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.35.09:292][967]LogFMOD: Loading Banks
+[2021.01.30-14.35.09:338][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.35.09:338][967]PIE: New page: PIE session: Buero_Scene (30.01.2021, 16:35:09)
+[2021.01.30-14.35.09:338][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Buero_Scene
+[2021.01.30-14.35.09:379][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041207s)
+[2021.01.30-14.35.09:380][967]LogAIModule: Creating AISystem for world Buero_Scene
+[2021.01.30-14.35.09:380][967]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C949FA6000), frame # 115967
+[2021.01.30-14.35.09:380][967]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C9514F4680), frame # 115967
+[2021.01.30-14.35.09:380][967]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2021.01.30-14.35.09:380][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Buero_Scene.Buero_Scene to /Game/UEDPIE_0_Buero_Scene.Buero_Scene (0.042466s)
+[2021.01.30-14.35.09:407][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.01.30-14.35.09:409][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.35.09:409][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.35.09:409][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.35.09:409][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.35.09:409][967]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.35.09:409][967]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.35.09:409][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.35.09:409][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.35.09:409][967]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.35.09:409][967]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.35.09:420][967]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.35.09:420][967]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.35.09:440][967]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.35.09:440][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.35.09:440][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.35.09:440][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.35.09:440][967]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.35.09:451][967]LogInit: FAudioDevice initialized.
+[2021.01.30-14.35.09:460][967]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.35.09:537][967]LogWorld: Bringing World /Game/UEDPIE_0_Buero_Scene.Buero_Scene up for play (max tick rate 0) at 2021.01.30-15.35.09
+[2021.01.30-14.35.09:537][967]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.35.09:537][967]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.35.09:537][967]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.35.09:537][967]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.35.09:537][967]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.35.09:537][967]LogWorld: Bringing up level for play took: 0.077144
+[2021.01.30-14.35.09:538][967]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.01.30-14.35.09:547][967]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.30-14.35.09:548][967]Cmd: r.FullScreenMode 0
+[2021.01.30-14.35.09:548][967]r.FullScreenMode = "0"
+[2021.01.30-14.35.09:548][967]PIE: Server logged in
+[2021.01.30-14.35.09:550][967]PIE: Play in editor total start time 0,311 seconds.
+[2021.01.30-14.35.11:161][133]LogFMOD: Warning: Failed to set event instance parameter Velocity
+[2021.01.30-14.35.11:161][133]LogFMOD: Warning: Failed to set event instance parameter Velocity
+[2021.01.30-14.35.11:704][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.35.11:789][208]LogFMOD: Warning: Failed to set event instance parameter Velocity
+[2021.01.30-14.35.11:796][209]LogFMOD: Warning: Failed to set event instance parameter Velocity
+[2021.01.30-14.35.13:071][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.35.13:797][449]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.13:847][455]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.15:021][596]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.15:731][680]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.17:407][881]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.18:273][985]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.19:540][137]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.20:598][264]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.21:589][383]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.21:731][400]LogFMOD: Warning: Failed to set event instance parameter Velocity
+[2021.01.30-14.35.22:532][496]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.23:306][589]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.24:931][784]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.35.28:968][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.35.28:968][255]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Buero_Scene
+[2021.01.30-14.35.28:969][255]LogWorld: UWorld::CleanupWorld for Buero_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.35.28:990][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.35.29:000][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.35.29:004][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.35.29:046][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.35.29:052][255]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C949FA6000), frame # 118255
+[2021.01.30-14.35.29:052][255]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C9514F4680), frame # 118255
+[2021.01.30-14.35.29:055][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.01.30-14.35.29:093][256]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:969][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:970][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.01:970][135]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.36.09:564][135]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.30-14.36.17:701][ 53]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/BP_BookInteractionTrigger.BP_BookInteractionTrigger
+[2021.01.30-14.37.33:795][154]BlueprintLog: New page: Compile BP_BookInteractionTrigger
+[2021.01.30-14.37.33:858][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.01.30-14.37.40:745][700]LogSlate: Window 'BP_DoorInteractionTrigger' being destroyed
+[2021.01.30-14.37.40:751][700]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.37.40:751][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.37.44:551][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buero_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Buero_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-14.37.44:582][103]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2021.01.30-14.37.45:623][103]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Buero_Scene5E4A267F4C61A4B9A973D8AC94333B6A.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Buero_Scene.umap'
+[2021.01.30-14.37.45:645][103]LogFileHelpers: Saving map 'Buero_Scene' took 1.093
+[2021.01.30-14.37.45:645][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/BP_BookInteractionTrigger" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_BookInteractionTrigger.uasset" SILENT=true
+[2021.01.30-14.37.45:674][103]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_BookInteractionTriggerD849A2784A91AEF8664543BA6FB19D0D.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_BookInteractionTrigger.uasset'
+[2021.01.30-14.37.45:709][103]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.30-14.37.45:709][103]LogContentValidation: Display: Validating World /Game/Buero_Scene.Buero_Scene
+[2021.01.30-14.37.45:709][103]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_BookInteractionTrigger.BP_BookInteractionTrigger
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:753][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:754][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:754][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:754][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.37.51:754][771]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.38.13:178][771]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.30-14.38.13:514][771]LogSourceControl: commit successful: [main bcca7ea] BookInteract
+[2021.01.30-14.38.13:584][771]SourceControl: [main bcca7ea] BookInteract
+[2021.01.30-14.38.13:584][771]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2021.01.30-14.38.13:584][771]SourceControl:  rewrite Content/TriggerVolumes/BP_BookInteractionTrigger.uasset (64%)
+[2021.01.30-14.38.13:593][771]SourceControl: Commited [main bcca7ea] BookInteract.
