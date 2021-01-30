@@ -195,6 +195,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2021.01.30-14.21.02:026][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.01.30-14.21.02:026][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.01.30-14.21.02:026][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Alina/Desktop/School/GameJam2021/Files/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
@@ -1370,3 +1371,1238 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.30-14.36.28:587][217]LogD3D11RHI: CleanupD3DDevice
 [2021.01.30-14.36.28:611][217]LogExit: Exiting.
 [2021.01.30-14.36.28:638][217]Log file closed, 01/30/21 15:36:28
+=======
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.30-14.14.26:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.30-14.14.26:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.30-14.14.26:996][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.30-14.14.27:006][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.30-14.14.27:006][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.30-14.14.27:007][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.30-14.14.27:007][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.30-14.14.27:007][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.30-14.14.27:007][  0]LogHAL: Display: Platform has ~ 32 GB [34271223808 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.30-14.14.27:007][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.30-14.14.27:007][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.30-14.14.27:008][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.30-14.14.27:009][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.30-14.14.27:010][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.30-14.14.27:010][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.30-14.14.27:010][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.30-14.14.27:010][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Config/Windows/Engine.ini]
+[2021.01.30-14.14.27:010][  0]LogInit: Computer: DESKTOP-0TEG01M
+[2021.01.30-14.14.27:010][  0]LogInit: User: thoma
+[2021.01.30-14.14.27:010][  0]LogInit: CPU Page size=4096, Cores=12
+[2021.01.30-14.14.27:010][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.30-14.14.27:010][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.01.30-14.14.27:010][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.30-14.14.27:010][  0]LogMemory: Process Physical Memory: 117.51 MB used, 117.52 MB peak
+[2021.01.30-14.14.27:010][  0]LogMemory: Process Virtual Memory: 108.61 MB used, 108.61 MB peak
+[2021.01.30-14.14.27:010][  0]LogMemory: Physical Memory: 27219.21 MB used,  5464.38 MB free, 32683.59 MB total
+[2021.01.30-14.14.27:010][  0]LogMemory: Virtual Memory: 5201.27 MB used,  134212528.00 MB free, 134217728.00 MB total
+[2021.01.30-14.14.27:016][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.30-14.14.27:070][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.30-14.14.27:071][  0]LogInit: Using OS detected language (de-DE).
+[2021.01.30-14.14.27:071][  0]LogInit: Using OS detected locale (de-AT).
+[2021.01.30-14.14.27:073][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2021.01.30-14.14.27:073][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
+[2021.01.30-14.14.27:073][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
+[2021.01.30-14.14.27:074][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
+[2021.01.30-14.14.27:074][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
+[2021.01.30-14.14.27:074][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
+[2021.01.30-14.14.27:074][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
+[2021.01.30-14.14.27:074][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
+[2021.01.30-14.14.27:075][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.30-14.14.27:124][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.30-14.14.27:124][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.30-14.14.27:366][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.30-14.14.27:367][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.30-14.14.27:367][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.30-14.14.27:367][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.30-14.14.27:452][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3090' (Feature Level 11_0)
+[2021.01.30-14.14.27:452][  0]LogD3D11RHI:       24348/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2021.01.30-14.14.27:455][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.30-14.14.27:455][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.30-14.14.27:455][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.30-14.14.27:464][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.30-14.14.27:464][  0]LogD3D11RHI:     GPU DeviceId: 0x2204 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.30-14.14.27:464][  0]LogWindows: EnumDisplayDevices:
+[2021.01.30-14.14.27:465][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3090' (P:1 D:1)
+[2021.01.30-14.14.27:465][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3090' (P:0 D:1)
+[2021.01.30-14.14.27:465][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3090' (P:0 D:1)
+[2021.01.30-14.14.27:465][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3090' (P:0 D:0)
+[2021.01.30-14.14.27:465][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.30-14.14.27:465][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3090
+[2021.01.30-14.14.27:465][  0]LogD3D11RHI:   Driver Version: 461.09 (internal:27.21.14.6109, unified:461.09)
+[2021.01.30-14.14.27:465][  0]LogD3D11RHI:      Driver Date: 12-31-2020
+[2021.01.30-14.14.27:466][  0]LogRHI: Texture pool is 17043 MB (70% of 24348 MB)
+[2021.01.30-14.14.27:530][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.30-14.14.27:531][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.30-14.14.27:531][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.30-14.14.27:561][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2021.01.30-14.14.27:842][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.30-14.14.27:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.30-14.14.27:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.30-14.14.27:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.30-14.14.27:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.30-14.14.27:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.30-14.14.27:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.30-14.14.27:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.30-14.14.27:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.30-14.14.27:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.30-14.14.27:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.30-14.14.27:888][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.30-14.14.27:888][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.30-14.14.27:898][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.30-14.14.27:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.30-14.14.27:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.30-14.14.27:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.30-14.14.27:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.30-14.14.27:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.30-14.14.27:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.30-14.14.27:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.30-14.14.27:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.30-14.14.27:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.30-14.14.27:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.30-14.14.28:004][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.30-14.14.28:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.30-14.14.28:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.30-14.14.28:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.30-14.14.28:032][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.30-14.14.28:040][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.30-14.14.28:101][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Intermediate/Shaders/WorkingDirectory/30080/).
+[2021.01.30-14.14.28:101][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/thoma/AppData/Local/Temp/UnrealShaderWorkingDir/80F9821E4011BE37E8CFFD8EF6D2F626/'.
+[2021.01.30-14.14.28:101][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.30-14.14.28:101][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.30-14.14.28:101][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.30-14.14.28:823][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.30-14.14.28:862][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.30-14.14.28:862][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.30-14.14.28:862][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.30-14.14.28:863][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.30-14.14.28:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.30-14.14.28:863][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.30-14.14.28:873][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.30-14.14.28:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.30-14.14.28:873][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.30-14.14.28:875][  0]LogDerivedDataCache: Using Local data cache path C:/Users/thoma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.30-14.14.28:875][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.30-14.14.28:875][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.30-14.14.28:918][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.30-14.14.28:919][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.30-14.14.28:939][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.01.30-14.14.29:145][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.30-14.14.29:249][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.30-14.14.29:249][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.30-14.14.29:249][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.30-14.14.29:249][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.30-14.14.29:249][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.30-14.14.29:268][  0]LogNetVersion: Papercuts 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2034159001)
+[2021.01.30-14.14.29:633][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001C8AC97A640), frame # 0
+[2021.01.30-14.14.29:633][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8AC922AC0), frame # 0
+[2021.01.30-14.14.29:635][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C8AC956000), frame # 0
+[2021.01.30-14.14.29:662][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.022012 seconds
+[2021.01.30-14.14.29:667][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.30-14.14.29:667][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.30-14.14.29:667][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.30-14.14.29:910][  0]LogFMOD: FFMODStudioModule startup
+[2021.01.30-14.14.29:910][  0]LogFMOD:  Lib path = '../../../Engine/Plugins/FMOD/Binaries'
+[2021.01.30-14.14.29:910][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMOD/Binaries/Win64/fmodL.dll
+[2021.01.30-14.14.29:912][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMOD/Binaries/Win64/fmodstudioL.dll
+[2021.01.30-14.14.29:940][  0]LogFMOD: Loading strings bank: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master-Fader/Reverb
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/Amb/Electrical
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/OFFICE/Office-Ambience
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/Music/Music_Loop
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Props/Wall/Hit
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/Amb/Ambience_Vinyl
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/OFFICE/TeddyPickup
+[2021.01.30-14.14.29:942][  0]LogFMOD: Warning: 'Jump END' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Jump_END' instead.
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character/Steps/Jump_END
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/OFFICE/SPOTS/Keyboards
+[2021.01.30-14.14.29:942][  0]LogFMOD: Warning: 'Correct Door' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Correct_Door' instead.
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/FLOOR/Doors/Correct_Door
+[2021.01.30-14.14.29:942][  0]LogFMOD: Warning: 'Jump START' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Jump_START' instead.
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character/Steps/Jump_START
+[2021.01.30-14.14.29:942][  0]LogFMOD: Warning: 'Door 1' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Door_1' instead.
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/FLOOR/Doors/Door_1
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Props/Chairs/1
+[2021.01.30-14.14.29:942][  0]LogFMOD: Warning: 'Door 4' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Door_4' instead.
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/FLOOR/Doors/Door_4
+[2021.01.30-14.14.29:942][  0]LogFMOD: Warning: 'Door 3' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Door_3' instead.
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/FLOOR/Doors/Door_3
+[2021.01.30-14.14.29:942][  0]LogFMOD: Warning: 'Child on Phone' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Child_on_Phone' instead.
+[2021.01.30-14.14.29:942][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/OFFICE/SPOTS/Child_on_Phone
+[2021.01.30-14.14.29:943][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/OFFICE/SPOTS/Telephones
+[2021.01.30-14.14.29:943][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Props/Wall/FallLoop
+[2021.01.30-14.14.29:943][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/FLOOR/Ambience
+[2021.01.30-14.14.29:943][  0]LogFMOD: Warning: 'Door 2' cannot be used as a UE4 asset name. Name may not contain the following characters:  . Using 'Door_2' instead.
+[2021.01.30-14.14.29:943][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience/FLOOR/Doors/Door_2
+[2021.01.30-14.14.29:943][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Master-Fader
+[2021.01.30-14.14.29:943][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Character/Steps/Steps
+[2021.01.30-14.14.29:953][  0]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.14.29:953][  0]LogFMOD: System sample rate = 48000
+[2021.01.30-14.14.29:954][  0]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.14.29:973][  0]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.14.29:973][  0]LogFMOD: System sample rate = 48000
+[2021.01.30-14.14.29:973][  0]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.14.30:075][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.30-14.14.30:080][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.30-14.14.30:163][  0]SourceControl: Source control is disabled
+[2021.01.30-14.14.30:793][  0]LogFMOD: FFMODStudioEditorModule startup
+[2021.01.30-14.14.30:890][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.30-14.14.30:914][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.30-14.14.30:914][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.30-14.14.30:960][  0]LogOcInput: OculusInput pre-init called
+[2021.01.30-14.14.30:971][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.30-14.14.30:971][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.30-14.14.31:033][  0]LogEngine: Initializing Engine...
+[2021.01.30-14.14.31:034][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.30-14.14.31:034][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.30-14.14.31:035][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.30-14.14.31:131][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.30-14.14.31:138][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.30-14.14.31:138][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C8B1C15C00), frame # 0
+[2021.01.30-14.14.31:138][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8B1C36840), frame # 0
+[2021.01.30-14.14.31:148][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.14.31:148][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.14.31:148][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.14.31:148][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.14.31:148][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.14.31:148][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.14.31:148][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.14.31:148][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.14.31:148][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.14.31:148][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.14.31:162][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.14.31:162][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.14.31:183][  0]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.14.31:186][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.14.31:188][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.14.31:188][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.14.31:189][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.14.31:191][  0]LogInit: FAudioDevice initialized.
+[2021.01.30-14.14.31:191][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.30-14.14.31:291][  0]LogDerivedDataCache: Saved boot cache 0.10s 75MB C:/Users/thoma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.30-14.14.31:292][  0]LogInit: Texture streaming: Enabled
+[2021.01.30-14.14.31:309][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.30-14.14.31:309][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.30-14.14.31:312][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.30-14.14.31:357][  0]LogInit: Transaction tracking system initialized
+[2021.01.30-14.14.31:380][  0]BlueprintLog: New page: Editor Load
+[2021.01.30-14.14.31:458][  0]LocalizationService: Localization service is disabled
+[2021.01.30-14.14.31:601][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.30-14.14.31:601][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.30-14.14.31:737][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/' took 0.00s
+[2021.01.30-14.14.31:894][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.937
+[2021.01.30-14.14.31:894][  0]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Buero_Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.30-14.14.31:895][  0]LightingResults: New page: Lighting Build
+[2021.01.30-14.14.31:895][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.14.31:895][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.14.31:895][  0]MapCheck: New page: Map Check
+[2021.01.30-14.14.31:895][  0]LightingResults: New page: Lighting Build
+[2021.01.30-14.14.31:915][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C8B1C15C00), frame # 0
+[2021.01.30-14.14.31:915][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C8B1C36840), frame # 0
+[2021.01.30-14.14.31:916][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.01.30-14.14.32:217][  0]LogTexture: Display: Building textures: HighresScreenshot00000 (BGRA8, 1029X579)
+[2021.01.30-14.14.32:223][  0]LogAIModule: Creating AISystem for world Buero_Scene
+[2021.01.30-14.14.32:223][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C8A5697E00), frame # 0
+[2021.01.30-14.14.32:223][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8A56A3B00), frame # 0
+[2021.01.30-14.14.32:308][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.30-14.14.32:329][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.01.30-14.14.32:330][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.30-14.14.32:330][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,129ms to complete.
+[2021.01.30-14.14.32:330][  0]LogFileHelpers: Loading map 'Buero_Scene' took 0.436
+[2021.01.30-14.14.32:332][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.375
+[2021.01.30-14.14.32:475][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.14.32:481][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.14.32:486][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.14.32:493][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.14.32:500][  0]LogCollectionManager: Loaded 0 collections in 0.000812 seconds
+[2021.01.30-14.14.32:512][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Collections/' took 0.00s
+[2021.01.30-14.14.32:513][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Developers/thoma/Collections/' took 0.00s
+[2021.01.30-14.14.32:513][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Collections/' took 0.00s
+[2021.01.30-14.14.32:513][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3443 classes and 828 folders.
+[2021.01.30-14.14.32:515][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.30-14.14.32:595][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.30-14.14.32:596][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.01.30-14.14.32:718][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.30-14.14.32:719][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.30-14.14.32:722][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.30-14.14.32:819][  0]LogRenderer: Reallocating scene render targets to support 1572x836 Format 10 NumSamples 1 (Frame:1).
+[2021.01.30-14.14.32:919][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.30-14.14.32:919][  0]LogLoad: (Engine Initialization) Total time: 7.96 seconds
+[2021.01.30-14.14.32:919][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.30-14.14.32:956][  0]LogAssetRegistry: Asset discovery search completed in 4.0170 seconds
+[2021.01.30-14.14.32:959][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.01.30-14.14.32:998][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.30-14.14.33:022][  1]LogFMOD: File has changed: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
+[2021.01.30-14.14.33:123][  1]LogFMOD: Loading strings bank: F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FMOD/Desktop/Master.strings.bank
+[2021.01.30-14.14.33:133][  1]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.14.33:133][  1]LogFMOD: System sample rate = 48000
+[2021.01.30-14.14.33:133][  1]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.14.33:294][  1]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.14.33:294][  1]LogFMOD: System sample rate = 48000
+[2021.01.30-14.14.33:294][  1]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.14.33:948][ 51]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.30-14.14.39:702][662]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.30-14.14.39:843][662]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.01.30-14.14.40:621][662]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.30-14.14.40:711][663]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.30-14.14.59:341][382]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Flur.Flur
+[2021.01.30-14.14.59:372][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.30-14.14.59:373][382]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.30-14.14.59:374][382]LightingResults: New page: Lighting Build
+[2021.01.30-14.14.59:374][382]LoadErrors: New page: Loading map: Flur.umap
+[2021.01.30-14.14.59:418][382]LogWorld: UWorld::CleanupWorld for Buero_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.14.59:418][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.14.59:418][382]MapCheck: New page: Map Check
+[2021.01.30-14.14.59:418][382]LightingResults: New page: Lighting Build
+[2021.01.30-14.14.59:443][382]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C8A5697E00), frame # 2382
+[2021.01.30-14.14.59:443][382]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C8A56A3B00), frame # 2382
+[2021.01.30-14.14.59:446][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.01.30-14.14.59:546][382]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.30-14.14.59:546][382]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.14.59:546][382]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C8C90A8400), frame # 2382
+[2021.01.30-14.14.59:546][382]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8C4A1B740), frame # 2382
+[2021.01.30-14.14.59:568][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.01.30-14.14.59:595][382]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.30-14.14.59:595][382]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,076ms to complete.
+[2021.01.30-14.14.59:595][382]LogFileHelpers: Loading map 'Flur' took 0.222
+[2021.01.30-14.15.15:136][240]LogTemp: Repeating last play command: Simulate
+[2021.01.30-14.15.15:189][240]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.15.15:196][240]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.15.15:196][240]LogFMOD: System sample rate = 48000
+[2021.01.30-14.15.15:196][240]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.15.15:204][240]LogFMOD: Loading Banks
+[2021.01.30-14.15.15:248][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.15.15:248][240]PIE: New page: SIE session: Flur (30.01.2021, 16:15:15)
+[2021.01.30-14.15.15:249][240]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.30-14.15.15:249][240]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.30-14.15.15:249][240]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.15.15:263][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014353s)
+[2021.01.30-14.15.15:264][240]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.15.15:265][240]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C903796E00), frame # 4240
+[2021.01.30-14.15.15:265][240]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8C57C0F40), frame # 4240
+[2021.01.30-14.15.15:265][240]LogPlayLevel: PIE: World Init took: (0.001544s)
+[2021.01.30-14.15.15:265][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.016168s)
+[2021.01.30-14.15.15:289][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.01.30-14.15.15:290][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.15.15:290][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.15.15:290][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.15.15:290][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.15.15:291][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.15.15:291][240]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.15.15:291][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.15.15:291][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.15.15:291][240]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.15.15:291][240]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.15.15:300][240]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.15.15:300][240]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.15.15:318][240]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.15.15:319][240]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.15.15:319][240]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.15.15:319][240]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.15.15:319][240]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.15.15:330][240]LogInit: FAudioDevice initialized.
+[2021.01.30-14.15.15:340][240]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.15.15:344][240]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.15.15
+[2021.01.30-14.15.15:344][240]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.15.15:344][240]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.15.15:344][240]LogWorld: Bringing up level for play took: 0.003127
+[2021.01.30-14.15.15:344][240]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.01.30-14.15.15:347][240]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.01.30-14.15.15:347][240]PIE: Server logged in
+[2021.01.30-14.15.15:349][240]PIE: Play in editor total start time 0,198 seconds.
+[2021.01.30-14.15.17:308][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.15.17:308][414]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.15.17:309][414]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.15.17:309][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.15.17:321][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.15.17:325][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.15.17:347][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.15.17:369][414]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C8C57C0F40), frame # 4414
+[2021.01.30-14.15.17:369][414]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C903796E00), frame # 4414
+[2021.01.30-14.15.17:384][414]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.01.30-14.15.17:410][415]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.01.30-14.15.17:950][479]LogTemp: Repeating last play command: Simulate
+[2021.01.30-14.15.18:008][479]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.15.18:015][479]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.15.18:015][479]LogFMOD: System sample rate = 48000
+[2021.01.30-14.15.18:015][479]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.15.18:023][479]LogFMOD: Loading Banks
+[2021.01.30-14.15.18:068][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.15.18:068][479]PIE: New page: SIE session: Flur (30.01.2021, 16:15:18)
+[2021.01.30-14.15.18:068][479]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.15.18:081][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012421s)
+[2021.01.30-14.15.18:082][479]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.15.18:082][479]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C903825200), frame # 4479
+[2021.01.30-14.15.18:082][479]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8C9B68F40), frame # 4479
+[2021.01.30-14.15.18:082][479]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2021.01.30-14.15.18:082][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.013581s)
+[2021.01.30-14.15.18:107][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.01.30-14.15.18:109][479]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.15.18:109][479]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.15.18:109][479]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.15.18:109][479]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.15.18:109][479]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.15.18:109][479]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.15.18:109][479]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.15.18:109][479]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.15.18:109][479]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.15.18:109][479]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.15.18:119][479]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.15.18:119][479]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.15.18:140][479]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.15.18:140][479]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.15.18:140][479]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.15.18:140][479]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.15.18:140][479]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.15.18:152][479]LogInit: FAudioDevice initialized.
+[2021.01.30-14.15.18:161][479]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.15.18:164][479]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.15.18
+[2021.01.30-14.15.18:165][479]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.15.18:165][479]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.15.18:165][479]LogWorld: Bringing up level for play took: 0.002955
+[2021.01.30-14.15.18:165][479]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.01.30-14.15.18:166][479]PIE: Server logged in
+[2021.01.30-14.15.18:167][479]PIE: Play in editor total start time 0,202 seconds.
+[2021.01.30-14.15.19:447][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.15.19:447][613]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.15.19:447][613]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.15.19:448][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.15.19:459][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.15.19:462][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.15.19:495][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.15.19:496][613]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C8C9B68F40), frame # 4613
+[2021.01.30-14.15.19:496][613]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C903825200), frame # 4613
+[2021.01.30-14.15.19:499][613]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.01.30-14.15.19:531][614]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.01.30-14.15.29:904][833]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Flur.Flur:PersistentLevel.Flur
+[2021.01.30-14.15.30:249][833]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.30-14.15.58:706][206]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-14.16.02:718][407]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-14.16.27:777][296]BlueprintLog: New page: Compile Flur
+[2021.01.30-14.16.27:780][296]LogBlueprint: Error: [Compiler PersistentLevel.Flur] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2021.01.30-14.16.27:780][296]LogBlueprint: Error: [Compiler PersistentLevel.Flur] Variable node  Get PlayerCameraManager  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.01.30-14.16.27:822][296]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.01.30-14.16.38:877][514]BlueprintLog: New page: Compile Flur
+[2021.01.30-14.16.38:921][514]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.01.30-14.16.41:628][808]LogTemp: Repeating last play command: Simulate
+[2021.01.30-14.16.41:679][808]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.16.41:686][808]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.16.41:686][808]LogFMOD: System sample rate = 48000
+[2021.01.30-14.16.41:686][808]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.16.41:693][808]LogFMOD: Loading Banks
+[2021.01.30-14.16.41:739][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.16.41:739][808]PIE: New page: SIE session: Flur (30.01.2021, 16:16:41)
+[2021.01.30-14.16.41:739][808]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.16.41:753][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013826s)
+[2021.01.30-14.16.41:754][808]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.16.41:754][808]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C929A7D200), frame # 12808
+[2021.01.30-14.16.41:754][808]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C93F02CF40), frame # 12808
+[2021.01.30-14.16.41:755][808]LogPlayLevel: PIE: World Init took: (0.001728s)
+[2021.01.30-14.16.41:755][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.015735s)
+[2021.01.30-14.16.41:782][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.01.30-14.16.41:783][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.16.41:783][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.16.41:783][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.16.41:783][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.16.41:783][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.16.41:783][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.16.41:783][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.16.41:783][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.16.41:784][808]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.16.41:784][808]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.16.41:794][808]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.16.41:794][808]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.16.41:813][808]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.16.41:813][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.16.41:813][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.16.41:813][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.16.41:813][808]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.16.41:824][808]LogInit: FAudioDevice initialized.
+[2021.01.30-14.16.41:832][808]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.16.41:835][808]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.16.41
+[2021.01.30-14.16.41:836][808]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.16.41:836][808]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.16.41:836][808]LogWorld: Bringing up level for play took: 0.003208
+[2021.01.30-14.16.41:836][808]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.01.30-14.16.41:838][808]PIE: Server logged in
+[2021.01.30-14.16.41:839][808]PIE: Play in editor total start time 0,195 seconds.
+[2021.01.30-14.16.43:017][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.16.43:017][929]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.16.43:017][929]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.16.43:018][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.16.43:022][929]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.16.43:026][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.16.43:064][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.16.43:065][929]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C929A7D200), frame # 12929
+[2021.01.30-14.16.43:065][929]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C93F02CF40), frame # 12929
+[2021.01.30-14.16.43:068][929]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.01.30-14.16.43:095][930]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.01.30-14.16.43:523][981]LogTemp: Repeating last play command: Simulate
+[2021.01.30-14.16.43:577][981]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.16.43:584][981]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.16.43:584][981]LogFMOD: System sample rate = 48000
+[2021.01.30-14.16.43:584][981]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.16.43:592][981]LogFMOD: Loading Banks
+[2021.01.30-14.16.43:638][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.16.43:638][981]PIE: New page: SIE session: Flur (30.01.2021, 16:16:43)
+[2021.01.30-14.16.43:638][981]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.16.43:650][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012154s)
+[2021.01.30-14.16.43:651][981]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.16.43:651][981]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C928631800), frame # 12981
+[2021.01.30-14.16.43:651][981]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C93DC71BC0), frame # 12981
+[2021.01.30-14.16.43:651][981]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2021.01.30-14.16.43:651][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.013400s)
+[2021.01.30-14.16.43:680][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.01.30-14.16.43:680][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.16.43:681][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.16.43:681][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.16.43:681][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.16.43:681][981]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.16.43:681][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.16.43:681][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.16.43:681][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.16.43:681][981]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.16.43:681][981]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.16.43:691][981]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.16.43:691][981]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.16.43:708][981]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.16.43:709][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.16.43:709][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.16.43:709][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.16.43:709][981]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.16.43:720][981]LogInit: FAudioDevice initialized.
+[2021.01.30-14.16.43:729][981]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.16.43:732][981]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.16.43
+[2021.01.30-14.16.43:732][981]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.16.43:732][981]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.16.43:732][981]LogWorld: Bringing up level for play took: 0.002894
+[2021.01.30-14.16.43:732][981]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.01.30-14.16.43:734][981]PIE: Server logged in
+[2021.01.30-14.16.43:734][981]PIE: Play in editor total start time 0,196 seconds.
+[2021.01.30-14.16.44:998][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.16.44:998][114]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.16.44:999][114]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.16.44:999][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.16.45:005][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.16.45:009][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.16.45:034][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.16.45:049][114]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C93DC71BC0), frame # 13114
+[2021.01.30-14.16.45:049][114]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C928631800), frame # 13114
+[2021.01.30-14.16.45:052][114]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.01.30-14.16.45:081][115]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.01.30-14.17.02:797][175]BlueprintLog: New page: Compile Flur
+[2021.01.30-14.17.02:840][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.01.30-14.17.03:545][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flur" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-14.17.03:571][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.01.30-14.17.03:838][239]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Flur541B48154786AEBE1B23CE9770C2B7AD.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap'
+[2021.01.30-14.17.03:860][239]LogFileHelpers: Saving map 'Flur' took 0.316
+[2021.01.30-14.17.03:870][239]AssetCheck: New page: Asset Save: Flur
+[2021.01.30-14.17.03:871][239]LogContentValidation: Display: Validating World /Game/Flur.Flur
+[2021.01.30-14.17.05:216][382]LogTemp: Repeating last play command: Simulate
+[2021.01.30-14.17.05:268][382]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.17.05:275][382]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.17.05:275][382]LogFMOD: System sample rate = 48000
+[2021.01.30-14.17.05:275][382]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.17.05:283][382]LogFMOD: Loading Banks
+[2021.01.30-14.17.05:327][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.17.05:327][382]PIE: New page: SIE session: Flur (30.01.2021, 16:17:05)
+[2021.01.30-14.17.05:327][382]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.17.05:339][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011871s)
+[2021.01.30-14.17.05:340][382]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.17.05:340][382]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C93F0C5000), frame # 15382
+[2021.01.30-14.17.05:340][382]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C93DC72200), frame # 15382
+[2021.01.30-14.17.05:341][382]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2021.01.30-14.17.05:341][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.013439s)
+[2021.01.30-14.17.05:372][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.01.30-14.17.05:373][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.17.05:373][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.17.05:373][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.17.05:373][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.17.05:373][382]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.17.05:373][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.17.05:373][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.17.05:373][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.17.05:374][382]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.17.05:374][382]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.17.05:384][382]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.17.05:384][382]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.17.05:401][382]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.17.05:401][382]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.17.05:401][382]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.17.05:401][382]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.17.05:401][382]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.17.05:412][382]LogInit: FAudioDevice initialized.
+[2021.01.30-14.17.05:417][382]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.17.05:421][382]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.17.05
+[2021.01.30-14.17.05:421][382]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.17.05:421][382]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.17.05:421][382]LogWorld: Bringing up level for play took: 0.002958
+[2021.01.30-14.17.05:421][382]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.01.30-14.17.05:423][382]PIE: Server logged in
+[2021.01.30-14.17.05:423][382]PIE: Play in editor total start time 0,193 seconds.
+[2021.01.30-14.17.12:727][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.17.12:727][203]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.17.12:728][203]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.17.12:728][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.17.12:735][203]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.17.12:738][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.17.12:760][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.17.12:775][203]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C93DC72200), frame # 16203
+[2021.01.30-14.17.12:775][203]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C93F0C5000), frame # 16203
+[2021.01.30-14.17.12:778][203]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.01.30-14.17.12:805][204]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.01.30-14.17.17:067][698]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.17.17:074][698]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.17.17:074][698]LogFMOD: System sample rate = 48000
+[2021.01.30-14.17.17:074][698]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.17.17:081][698]LogFMOD: Loading Banks
+[2021.01.30-14.17.17:128][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.17.17:128][698]PIE: New page: PIE session: Flur (30.01.2021, 16:17:17)
+[2021.01.30-14.17.17:128][698]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.17.17:140][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011960s)
+[2021.01.30-14.17.17:141][698]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.17.17:141][698]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C93EA73E00), frame # 16698
+[2021.01.30-14.17.17:141][698]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C93ED23600), frame # 16698
+[2021.01.30-14.17.17:141][698]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2021.01.30-14.17.17:141][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.013332s)
+[2021.01.30-14.17.17:169][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.01.30-14.17.17:171][698]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.17.17:171][698]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.17.17:171][698]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.17.17:171][698]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.17.17:171][698]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.17.17:171][698]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.17.17:171][698]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.17.17:171][698]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.17.17:171][698]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.17.17:171][698]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.17.17:181][698]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.17.17:181][698]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.17.17:198][698]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.17.17:198][698]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.17.17:198][698]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.17.17:198][698]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.17.17:199][698]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.17.17:211][698]LogInit: FAudioDevice initialized.
+[2021.01.30-14.17.17:221][698]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.17.17:224][698]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.17.17
+[2021.01.30-14.17.17:224][698]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.17.17:224][698]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.17.17:225][698]LogWorld: Bringing up level for play took: 0.003165
+[2021.01.30-14.17.17:225][698]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.01.30-14.17.17:227][698]PIE: Server logged in
+[2021.01.30-14.17.17:228][698]PIE: Play in editor total start time 0,201 seconds.
+[2021.01.30-14.17.20:127][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.17.20:127][ 27]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.17.20:127][ 27]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.17.20:128][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.17.20:135][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.17.20:138][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.17.20:176][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.17.20:177][ 27]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C93ED23600), frame # 17027
+[2021.01.30-14.17.20:178][ 27]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C93EA73E00), frame # 17027
+[2021.01.30-14.17.20:180][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.01.30-14.17.20:212][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.01.30-14.17.20:821][101]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-14.17.20:869][101]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.17.20:876][101]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.17.20:876][101]LogFMOD: System sample rate = 48000
+[2021.01.30-14.17.20:876][101]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.17.20:885][101]LogFMOD: Loading Banks
+[2021.01.30-14.17.20:927][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.17.20:927][101]PIE: New page: PIE session: Flur (30.01.2021, 16:17:20)
+[2021.01.30-14.17.20:927][101]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.17.20:939][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012666s)
+[2021.01.30-14.17.20:940][101]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.17.20:940][101]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C92802E200), frame # 17101
+[2021.01.30-14.17.20:941][101]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C93FA79080), frame # 17101
+[2021.01.30-14.17.20:941][101]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2021.01.30-14.17.20:941][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.013936s)
+[2021.01.30-14.17.20:967][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.01.30-14.17.20:969][101]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.17.20:969][101]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.17.20:969][101]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.17.20:969][101]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.17.20:969][101]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.17.20:969][101]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.17.20:969][101]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.17.20:969][101]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.17.20:969][101]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.17.20:969][101]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.17.20:979][101]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.17.20:979][101]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.17.20:998][101]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.17.20:998][101]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.17.20:998][101]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.17.20:998][101]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.17.20:998][101]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.17.21:009][101]LogInit: FAudioDevice initialized.
+[2021.01.30-14.17.21:019][101]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.17.21:022][101]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.17.21
+[2021.01.30-14.17.21:022][101]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.17.21:022][101]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.17.21:022][101]LogWorld: Bringing up level for play took: 0.002929
+[2021.01.30-14.17.21:022][101]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.01.30-14.17.21:024][101]PIE: Server logged in
+[2021.01.30-14.17.21:025][101]PIE: Play in editor total start time 0,189 seconds.
+[2021.01.30-14.17.23:457][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.17.23:457][373]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.17.23:458][373]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.17.23:458][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.17.23:462][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.17.23:466][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.17.23:489][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.17.23:503][373]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C93FA79080), frame # 17373
+[2021.01.30-14.17.23:503][373]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C92802E200), frame # 17373
+[2021.01.30-14.17.23:506][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.01.30-14.17.23:532][374]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.01.30-14.17.55:312][137]BlueprintLog: New page: Compile Flur
+[2021.01.30-14.17.55:359][137]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.01.30-14.17.55:918][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flur" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-14.17.55:948][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.01.30-14.17.56:184][187]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Flur652953964B9659D8826AFBB8A0C82F7A.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap'
+[2021.01.30-14.17.56:206][187]LogFileHelpers: Saving map 'Flur' took 0.288
+[2021.01.30-14.17.56:219][187]AssetCheck: New page: Asset Save: Flur
+[2021.01.30-14.17.56:219][187]LogContentValidation: Display: Validating World /Game/Flur.Flur
+[2021.01.30-14.18.45:397][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.45:398][373]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.18.54:344][373]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.30-14.18.55:062][373]LogSourceControl: commit successful: [main 8dd7037] Blend In
+[2021.01.30-14.18.55:131][373]SourceControl: [main 8dd7037] Blend In
+[2021.01.30-14.18.55:131][373]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2021.01.30-14.18.55:140][373]SourceControl: Commited [main 8dd7037] Blend In.
+[2021.01.30-14.19.51:685][562]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.01.30-14.19.51:825][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/BP_DoorInteractionTrigger" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_DoorInteractionTrigger.uasset" SILENT=true
+[2021.01.30-14.19.51:868][562]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_DoorInteractionTriggerE883005E461310C16736BF908D8A4DB9.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_DoorInteractionTrigger.uasset'
+[2021.01.30-14.19.52:253][562]AssetCheck: New page: Asset Save: BP_DoorInteractionTrigger
+[2021.01.30-14.19.52:253][562]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_DoorInteractionTrigger.BP_DoorInteractionTrigger
+[2021.01.30-14.19.53:313][683]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/BP_DoorInteractionTrigger.BP_DoorInteractionTrigger
+[2021.01.30-14.20.35:203][991]BlueprintLog: New page: Compile BP_DoorInteractionTrigger
+[2021.01.30-14.20.35:206][991]LogBlueprint: Error: [Compiler BP_DoorInteractionTrigger] COMPILER ERROR: failed building connection with 'Array of Teddy Object References is not compatible with Array of Actor Object References.' at  Get (a copy)
+[2021.01.30-14.20.35:208][991]LogBlueprint: Error: [Compiler BP_DoorInteractionTrigger] The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2021.01.30-14.20.35:251][991]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2021.01.30-14.20.41:404][625]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.30-14.21.32:279][357]BlueprintLog: New page: Compile BP_DoorInteractionTrigger
+[2021.01.30-14.21.32:323][357]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.01.30-14.22.20:595][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/BP_DoorInteractionTrigger" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_DoorInteractionTrigger.uasset" SILENT=true
+[2021.01.30-14.22.20:645][ 99]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/BP_DoorInteractionTrigger37516F88438B74EB0F243E950106F253.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/BP_DoorInteractionTrigger.uasset'
+[2021.01.30-14.22.20:660][ 99]AssetCheck: New page: Asset Save: BP_DoorInteractionTrigger
+[2021.01.30-14.22.20:660][ 99]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/BP_DoorInteractionTrigger.BP_DoorInteractionTrigger
+[2021.01.30-14.22.25:676][618]LogSlate: Window 'BP_DoorInteractionTrigger' being destroyed
+[2021.01.30-14.22.25:683][618]LogSlate: Window 'BP_DoorInteractionTrigger' being destroyed
+[2021.01.30-14.22.25:698][618]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.22.25:699][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.23.09:367][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flur" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-14.23.09:398][757]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.01.30-14.23.09:687][757]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/FlurC2B617DB4EC9844A9CC7BB9EE38EBE8C.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap'
+[2021.01.30-14.23.09:720][757]AssetCheck: New page: Asset Save: Flur
+[2021.01.30-14.23.09:720][757]LogContentValidation: Display: Validating World /Game/Flur.Flur
+[2021.01.30-14.23.11:396][949]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-14.23.11:438][949]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.23.11:445][949]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.23.11:446][949]LogFMOD: System sample rate = 48000
+[2021.01.30-14.23.11:446][949]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.23.11:455][949]LogFMOD: Loading Banks
+[2021.01.30-14.23.11:499][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.23.11:499][949]PIE: New page: PIE session: Flur (30.01.2021, 16:23:11)
+[2021.01.30-14.23.11:499][949]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.23.11:511][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012484s)
+[2021.01.30-14.23.11:512][949]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.23.11:512][949]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C8E720BE00), frame # 47949
+[2021.01.30-14.23.11:512][949]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C945A19BC0), frame # 47949
+[2021.01.30-14.23.11:513][949]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2021.01.30-14.23.11:513][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.013851s)
+[2021.01.30-14.23.11:541][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.01.30-14.23.11:543][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.23.11:543][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.23.11:543][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.23.11:543][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.23.11:543][949]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.23.11:543][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.23.11:543][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.23.11:543][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.23.11:543][949]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.23.11:543][949]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.23.11:553][949]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.23.11:553][949]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.23.11:571][949]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.23.11:572][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.23.11:572][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.23.11:572][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.23.11:572][949]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.23.11:583][949]LogInit: FAudioDevice initialized.
+[2021.01.30-14.23.11:592][949]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.23.11:596][949]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.23.11
+[2021.01.30-14.23.11:597][949]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.23.11:597][949]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.23.11:597][949]LogWorld: Bringing up level for play took: 0.004196
+[2021.01.30-14.23.11:597][949]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.01.30-14.23.11:601][949]PIE: Server logged in
+[2021.01.30-14.23.11:602][949]PIE: Play in editor total start time 0,191 seconds.
+[2021.01.30-14.23.12:547][ 58]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.12:712][ 78]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.20:014][954]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.20:039][957]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.23:574][381]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.23:665][392]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.24:425][483]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.24:442][485]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.25:175][573]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-14.23.25:175][573]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors_1' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-14.23.25:175][573]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.25:617][626]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.25:650][630]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.26:567][740]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.26:609][745]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.23.27:878][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.23.27:878][879]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.23.27:878][879]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.23.27:879][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.23.27:884][879]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.23.27:888][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.23.27:913][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.23.27:928][879]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C945A19BC0), frame # 49879
+[2021.01.30-14.23.27:928][879]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C8E720BE00), frame # 49879
+[2021.01.30-14.23.27:931][879]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.01.30-14.23.27:963][880]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.01.30-14.23.28:963][992]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/BP_DoorInteractionTrigger.BP_DoorInteractionTrigger
+[2021.01.30-14.28.21:349][588]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.30-14.28.21:412][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.01.30-14.28.22:205][639]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/FirstPersonCharacter109890E9481AC364BE4D709F5141A824.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.01.30-14.28.22:224][639]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.01.30-14.28.22:224][639]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.30-14.28.24:298][867]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-14.28.24:358][867]LogFMOD: Creating runtime Studio System
+[2021.01.30-14.28.24:365][867]LogFMOD: Default sample rate = 48000
+[2021.01.30-14.28.24:365][867]LogFMOD: System sample rate = 48000
+[2021.01.30-14.28.24:365][867]LogFMOD: Matching system sample rate 48000
+[2021.01.30-14.28.24:374][867]LogFMOD: Loading Banks
+[2021.01.30-14.28.24:418][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-14.28.24:418][867]PIE: New page: PIE session: Flur (30.01.2021, 16:28:24)
+[2021.01.30-14.28.24:446][867]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flur
+[2021.01.30-14.28.24:458][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012162s)
+[2021.01.30-14.28.24:459][867]LogAIModule: Creating AISystem for world Flur
+[2021.01.30-14.28.24:459][867]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C92D4CFE00), frame # 82867
+[2021.01.30-14.28.24:459][867]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C951956840), frame # 82867
+[2021.01.30-14.28.24:460][867]LogPlayLevel: PIE: World Init took: (0.001568s)
+[2021.01.30-14.28.24:460][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flur.Flur to /Game/UEDPIE_0_Flur.Flur (0.014037s)
+[2021.01.30-14.28.24:493][867]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2021.01.30-14.28.24:495][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-14.28.24:495][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-14.28.24:495][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-14.28.24:495][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-14.28.24:495][867]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-14.28.24:495][867]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-14.28.24:495][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-14.28.24:495][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-14.28.24:495][867]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-14.28.24:495][867]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-14.28.24:505][867]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-14.28.24:505][867]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-14.28.24:525][867]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.30-14.28.24:525][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-14.28.24:525][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-14.28.24:525][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-14.28.24:526][867]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-14.28.24:537][867]LogInit: FAudioDevice initialized.
+[2021.01.30-14.28.24:541][867]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.28.24:544][867]LogWorld: Bringing World /Game/UEDPIE_0_Flur.Flur up for play (max tick rate 0) at 2021.01.30-15.28.24
+[2021.01.30-14.28.24:544][867]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.28.24:544][867]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.28.24:544][867]LogWorld: Bringing up level for play took: 0.002968
+[2021.01.30-14.28.24:544][867]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.01.30-14.28.24:546][867]PIE: Server logged in
+[2021.01.30-14.28.24:547][867]PIE: Play in editor total start time 0,233 seconds.
+[2021.01.30-14.28.25:027][923]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.28.25:283][954]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.28.28:741][369]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.28.29:975][517]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.28.33:983][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.28.33:984][998]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-14.28.33:984][998]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors_1' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter'!
+[2021.01.30-14.28.33:984][998]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.28.33:991][999]LogNet: Browse: /Game/Bib_scene
+[2021.01.30-14.28.33:991][999]LogLoad: LoadMap: /Game/Bib_scene
+[2021.01.30-14.28.33:992][999]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flur
+[2021.01.30-14.28.33:992][999]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.28.33:993][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.28.34:054][999]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C951956840), frame # 83999
+[2021.01.30-14.28.34:054][999]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C92D4CFE00), frame # 83999
+[2021.01.30-14.28.34:057][999]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.01.30-14.28.34:314][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander3...
+[2021.01.30-14.28.34:323][999]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Bib/BIB_Gelaender_gelander3.BIB_Gelaender_gelander3
+[2021.01.30-14.28.34:326][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander2...
+[2021.01.30-14.28.34:327][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander2.BIB_Gelaender_gelander2
+[2021.01.30-14.28.34:328][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander6...
+[2021.01.30-14.28.34:329][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander6.BIB_Gelaender_gelander6
+[2021.01.30-14.28.34:329][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander5...
+[2021.01.30-14.28.34:330][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander5.BIB_Gelaender_gelander5
+[2021.01.30-14.28.34:331][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander4...
+[2021.01.30-14.28.34:332][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander4.BIB_Gelaender_gelander4
+[2021.01.30-14.28.34:332][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander1...
+[2021.01.30-14.28.34:335][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander1.BIB_Gelaender_gelander1
+[2021.01.30-14.28.34:339][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander12...
+[2021.01.30-14.28.34:342][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander12.BIB_Gelaender_gelander12
+[2021.01.30-14.28.34:343][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander11...
+[2021.01.30-14.28.34:343][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander11.BIB_Gelaender_gelander11
+[2021.01.30-14.28.34:344][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander10...
+[2021.01.30-14.28.34:345][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander10.BIB_Gelaender_gelander10
+[2021.01.30-14.28.34:357][999]LogStaticMesh: Building static mesh Blatt...
+[2021.01.30-14.28.34:358][999]LogStaticMesh: Built static mesh [0.00s] /Game/ParticleSystems/Blatt.Blatt
+[2021.01.30-14.28.34:390][999]LogMaterial: Display: Missing cached shader map for material Paper_NE_MTRL, compiling. 
+[2021.01.30-14.28.34:450][999]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 37
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 35
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 33
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 31
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 29
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 27
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 25
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 23
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 21
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 19
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 17
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 15
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 13
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 11
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 9
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 7
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 5
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 3
+[2021.01.30-14.28.34:451][999]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 1
+[2021.01.30-14.28.34:455][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander7...
+[2021.01.30-14.28.34:457][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander7.BIB_Gelaender_gelander7
+[2021.01.30-14.28.34:457][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander8...
+[2021.01.30-14.28.34:459][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander8.BIB_Gelaender_gelander8
+[2021.01.30-14.28.34:459][999]LogStaticMesh: Building static mesh BIB_Gelaender_gelander9...
+[2021.01.30-14.28.34:460][999]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Bib/BIB_Gelaender_gelander9.BIB_Gelaender_gelander9
+[2021.01.30-14.28.34:508][999]LogAIModule: Creating AISystem for world Bib_scene
+[2021.01.30-14.28.34:509][999]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C955375C00), frame # 83999
+[2021.01.30-14.28.34:509][999]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8E6881800), frame # 83999
+[2021.01.30-14.28.34:509][999]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.30-14.28.34:521][999]LogWorld: Bringing World /Game/UEDPIE_0_Bib_scene.Bib_scene up for play (max tick rate 0) at 2021.01.30-15.28.34
+[2021.01.30-14.28.34:521][999]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.30-14.28.34:521][999]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.30-14.28.34:521][999]LogFMOD: Warning: Failed to set initial parameter Music_Intensity
+[2021.01.30-14.28.34:530][999]LogWorld: Bringing up level for play took: 0.019952
+[2021.01.30-14.28.34:531][999]LogLoad: Took 0.539320 seconds to LoadMap(/Game/Bib_scene)
+[2021.01.30-14.28.35:613][104]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] false
+[2021.01.30-14.28.36:357][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.28.36:357][167]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Bib_scene
+[2021.01.30-14.28.36:358][167]LogWorld: UWorld::CleanupWorld for Bib_scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-14.28.36:360][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.28.36:366][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-14.28.36:370][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-14.28.36:396][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-14.28.36:414][167]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C955375C00), frame # 84167
+[2021.01.30-14.28.36:414][167]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C8E6881800), frame # 84167
+[2021.01.30-14.28.36:416][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.01.30-14.28.36:461][168]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.01.30-14.28.54:789][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:789][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:789][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.54:790][295]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.28.57:178][295]LogSlate: Window 'Save Content' being destroyed
+[2021.01.30-14.28.57:287][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flur" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-14.28.57:315][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.01.30-14.28.57:583][295]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/FlurFC55B8E248B1F0B6323198A7C043BBE0.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap'
+[2021.01.30-14.28.57:605][295]LogFileHelpers: Saving map 'Flur' took 0.318
+[2021.01.30-14.29.01:186][295]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.30-14.29.01:203][296]AssetCheck: New page: Asset Save: Flur
+[2021.01.30-14.29.01:203][296]LogContentValidation: Display: Validating World /Game/Flur.Flur
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:849][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FMOD/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.04:850][674]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.30-14.29.17:867][674]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.30-14.29.18:744][674]LogSourceControl: commit successful: [main 407e626] DoorInteraction
+[2021.01.30-14.29.18:934][674]SourceControl: [main 407e626] DoorInteraction
+[2021.01.30-14.29.18:934][674]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2021.01.30-14.29.18:934][674]SourceControl:  create mode 100644 Content/TriggerVolumes/BP_DoorInteractionTrigger.uasset
+[2021.01.30-14.29.18:945][674]SourceControl: Commited [main 407e626] DoorInteraction.
+>>>>>>> c68d0d4d28626e575c1e9924a480121995908acf
