@@ -1005,3 +1005,59 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.31-09.40.58:145][371]LogFileHelpers: Saving map 'Bib_scene' took 1.562
 [2021.01.31-09.40.58:177][371]AssetCheck: New page: Asset Save: Bib_scene
 [2021.01.31-09.40.58:177][371]LogContentValidation: Display: Validating World /Game/Bib_scene.Bib_scene
+[2021.01.31-09.41.27:295][607]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Flur.Flur
+[2021.01.31-09.41.27:320][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.01.31-09.41.27:322][607]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.31-09.41.27:322][607]LightingResults: New page: Lighting Build
+[2021.01.31-09.41.27:322][607]LoadErrors: New page: Loading map: Flur.umap
+[2021.01.31-09.41.27:329][607]LogSlate: Window 'Bib_scene' being destroyed
+[2021.01.31-09.41.27:349][607]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.41.27:349][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.41.27:392][607]LogWorld: UWorld::CleanupWorld for Bib_scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.41.27:392][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.41.27:392][607]MapCheck: New page: Map Check
+[2021.01.31-09.41.27:392][607]LightingResults: New page: Lighting Build
+[2021.01.31-09.41.27:424][607]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028820BD7740), frame # 80607
+[2021.01.31-09.41.27:424][607]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028848324A00), frame # 80607
+[2021.01.31-09.41.27:427][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.01.31-09.41.27:677][607]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.31-09.41.27:677][607]LogAIModule: Creating AISystem for world Flur
+[2021.01.31-09.41.27:677][607]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002883BF20800), frame # 80607
+[2021.01.31-09.41.27:677][607]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000287CBE8B100), frame # 80607
+[2021.01.31-09.41.27:702][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.01.31-09.41.27:726][607]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.31-09.41.27:726][607]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,087ms to complete.
+[2021.01.31-09.41.27:726][607]LogFileHelpers: Loading map 'Flur' took 0.404
+[2021.01.31-09.41.30:307][894]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Flur.Flur:PersistentLevel.Flur
+[2021.01.31-09.41.36:573][575]BlueprintLog: New page: Compile Flur
+[2021.01.31-09.41.36:622][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.01.31-09.41.37:247][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flur" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-09.41.37:274][629]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.01.31-09.41.37:642][629]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Flur935F010D40DE9B5A84371899680C4EF4.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap'
+[2021.01.31-09.41.37:670][629]LogFileHelpers: Saving map 'Flur' took 0.423
+[2021.01.31-09.41.37:685][629]AssetCheck: New page: Asset Save: Flur
+[2021.01.31-09.41.37:685][629]LogContentValidation: Display: Validating World /Game/Flur.Flur
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:344][496]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-09.41.47:519][496]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
+[2021.01.31-09.41.58:744][496]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.31-09.41.59:474][496]LogSourceControl: commit successful: [main f5a4a7b] Flur
+[2021.01.31-09.41.59:540][496]SourceControl: [main f5a4a7b] Flur
+[2021.01.31-09.41.59:540][496]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2021.01.31-09.41.59:550][496]SourceControl: Commited [main f5a4a7b] Flur.
