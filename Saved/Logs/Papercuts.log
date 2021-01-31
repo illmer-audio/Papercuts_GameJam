@@ -973,3 +973,35 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.31-09.40.17:627][208]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
 [2021.01.31-09.40.17:627][208]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
 [2021.01.31-09.40.17:804][208]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
+[2021.01.31-09.40.34:975][208]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.31-09.40.36:902][394]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Bib_scene.Bib_scene
+[2021.01.31-09.40.36:936][394]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.01.31-09.40.36:938][394]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Bib_scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.31-09.40.36:938][394]LightingResults: New page: Lighting Build
+[2021.01.31-09.40.36:938][394]LoadErrors: New page: Loading map: Bib_scene.umap
+[2021.01.31-09.40.37:017][394]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.40.37:017][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.40.37:061][394]LogWorld: UWorld::CleanupWorld for Buero_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.40.37:061][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.40.37:062][394]MapCheck: New page: Map Check
+[2021.01.31-09.40.37:062][394]LightingResults: New page: Lighting Build
+[2021.01.31-09.40.37:090][394]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002881FE26700), frame # 77394
+[2021.01.31-09.40.37:090][394]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000287FF5C3E00), frame # 77394
+[2021.01.31-09.40.37:094][394]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.01.31-09.40.37:454][394]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.31-09.40.37:454][394]LogAIModule: Creating AISystem for world Bib_scene
+[2021.01.31-09.40.37:454][394]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028848324A00), frame # 77394
+[2021.01.31-09.40.37:454][394]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028820BD7740), frame # 77394
+[2021.01.31-09.40.37:492][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.01.31-09.40.37:515][394]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.31-09.40.37:515][394]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,148ms to complete.
+[2021.01.31-09.40.37:515][394]LogFileHelpers: Loading map 'Bib_scene' took 0.578
+[2021.01.31-09.40.41:720][861]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Bib_scene.Bib_scene:PersistentLevel.Bib_scene
+[2021.01.31-09.40.47:474][393]BlueprintLog: New page: Compile Bib_scene
+[2021.01.31-09.40.47:542][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.01.31-09.40.56:583][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bib_scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Bib_scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-09.40.56:611][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.01.31-09.40.58:118][371]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Bib_scene4CC08BE74AED973EEEE7F689E33EA5A4.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Bib_scene.umap'
+[2021.01.31-09.40.58:145][371]LogFileHelpers: Saving map 'Bib_scene' took 1.562
+[2021.01.31-09.40.58:177][371]AssetCheck: New page: Asset Save: Bib_scene
+[2021.01.31-09.40.58:177][371]LogContentValidation: Display: Validating World /Game/Bib_scene.Bib_scene
