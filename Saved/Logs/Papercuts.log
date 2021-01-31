@@ -823,3 +823,692 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.31-09.49.58:879][744]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
 [2021.01.31-09.50.00:655][900]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
 [2021.01.31-09.50.00:655][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.50.34:313][522]LogSlate: Window 'Overlapping_Text_Kuppel' being destroyed
+[2021.01.31-09.50.34:323][522]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.50.34:323][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.50.34:326][522]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.50.34:326][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.50.48:364][163]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Intro_Credits.Intro_Credits
+[2021.01.31-09.50.48:384][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.01.31-09.50.48:388][163]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Intro_Credits.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.31-09.50.48:388][163]LightingResults: New page: Lighting Build
+[2021.01.31-09.50.48:388][163]LoadErrors: New page: Loading map: Intro_Credits.umap
+[2021.01.31-09.50.48:417][163]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.50.48:417][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.50.48:417][163]MapCheck: New page: Map Check
+[2021.01.31-09.50.48:417][163]LightingResults: New page: Lighting Build
+[2021.01.31-09.50.48:435][163]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BE9A09DBC0), frame # 33163
+[2021.01.31-09.50.48:435][163]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BE9F0C9000), frame # 33163
+[2021.01.31-09.50.48:439][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.01.31-09.50.48:589][163]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.31-09.50.48:589][163]LogAIModule: Creating AISystem for world Intro_Credits
+[2021.01.31-09.50.48:589][163]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BE9E634200), frame # 33163
+[2021.01.31-09.50.48:589][163]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BEA7EC2700), frame # 33163
+[2021.01.31-09.50.48:607][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.01.31-09.50.48:632][163]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.31-09.50.48:632][163]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,068ms to complete.
+[2021.01.31-09.50.48:632][163]LogFileHelpers: Loading map 'Intro_Credits' took 0.245
+[2021.01.31-09.50.50:307][359]LogTemp: Repeating last play command: Standalone Game
+[2021.01.31-09.50.50:338][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.01.31-09.57.33:632][420]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-09.57.33:652][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.01.31-09.57.33:656][420]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.31-09.57.33:656][420]LightingResults: New page: Lighting Build
+[2021.01.31-09.57.33:656][420]LoadErrors: New page: Loading map: Kuppel_Scene.umap
+[2021.01.31-09.57.33:686][420]LogWorld: UWorld::CleanupWorld for Intro_Credits, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.57.33:686][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.57.33:686][420]MapCheck: New page: Map Check
+[2021.01.31-09.57.33:686][420]LightingResults: New page: Lighting Build
+[2021.01.31-09.57.33:701][420]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BEA7EC2700), frame # 37420
+[2021.01.31-09.57.33:701][420]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BE9E634200), frame # 37420
+[2021.01.31-09.57.33:703][420]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.01.31-09.57.33:722][420]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.01.31-09.57.33:741][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.01.31-09.57.34:009][420]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.31-09.57.34:009][420]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-09.57.34:009][420]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BE9D521E00), frame # 37420
+[2021.01.31-09.57.34:009][420]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BE99E4A980), frame # 37420
+[2021.01.31-09.57.34:032][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.01.31-09.57.34:060][420]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.31-09.57.34:060][420]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,086ms to complete.
+[2021.01.31-09.57.34:060][420]LogFileHelpers: Loading map 'Kuppel_Scene' took 0.404
+[2021.01.31-09.57.36:284][676]LogTemp: Repeating last play command: Standalone Game
+[2021.01.31-09.57.36:315][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.01.31-09.59.05:700][487]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Kuppel_Scene.Kuppel_Scene:PersistentLevel.Kuppel_Scene
+[2021.01.31-10.04.39:164][116]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.31-10.07.51:572][180]BlueprintLog: New page: Compile Kuppel_Scene
+[2021.01.31-10.07.51:615][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.01.31-10.07.52:831][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-10.07.52:852][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.01.31-10.07.53:511][289]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene1F14EF4E44DF0DF2561341A32F863494.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.31-10.07.53:537][289]LogFileHelpers: Saving map 'Kuppel_Scene' took 0.707
+[2021.01.31-10.07.53:569][289]AssetCheck: New page: Asset Save: Kuppel_Scene
+[2021.01.31-10.07.53:569][289]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-10.07.56:728][640]LogTemp: Repeating last play command: Standalone Game
+[2021.01.31-10.07.56:760][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.01.31-10.08.23:225][305]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-10.08.23:243][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.01.31-10.08.23:244][305]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.31-10.08.23:245][305]LightingResults: New page: Lighting Build
+[2021.01.31-10.08.23:245][305]LoadErrors: New page: Loading map: Kuppel_Scene.umap
+[2021.01.31-10.08.23:247][305]LogSlate: Window 'Kuppel_Scene' being destroyed
+[2021.01.31-10.08.23:254][305]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.08.23:254][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.08.23:293][305]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.08.23:293][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.08.23:294][305]MapCheck: New page: Map Check
+[2021.01.31-10.08.23:294][305]LightingResults: New page: Lighting Build
+[2021.01.31-10.08.23:318][305]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BE99E4A980), frame # 83305
+[2021.01.31-10.08.23:319][305]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BE9D521E00), frame # 83305
+[2021.01.31-10.08.23:321][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.01.31-10.08.23:357][305]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.08.23:357][305]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BEF3018600), frame # 83305
+[2021.01.31-10.08.23:357][305]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BE9F394F40), frame # 83305
+[2021.01.31-10.08.23:684][305]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.31-10.08.23:706][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.01.31-10.08.23:732][305]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.31-10.08.23:732][305]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,084ms to complete.
+[2021.01.31-10.08.23:732][305]LogFileHelpers: Loading map 'Kuppel_Scene' took 0.488
+[2021.01.31-10.08.27:275][708]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Kuppel_Scene.Kuppel_Scene:PersistentLevel.Kuppel_Scene
+[2021.01.31-10.09.23:768][120]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.31-10.09.45:140][428]BlueprintLog: New page: Compile Kuppel_Scene
+[2021.01.31-10.09.45:185][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.01.31-10.09.50:717][958]LogTemp: Repeating last play command: Standalone Game
+[2021.01.31-10.09.50:754][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.01.31-10.09.52:721][958]LogSlate: Window 'Save Content' being destroyed
+[2021.01.31-10.09.52:858][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-10.09.52:881][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.01.31-10.09.53:526][958]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene0DAFED4646F0D65FDE9B60AF2EFA6942.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.31-10.09.53:552][958]LogFileHelpers: Saving map 'Kuppel_Scene' took 0.693
+[2021.01.31-10.09.53:611][959]AssetCheck: New page: Asset Save: Kuppel_Scene
+[2021.01.31-10.09.53:611][959]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-10.09.54:291][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kuppel_comb)
+[2021.01.31-10.09.55:256][146]LogTemp: Repeating last play command: Standalone Game
+[2021.01.31-10.09.55:291][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2021.01.31-10.10.19:374][787]LogEditorViewport: Clicking on Actor (LMB): Teddy_C (Teddy)
+[2021.01.31-10.10.54:882][713]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB99057DB-427B-4A11-FE36-00AFD6529B0B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=214470a94dd7e0652f6ef08767ed7360%7Ce8bb6fb501ab485bbbf847b9a3351b50%7Cf5694e6b-a401-4b1e-8bff-4445b63a2d64&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: request failed, libcurl error: 0 (No error)
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1be2dc9ff70 [can pipeline])
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 1 (Re-using existing connection! (#12) with host datarouter.ol.epicgames.com)
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.205.225.2) port 443 (#12))
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 7 (Closing connection 12)
+[2021.01.31-10.12.59:311][427]LogHttp: Warning: 000001BEFB7B3900: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.31-10.12.59:653][428]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB99057DB-427B-4A11-FE36-00AFD6529B0B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=214470a94dd7e0652f6ef08767ed7360%7Ce8bb6fb501ab485bbbf847b9a3351b50%7Cf5694e6b-a401-4b1e-8bff-4445b63a2d64&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.31-10.13.32:052][835]BlueprintLog: New page: Compile Kuppel_Scene
+[2021.01.31-10.13.32:095][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.01.31-10.13.32:720][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-10.13.32:742][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.01.31-10.13.33:407][876]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene1736CF8B49F609AC14E180B377BB520B.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.31-10.13.33:433][876]LogFileHelpers: Saving map 'Kuppel_Scene' took 0.714
+[2021.01.31-10.13.33:474][876]AssetCheck: New page: Asset Save: Kuppel_Scene
+[2021.01.31-10.13.33:474][876]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-10.13.37:082][242]LogTemp: Repeating last play command: Standalone Game
+[2021.01.31-10.13.37:121][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.01.31-10.14.56:181][700]BlueprintLog: New page: Compile Kuppel_Scene
+[2021.01.31-10.14.56:225][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.01.31-10.14.57:950][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-10.14.57:970][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.01.31-10.14.58:615][850]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene4EE84C6945B8C3A73C91A9B65E60DE16.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.31-10.14.58:640][850]LogFileHelpers: Saving map 'Kuppel_Scene' took 0.690
+[2021.01.31-10.14.58:686][850]AssetCheck: New page: Asset Save: Kuppel_Scene
+[2021.01.31-10.14.58:686][850]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-10.15.02:339][161]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.15.02:346][161]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.15.02:346][161]LogFMOD: System sample rate = 48000
+[2021.01.31-10.15.02:346][161]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.15.02:355][161]LogFMOD: Loading Banks
+[2021.01.31-10.15.02:397][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.15.02:397][161]PIE: New page: PIE session: Kuppel_Scene (31.01.2021, 12:15:02)
+[2021.01.31-10.15.02:398][161]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.31-10.15.02:399][161]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.31-10.15.02:399][161]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.15.02:423][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023693s)
+[2021.01.31-10.15.02:424][161]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.15.02:424][161]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BE887ACC00), frame # 119161
+[2021.01.31-10.15.02:424][161]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BE7332E700), frame # 119161
+[2021.01.31-10.15.02:424][161]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2021.01.31-10.15.02:425][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.024975s)
+[2021.01.31-10.15.02:446][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.01.31-10.15.02:447][161]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.15.02:447][161]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.15.02:447][161]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.15.02:447][161]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.15.02:447][161]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.15.02:447][161]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.15.02:447][161]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.15.02:447][161]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.15.02:448][161]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.15.02:448][161]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.15.02:458][161]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.15.02:458][161]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.15.02:479][161]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.15.02:480][161]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.15.02:480][161]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.15.02:480][161]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.15.02:480][161]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.15.02:492][161]LogInit: FAudioDevice initialized.
+[2021.01.31-10.15.02:503][161]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.15.02:507][161]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.15.02
+[2021.01.31-10.15.02:507][161]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.15.02:507][161]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.15.02:507][161]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.15.02:507][161]LogWorld: Bringing up level for play took: 0.004226
+[2021.01.31-10.15.02:507][161]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.01.31-10.15.02:519][161]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.01.31-10.15.02:521][161]PIE: Server logged in
+[2021.01.31-10.15.02:522][161]PIE: Play in editor total start time 0,224 seconds.
+[2021.01.31-10.15.06:338][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.15.06:338][498]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.15.06:338][498]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.15.06:339][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.15.06:345][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.15.06:349][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.15.06:370][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.15.06:392][498]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BE7332E700), frame # 119498
+[2021.01.31-10.15.06:392][498]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BE887ACC00), frame # 119498
+[2021.01.31-10.15.06:412][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.01.31-10.15.06:448][499]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.01.31-10.15.38:977][ 94]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-10.15.39:018][ 94]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.15.39:025][ 94]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.15.39:025][ 94]LogFMOD: System sample rate = 48000
+[2021.01.31-10.15.39:025][ 94]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.15.39:034][ 94]LogFMOD: Loading Banks
+[2021.01.31-10.15.39:069][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.15.39:069][ 94]PIE: New page: PIE session: Kuppel_Scene (31.01.2021, 12:15:39)
+[2021.01.31-10.15.39:107][ 94]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.15.39:128][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022266s)
+[2021.01.31-10.15.39:129][ 94]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.15.39:129][ 94]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BE886D4800), frame # 123094
+[2021.01.31-10.15.39:129][ 94]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BF0750FB00), frame # 123094
+[2021.01.31-10.15.39:129][ 94]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2021.01.31-10.15.39:130][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.023602s)
+[2021.01.31-10.15.39:164][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.01.31-10.15.39:167][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.15.39:167][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.15.39:167][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.15.39:167][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.15.39:167][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.15.39:167][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.15.39:167][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.15.39:167][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.15.39:168][ 94]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.15.39:168][ 94]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.15.39:177][ 94]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.15.39:177][ 94]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.15.39:197][ 94]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.15.39:197][ 94]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.15.39:197][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.15.39:198][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.15.39:198][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.15.39:210][ 94]LogInit: FAudioDevice initialized.
+[2021.01.31-10.15.39:221][ 94]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.15.39:225][ 94]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.15.39
+[2021.01.31-10.15.39:226][ 94]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.15.39:226][ 94]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.15.39:226][ 94]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.15.39:226][ 94]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.15.39:226][ 94]LogWorld: Bringing up level for play took: 0.004876
+[2021.01.31-10.15.39:226][ 94]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.01.31-10.15.39:229][ 94]PIE: Server logged in
+[2021.01.31-10.15.39:230][ 94]PIE: Play in editor total start time 0,236 seconds.
+[2021.01.31-10.15.44:727][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.15.44:727][733]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.15.44:727][733]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.15.44:728][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.15.44:736][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.15.44:739][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.15.44:774][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.15.44:778][733]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BF0750FB00), frame # 123733
+[2021.01.31-10.15.44:778][733]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BE886D4800), frame # 123733
+[2021.01.31-10.15.44:781][733]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.01.31-10.15.44:819][734]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.01.31-10.15.48:530][164]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/TeddyChildWithoutPhysics.TeddyChildWithoutPhysics
+[2021.01.31-10.15.57:336][128]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.15.57:336][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.16.02:286][673]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/TeddyChildWithoutPhysics.TeddyChildWithoutPhysics
+[2021.01.31-10.16.04:427][875]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.16.04:427][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.16.04:499][875]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/TeddyChildWithoutPhysics.TeddyChildWithoutPhysics
+[2021.01.31-10.16.31:597][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerVolumes/TeddyChildWithoutPhysics" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/TeddyChildWithoutPhysics.uasset" SILENT=true
+[2021.01.31-10.16.31:626][693]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/TeddyChildWithoutPhysics9E2C6BAA4E9172D39744939C94B08257.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/TriggerVolumes/TeddyChildWithoutPhysics.uasset'
+[2021.01.31-10.16.31:647][693]AssetCheck: New page: Asset Save: TeddyChildWithoutPhysics
+[2021.01.31-10.16.31:647][693]LogContentValidation: Display: Validating Blueprint /Game/TriggerVolumes/TeddyChildWithoutPhysics.TeddyChildWithoutPhysics
+[2021.01.31-10.16.32:419][772]BlueprintLog: New page: Compile TeddyChildWithoutPhysics
+[2021.01.31-10.16.32:465][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.01.31-10.16.35:244][ 67]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-10.16.35:288][ 67]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.16.35:296][ 67]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.16.35:296][ 67]LogFMOD: System sample rate = 48000
+[2021.01.31-10.16.35:296][ 67]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.16.35:305][ 67]LogFMOD: Loading Banks
+[2021.01.31-10.16.35:347][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.16.35:347][ 67]PIE: New page: PIE session: Kuppel_Scene (31.01.2021, 12:16:35)
+[2021.01.31-10.16.35:347][ 67]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.16.35:369][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021247s)
+[2021.01.31-10.16.35:369][ 67]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.16.35:369][ 67]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BED1AF4E00), frame # 129067
+[2021.01.31-10.16.35:369][ 67]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BED1AF1800), frame # 129067
+[2021.01.31-10.16.35:369][ 67]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2021.01.31-10.16.35:370][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.022289s)
+[2021.01.31-10.16.35:401][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2021.01.31-10.16.35:402][ 67]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.16.35:402][ 67]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.16.35:402][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.16.35:402][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.16.35:402][ 67]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.16.35:402][ 67]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.16.35:402][ 67]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.16.35:402][ 67]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.16.35:403][ 67]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.16.35:403][ 67]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.16.35:413][ 67]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.16.35:413][ 67]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.16.35:432][ 67]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.16.35:432][ 67]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.16.35:432][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.16.35:432][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.16.35:433][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.16.35:444][ 67]LogInit: FAudioDevice initialized.
+[2021.01.31-10.16.35:454][ 67]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.16.35:459][ 67]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.16.35
+[2021.01.31-10.16.35:459][ 67]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.16.35:459][ 67]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.16.35:459][ 67]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.16.35:459][ 67]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.16.35:459][ 67]LogWorld: Bringing up level for play took: 0.004372
+[2021.01.31-10.16.35:459][ 67]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.01.31-10.16.35:462][ 67]PIE: Server logged in
+[2021.01.31-10.16.35:463][ 67]PIE: Play in editor total start time 0,202 seconds.
+[2021.01.31-10.16.48:567][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.16.48:567][621]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.16.48:568][621]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.16.48:569][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.16.48:575][621]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.16.48:580][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.16.48:617][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.16.48:620][621]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BED1AF1800), frame # 130621
+[2021.01.31-10.16.48:620][621]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BED1AF4E00), frame # 130621
+[2021.01.31-10.16.48:623][621]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.01.31-10.16.48:660][622]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.01.31-10.16.58:461][776]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerVolumes/Teddy.Teddy
+[2021.01.31-10.17.13:614][291]LogEditorViewport: Clicking on Actor (LMB): Teddy_C (Teddy)
+[2021.01.31-10.17.19:162][947]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-10.17.19:218][947]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.17.19:227][947]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.17.19:227][947]LogFMOD: System sample rate = 48000
+[2021.01.31-10.17.19:227][947]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.17.19:238][947]LogFMOD: Loading Banks
+[2021.01.31-10.17.19:278][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.17.19:278][947]PIE: New page: PIE session: Kuppel_Scene (31.01.2021, 12:17:19)
+[2021.01.31-10.17.19:307][947]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.17.19:330][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023372s)
+[2021.01.31-10.17.19:331][947]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.17.19:332][947]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BF116B8400), frame # 133947
+[2021.01.31-10.17.19:332][947]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BF116FC900), frame # 133947
+[2021.01.31-10.17.19:332][947]LogPlayLevel: PIE: World Init took: (0.001484s)
+[2021.01.31-10.17.19:332][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.025094s)
+[2021.01.31-10.17.19:364][947]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.01.31-10.17.19:366][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.17.19:366][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.17.19:366][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.17.19:366][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.17.19:366][947]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.17.19:366][947]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.17.19:366][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.17.19:366][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.17.19:366][947]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.17.19:366][947]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.17.19:376][947]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.17.19:376][947]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.17.19:394][947]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.17.19:394][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.17.19:394][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.17.19:394][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.17.19:395][947]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.17.19:406][947]LogInit: FAudioDevice initialized.
+[2021.01.31-10.17.19:419][947]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.17.19:424][947]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.17.19
+[2021.01.31-10.17.19:424][947]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.17.19:424][947]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.17.19:424][947]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.17.19:425][947]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.17.19:425][947]LogWorld: Bringing up level for play took: 0.005131
+[2021.01.31-10.17.19:425][947]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.01.31-10.17.19:428][947]PIE: Server logged in
+[2021.01.31-10.17.19:429][947]PIE: Play in editor total start time 0,25 seconds.
+[2021.01.31-10.17.29:828][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.17.29:828][170]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.17.29:828][170]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.17.29:829][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.17.29:836][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.17.29:840][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.17.29:880][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.17.29:882][170]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BF116FC900), frame # 135170
+[2021.01.31-10.17.29:882][170]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BF116B8400), frame # 135170
+[2021.01.31-10.17.29:886][170]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.01.31-10.17.29:924][171]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.01.31-10.17.34:933][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (beallebad)
+[2021.01.31-10.17.53:866][928]LogEditorViewport: Clicking on Actor (LMB): Teddy_C (Teddy)
+[2021.01.31-10.18.09:405][781]LogEditorViewport: Clicking on Actor (LMB): TeddyChildWithoutPhysics_C (TeddyChildWithoutPhysics)
+[2021.01.31-10.18.49:702][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-10.18.49:745][379]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.01.31-10.18.50:412][379]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene93E81B2044AD7F35CFDBAA8410CC269F.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.31-10.18.50:492][379]AssetCheck: New page: Asset Save: Kuppel_Scene
+[2021.01.31-10.18.50:492][379]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-10.18.51:188][460]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-10.18.51:227][460]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.18.51:236][460]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.18.51:237][460]LogFMOD: System sample rate = 48000
+[2021.01.31-10.18.51:237][460]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.18.51:249][460]LogFMOD: Loading Banks
+[2021.01.31-10.18.51:287][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.18.51:287][460]PIE: New page: PIE session: Kuppel_Scene (31.01.2021, 12:18:51)
+[2021.01.31-10.18.51:287][460]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.18.51:308][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021483s)
+[2021.01.31-10.18.51:309][460]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.18.51:309][460]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BF12D9B600), frame # 144460
+[2021.01.31-10.18.51:309][460]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BED174FD80), frame # 144460
+[2021.01.31-10.18.51:309][460]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2021.01.31-10.18.51:309][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.022601s)
+[2021.01.31-10.18.51:341][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.01.31-10.18.51:343][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.18.51:343][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.18.51:343][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.18.51:343][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.18.51:343][460]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.18.51:343][460]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.18.51:343][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.18.51:343][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.18.51:343][460]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.18.51:343][460]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.18.51:353][460]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.18.51:353][460]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.18.51:373][460]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.18.51:373][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.18.51:373][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.18.51:373][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.18.51:374][460]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.18.51:385][460]LogInit: FAudioDevice initialized.
+[2021.01.31-10.18.51:395][460]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.18.51:400][460]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.18.51
+[2021.01.31-10.18.51:400][460]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.18.51:400][460]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.18.51:400][460]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.18.51:400][460]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.18.51:400][460]LogWorld: Bringing up level for play took: 0.004736
+[2021.01.31-10.18.51:400][460]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.01.31-10.18.51:403][460]PIE: Server logged in
+[2021.01.31-10.18.51:404][460]PIE: Play in editor total start time 0,203 seconds.
+[2021.01.31-10.19.00:267][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.19.00:267][497]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.19.00:267][497]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.19.00:268][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.19.00:279][497]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.19.00:283][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.19.00:308][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.19.00:328][497]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BED174FD80), frame # 145497
+[2021.01.31-10.19.00:328][497]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BF12D9B600), frame # 145497
+[2021.01.31-10.19.00:332][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.01.31-10.19.00:368][498]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.01.31-10.19.47:255][949]LogActorFactory: Actor Factory created Plane
+[2021.01.31-10.19.48:667][ 80]LogActorFactory: Actor Factory created Plane
+[2021.01.31-10.19.57:746][ 77]LogEditorViewport: Clicking on Actor (LMB): Teddy_C (Teddy)
+[2021.01.31-10.20.05:663][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2021.01.31-10.20.10:799][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-10.20.10:831][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.01.31-10.20.11:477][567]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene2DA3C48C44431004D3A52F8AB8532C18.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.31-10.20.11:544][567]AssetCheck: New page: Asset Save: Kuppel_Scene
+[2021.01.31-10.20.11:545][567]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-10.20.13:745][803]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-10.20.13:787][803]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.20.13:794][803]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.20.13:795][803]LogFMOD: System sample rate = 48000
+[2021.01.31-10.20.13:795][803]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.20.13:804][803]LogFMOD: Loading Banks
+[2021.01.31-10.20.13:847][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.20.13:847][803]PIE: New page: PIE session: Kuppel_Scene (31.01.2021, 12:20:13)
+[2021.01.31-10.20.13:847][803]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.20.13:871][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024448s)
+[2021.01.31-10.20.13:872][803]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.20.13:872][803]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BF12C4CC00), frame # 153803
+[2021.01.31-10.20.13:872][803]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BED174E200), frame # 153803
+[2021.01.31-10.20.13:872][803]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2021.01.31-10.20.13:872][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.025893s)
+[2021.01.31-10.20.13:904][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.01.31-10.20.13:905][803]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.20.13:905][803]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.20.13:905][803]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.20.13:905][803]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.20.13:905][803]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.20.13:905][803]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.20.13:905][803]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.20.13:905][803]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.20.13:905][803]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.20.13:905][803]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.20.13:915][803]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.20.13:915][803]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.20.13:934][803]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.20.13:934][803]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.20.13:934][803]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.20.13:935][803]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.20.13:935][803]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.20.13:946][803]LogInit: FAudioDevice initialized.
+[2021.01.31-10.20.13:955][803]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.20.13:961][803]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.20.13
+[2021.01.31-10.20.13:961][803]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.20.13:961][803]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.20.13:961][803]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.20.13:961][803]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.20.13:961][803]LogWorld: Bringing up level for play took: 0.005312
+[2021.01.31-10.20.13:961][803]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.01.31-10.20.13:965][803]PIE: Server logged in
+[2021.01.31-10.20.13:966][803]PIE: Play in editor total start time 0,207 seconds.
+[2021.01.31-10.20.22:907][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.20.22:907][843]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.20.22:908][843]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.20.22:908][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.20.22:917][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.20.22:921][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.20.22:950][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.20.22:968][843]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BED174E200), frame # 154843
+[2021.01.31-10.20.22:968][843]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BF12C4CC00), frame # 154843
+[2021.01.31-10.20.22:972][843]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.01.31-10.20.23:006][844]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.01.31-10.20.36:868][398]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.20.36:875][398]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.20.36:875][398]LogFMOD: System sample rate = 48000
+[2021.01.31-10.20.36:875][398]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.20.36:884][398]LogFMOD: Loading Banks
+[2021.01.31-10.20.36:928][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.20.36:928][398]PIE: New page: SIE session: Kuppel_Scene (31.01.2021, 12:20:36)
+[2021.01.31-10.20.36:966][398]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.20.36:988][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021644s)
+[2021.01.31-10.20.36:989][398]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.20.36:989][398]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BF116BAE00), frame # 156398
+[2021.01.31-10.20.36:989][398]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BEDB428680), frame # 156398
+[2021.01.31-10.20.36:990][398]LogPlayLevel: PIE: World Init took: (0.001574s)
+[2021.01.31-10.20.36:990][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.023491s)
+[2021.01.31-10.20.37:022][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.01.31-10.20.37:024][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.20.37:024][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.20.37:024][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.20.37:024][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.20.37:024][398]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.20.37:024][398]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.20.37:024][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.20.37:024][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.20.37:024][398]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.20.37:024][398]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.20.37:035][398]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.20.37:036][398]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.20.37:054][398]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.20.37:055][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.20.37:055][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.20.37:055][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.20.37:055][398]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.20.37:066][398]LogInit: FAudioDevice initialized.
+[2021.01.31-10.20.37:076][398]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.20.37:081][398]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.20.37
+[2021.01.31-10.20.37:081][398]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.20.37:081][398]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.20.37:081][398]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.20.37:081][398]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.20.37:081][398]LogWorld: Bringing up level for play took: 0.004404
+[2021.01.31-10.20.37:082][398]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.01.31-10.20.37:085][398]PIE: Server logged in
+[2021.01.31-10.20.37:085][398]PIE: Play in editor total start time 0,246 seconds.
+[2021.01.31-10.20.38:917][597]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2021.01.31-10.20.40:298][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.20.40:298][713]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.20.40:299][713]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.20.40:300][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.20.40:312][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.20.40:317][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.20.40:342][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.20.40:360][713]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BEDB428680), frame # 156713
+[2021.01.31-10.20.40:360][713]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BF116BAE00), frame # 156713
+[2021.01.31-10.20.40:363][713]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.01.31-10.20.40:397][714]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.01.31-10.20.41:384][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2021.01.31-10.20.46:427][379]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.20.46:435][379]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.20.46:435][379]LogFMOD: System sample rate = 48000
+[2021.01.31-10.20.46:435][379]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.20.46:444][379]LogFMOD: Loading Banks
+[2021.01.31-10.20.46:488][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.20.46:488][379]PIE: New page: SIE session: Kuppel_Scene (31.01.2021, 12:20:46)
+[2021.01.31-10.20.46:517][379]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.20.46:541][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023923s)
+[2021.01.31-10.20.46:542][379]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.20.46:542][379]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BED9F07E00), frame # 157379
+[2021.01.31-10.20.46:542][379]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BED174CB80), frame # 157379
+[2021.01.31-10.20.46:542][379]LogPlayLevel: PIE: World Init took: (0.001431s)
+[2021.01.31-10.20.46:542][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.025632s)
+[2021.01.31-10.20.46:572][379]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.01.31-10.20.46:574][379]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.20.46:574][379]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.20.46:574][379]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.20.46:574][379]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.20.46:574][379]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.20.46:574][379]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.20.46:574][379]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.20.46:574][379]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.20.46:575][379]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.20.46:575][379]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.20.46:585][379]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.20.46:585][379]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.20.46:604][379]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.20.46:605][379]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.20.46:605][379]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.20.46:605][379]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.20.46:605][379]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.20.46:617][379]LogInit: FAudioDevice initialized.
+[2021.01.31-10.20.46:628][379]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.20.46:633][379]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.20.46
+[2021.01.31-10.20.46:633][379]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.20.46:633][379]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.20.46:633][379]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.20.46:633][379]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.20.46:634][379]LogWorld: Bringing up level for play took: 0.004884
+[2021.01.31-10.20.46:634][379]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.01.31-10.20.46:637][379]PIE: Server logged in
+[2021.01.31-10.20.46:638][379]PIE: Play in editor total start time 0,236 seconds.
+[2021.01.31-10.20.48:937][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.20.48:937][629]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.20.48:938][629]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.20.48:938][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.20.48:949][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.20.48:953][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.20.48:983][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.20.49:000][629]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BED174CB80), frame # 157629
+[2021.01.31-10.20.49:000][629]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BED9F07E00), frame # 157629
+[2021.01.31-10.20.49:003][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.01.31-10.20.49:030][630]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.01.31-10.20.52:978][ 87]LogFMOD: Creating runtime Studio System
+[2021.01.31-10.20.52:985][ 87]LogFMOD: Default sample rate = 48000
+[2021.01.31-10.20.52:985][ 87]LogFMOD: System sample rate = 48000
+[2021.01.31-10.20.52:985][ 87]LogFMOD: Matching system sample rate 48000
+[2021.01.31-10.20.52:994][ 87]LogFMOD: Loading Banks
+[2021.01.31-10.20.53:038][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-10.20.53:038][ 87]PIE: New page: PIE session: Kuppel_Scene (31.01.2021, 12:20:53)
+[2021.01.31-10.20.53:038][ 87]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.20.53:060][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022143s)
+[2021.01.31-10.20.53:061][ 87]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-10.20.53:061][ 87]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BF16597E00), frame # 158087
+[2021.01.31-10.20.53:061][ 87]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BE5A3760C0), frame # 158087
+[2021.01.31-10.20.53:061][ 87]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2021.01.31-10.20.53:061][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Kuppel_Scene.Kuppel_Scene to /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene (0.023608s)
+[2021.01.31-10.20.53:094][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.01.31-10.20.53:095][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-10.20.53:095][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-10.20.53:095][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-10.20.53:095][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-10.20.53:095][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-10.20.53:095][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-10.20.53:095][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-10.20.53:095][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-10.20.53:096][ 87]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-10.20.53:096][ 87]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-10.20.53:105][ 87]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-10.20.53:106][ 87]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-10.20.53:124][ 87]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-10.20.53:124][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-10.20.53:124][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-10.20.53:124][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-10.20.53:125][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-10.20.53:136][ 87]LogInit: FAudioDevice initialized.
+[2021.01.31-10.20.53:143][ 87]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-10.20.53:148][ 87]LogWorld: Bringing World /Game/UEDPIE_0_Kuppel_Scene.Kuppel_Scene up for play (max tick rate 0) at 2021.01.31-11.20.53
+[2021.01.31-10.20.53:148][ 87]LogFMOD: Warning: Failed to set initial parameter Ambience_Volume
+[2021.01.31-10.20.53:148][ 87]LogFMOD: Warning: Failed to set initial parameter Volume
+[2021.01.31-10.20.53:148][ 87]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.20.53:148][ 87]LogFMOD: Warning: Failed to set initial parameter Electrical_Intesity
+[2021.01.31-10.20.53:148][ 87]LogWorld: Bringing up level for play took: 0.004313
+[2021.01.31-10.20.53:148][ 87]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.01.31-10.20.53:151][ 87]PIE: Server logged in
+[2021.01.31-10.20.53:152][ 87]PIE: Play in editor total start time 0,202 seconds.
+[2021.01.31-10.20.57:749][632]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:Interact with Book'!
+[2021.01.31-10.20.57:749][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.21.00:418][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.21.00:419][937]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Kuppel_Scene
+[2021.01.31-10.21.00:419][937]LogWorld: UWorld::CleanupWorld for Kuppel_Scene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-10.21.00:420][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.21.00:432][937]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-10.21.00:436][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-10.21.00:460][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-10.21.00:477][937]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BE5A3760C0), frame # 158937
+[2021.01.31-10.21.00:477][937]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BF16597E00), frame # 158937
+[2021.01.31-10.21.00:481][937]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.01.31-10.21.00:520][938]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.01.31-10.21.28:903][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:903][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.28:904][266]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-10.21.29:086][266]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
+[2021.01.31-10.21.31:629][266]LogSlate: Window 'Save Content' being destroyed
+[2021.01.31-10.21.38:264][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-10.21.38:293][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.01.31-10.21.38:931][ 31]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_Scene6A2B584643301A39EF9F2887F8DE4517.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.31-10.21.38:957][ 31]LogFileHelpers: Saving map 'Kuppel_Scene' took 0.693
+[2021.01.31-10.21.39:013][ 31]AssetCheck: New page: Asset Save: Kuppel_Scene
+[2021.01.31-10.21.39:013][ 31]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
