@@ -1061,3 +1061,18 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.31-09.41.59:540][496]SourceControl: [main f5a4a7b] Flur
 [2021.01.31-09.41.59:540][496]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2021.01.31-09.41.59:550][496]SourceControl: Commited [main f5a4a7b] Flur.
+[2021.01.31-09.42.55:807][810]LogSlate: Last resort fallback font was requested. Font: '/Game/Intro_Credits/Kinderschrift-Regular.Kinderschrift-Regular', Character: '_ (U+005f)'
+[2021.01.31-09.42.55:822][810]LogSlate: Took 0.012974 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.01.31-09.43.07:889][188]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Interface/widgets/pause_menu.pause_menu
+[2021.01.31-09.43.14:242][808]BlueprintLog: New page: Compile pause_menu
+[2021.01.31-09.43.14:280][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.01.31-09.43.17:721][152]LogSlate: Window 'pause_menu' being destroyed
+[2021.01.31-09.43.17:728][152]LogSlate: Window 'pause_menu' being destroyed
+[2021.01.31-09.43.17:731][152]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.43.17:731][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.43.17:752][152]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.43.17:752][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.43.19:912][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/widgets/pause_menu" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Interface/widgets/pause_menu.uasset" SILENT=true
+[2021.01.31-09.43.19:978][380]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/pause_menu3C339BED4045AD90C82ABBA5B1898796.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Interface/widgets/pause_menu.uasset'
+[2021.01.31-09.43.19:991][380]AssetCheck: New page: Asset Save: pause_menu
+[2021.01.31-09.43.19:991][380]LogContentValidation: Display: Validating WidgetBlueprint /Game/Interface/widgets/pause_menu.pause_menu
