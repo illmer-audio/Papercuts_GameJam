@@ -898,3 +898,313 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.31-01.58.53:274][510]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
 [2021.01.31-01.58.53:274][510]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
 [2021.01.31-01.58.53:447][510]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
+[2021.01.31-01.59.21:061][510]LogSlate: Window 'Save Content' being destroyed
+[2021.01.31-01.59.24:360][741]LogAssetEditorSubsystem: Opening Asset editor for World /Game/EndScene.EndScene
+[2021.01.31-01.59.24:382][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.01.31-01.59.35:242][741]LogSlate: Window 'Save Content' being destroyed
+[2021.01.31-01.59.35:349][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buero_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Buero_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-01.59.35:455][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.01.31-01.59.36:590][741]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Buero_Scene6D8DD3D04D107E3BC05BEDA1ED1D2407.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Buero_Scene.umap'
+[2021.01.31-01.59.36:625][741]LogFileHelpers: Saving map 'Buero_Scene' took 1.278
+[2021.01.31-01.59.36:626][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flur" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-01.59.36:649][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.01.31-01.59.36:989][741]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Flur8E6176AA4A1896F2E62A3B92192EC992.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Flur.umap'
+[2021.01.31-01.59.37:013][741]LogFileHelpers: Saving map 'Flur' took 0.387
+[2021.01.31-01.59.37:013][741]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/EndScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.31-01.59.37:013][741]LightingResults: New page: Lighting Build
+[2021.01.31-01.59.37:013][741]LoadErrors: New page: Loading map: EndScene.umap
+[2021.01.31-01.59.37:015][741]LogWorld: UWorld::CleanupWorld for Flur, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-01.59.37:015][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-01.59.37:017][741]MapCheck: New page: Map Check
+[2021.01.31-01.59.37:017][741]LightingResults: New page: Lighting Build
+[2021.01.31-01.59.37:036][741]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018610EC3EC0), frame # 14741
+[2021.01.31-01.59.37:036][741]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001869A48E200), frame # 14741
+[2021.01.31-01.59.37:039][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.01.31-01.59.37:068][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.01.31-01.59.37:091][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.01.31-01.59.37:173][741]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.31-01.59.37:173][741]LogAIModule: Creating AISystem for world EndScene
+[2021.01.31-01.59.37:174][741]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000186D1D8B600), frame # 14741
+[2021.01.31-01.59.37:174][741]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001860AA60900), frame # 14741
+[2021.01.31-01.59.37:196][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.01.31-01.59.37:222][741]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.31-01.59.37:222][741]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,06ms to complete.
+[2021.01.31-01.59.37:222][741]LogFileHelpers: Loading map 'EndScene' took 0.209
+[2021.01.31-01.59.37:288][741]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.31-01.59.37:288][741]LogContentValidation: Display: Validating World /Game/Buero_Scene.Buero_Scene
+[2021.01.31-01.59.37:372][741]LogContentValidation: Display: Validating World /Game/Flur.Flur
+[2021.01.31-01.59.42:152][ 88]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/EndScene.EndScene:PersistentLevel.EndScene
+[2021.01.31-01.59.47:852][691]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-01.59.47:852][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.00.38:976][ 20]BlueprintLog: New page: Compile EndScene
+[2021.01.31-02.00.39:019][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.01.31-02.00.39:078][ 20]LogSlate: Took 0.001126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.31-02.00.39:600][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EndScene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/EndScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-02.00.39:622][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.01.31-02.00.39:680][ 65]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/EndScene865AE20444A6567BB6D256BC326DD00E.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/EndScene.umap'
+[2021.01.31-02.00.39:703][ 65]LogFileHelpers: Saving map 'EndScene' took 0.102
+[2021.01.31-02.00.39:716][ 65]AssetCheck: New page: Asset Save: EndScene
+[2021.01.31-02.00.39:716][ 65]LogContentValidation: Display: Validating World /Game/EndScene.EndScene
+[2021.01.31-02.00.43:212][471]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-02.00.43:267][471]LogFMOD: Creating runtime Studio System
+[2021.01.31-02.00.43:274][471]LogFMOD: Default sample rate = 48000
+[2021.01.31-02.00.43:274][471]LogFMOD: System sample rate = 48000
+[2021.01.31-02.00.43:274][471]LogFMOD: Matching system sample rate 48000
+[2021.01.31-02.00.43:282][471]LogFMOD: Loading Banks
+[2021.01.31-02.00.43:327][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-02.00.43:327][471]PIE: New page: PIE session: EndScene (31.01.2021, 04:00:43)
+[2021.01.31-02.00.43:327][471]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndScene
+[2021.01.31-02.00.43:330][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003028s)
+[2021.01.31-02.00.43:331][471]LogAIModule: Creating AISystem for world EndScene
+[2021.01.31-02.00.43:331][471]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000186E8246400), frame # 21471
+[2021.01.31-02.00.43:331][471]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000186D6125580), frame # 21471
+[2021.01.31-02.00.43:331][471]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2021.01.31-02.00.43:331][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndScene.EndScene to /Game/UEDPIE_0_EndScene.EndScene (0.004091s)
+[2021.01.31-02.00.43:351][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.01.31-02.00.43:352][471]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-02.00.43:352][471]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-02.00.43:352][471]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-02.00.43:352][471]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-02.00.43:352][471]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-02.00.43:352][471]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-02.00.43:352][471]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-02.00.43:352][471]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-02.00.43:353][471]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-02.00.43:353][471]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-02.00.43:362][471]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-02.00.43:362][471]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-02.00.43:381][471]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-02.00.43:381][471]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-02.00.43:381][471]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-02.00.43:381][471]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-02.00.43:382][471]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-02.00.43:393][471]LogInit: FAudioDevice initialized.
+[2021.01.31-02.00.43:403][471]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-02.00.43:404][471]LogWorld: Bringing World /Game/UEDPIE_0_EndScene.EndScene up for play (max tick rate 0) at 2021.01.31-03.00.43
+[2021.01.31-02.00.43:406][471]LogWorld: Bringing up level for play took: 0.003038
+[2021.01.31-02.00.43:407][471]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.01.31-02.00.43:409][471]PIE: Server logged in
+[2021.01.31-02.00.43:410][471]PIE: Play in editor total start time 0,183 seconds.
+[2021.01.31-02.00.52:237][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-02.00.52:237][510]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndScene
+[2021.01.31-02.00.52:237][510]LogWorld: UWorld::CleanupWorld for EndScene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-02.00.52:238][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.00.52:246][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-02.00.52:249][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.00.52:283][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-02.00.52:284][510]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000186D6125580), frame # 22510
+[2021.01.31-02.00.52:284][510]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000186E8246400), frame # 22510
+[2021.01.31-02.00.52:286][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.01.31-02.00.52:317][511]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.01.31-02.00.55:163][850]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-02.00.55:207][850]LogFMOD: Creating runtime Studio System
+[2021.01.31-02.00.55:214][850]LogFMOD: Default sample rate = 48000
+[2021.01.31-02.00.55:214][850]LogFMOD: System sample rate = 48000
+[2021.01.31-02.00.55:214][850]LogFMOD: Matching system sample rate 48000
+[2021.01.31-02.00.55:222][850]LogFMOD: Loading Banks
+[2021.01.31-02.00.55:267][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-02.00.55:267][850]PIE: New page: PIE session: EndScene (31.01.2021, 04:00:55)
+[2021.01.31-02.00.55:306][850]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndScene
+[2021.01.31-02.00.55:308][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002525s)
+[2021.01.31-02.00.55:309][850]LogAIModule: Creating AISystem for world EndScene
+[2021.01.31-02.00.55:309][850]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001869A7CA400), frame # 22850
+[2021.01.31-02.00.55:309][850]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000186D615A5C0), frame # 22850
+[2021.01.31-02.00.55:310][850]LogPlayLevel: PIE: World Init took: (0.001238s)
+[2021.01.31-02.00.55:310][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndScene.EndScene to /Game/UEDPIE_0_EndScene.EndScene (0.003948s)
+[2021.01.31-02.00.55:329][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.01.31-02.00.55:330][850]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-02.00.55:330][850]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-02.00.55:330][850]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-02.00.55:330][850]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-02.00.55:330][850]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-02.00.55:330][850]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-02.00.55:330][850]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-02.00.55:330][850]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-02.00.55:331][850]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-02.00.55:331][850]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-02.00.55:341][850]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-02.00.55:341][850]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-02.00.55:361][850]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-02.00.55:361][850]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-02.00.55:361][850]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-02.00.55:361][850]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-02.00.55:361][850]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-02.00.55:372][850]LogInit: FAudioDevice initialized.
+[2021.01.31-02.00.55:379][850]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-02.00.55:380][850]LogWorld: Bringing World /Game/UEDPIE_0_EndScene.EndScene up for play (max tick rate 0) at 2021.01.31-03.00.55
+[2021.01.31-02.00.55:380][850]LogWorld: Bringing up level for play took: 0.000511
+[2021.01.31-02.00.55:380][850]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.01.31-02.00.55:382][850]PIE: Server logged in
+[2021.01.31-02.00.55:383][850]PIE: Play in editor total start time 0,205 seconds.
+[2021.01.31-02.00.58:848][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-02.00.58:848][247]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndScene
+[2021.01.31-02.00.58:848][247]LogWorld: UWorld::CleanupWorld for EndScene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-02.00.58:849][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.00.58:859][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-02.00.58:862][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.00.58:879][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-02.00.58:894][247]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000186D615A5C0), frame # 23247
+[2021.01.31-02.00.58:894][247]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001869A7CA400), frame # 23247
+[2021.01.31-02.00.58:896][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.01.31-02.00.58:922][248]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.01.31-02.01.00:403][419]LogAssetEditorSubsystem: Opening Asset editor for World /Game/EndScene.EndScene
+[2021.01.31-02.01.00:422][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.01.31-02.01.00:423][419]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/EndScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.31-02.01.00:423][419]LightingResults: New page: Lighting Build
+[2021.01.31-02.01.00:423][419]LoadErrors: New page: Loading map: EndScene.umap
+[2021.01.31-02.01.00:476][419]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-02.01.00:476][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.01.00:516][419]LogWorld: UWorld::CleanupWorld for EndScene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-02.01.00:517][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.01.00:517][419]MapCheck: New page: Map Check
+[2021.01.31-02.01.00:517][419]LightingResults: New page: Lighting Build
+[2021.01.31-02.01.00:535][419]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001860AA60900), frame # 23419
+[2021.01.31-02.01.00:535][419]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000186D1D8B600), frame # 23419
+[2021.01.31-02.01.00:538][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.01.31-02.01.00:568][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.01.31-02.01.00:594][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.01.31-02.01.00:615][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.01.31-02.01.00:629][419]LogAIModule: Creating AISystem for world EndScene
+[2021.01.31-02.01.00:629][419]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000186D1D8A400), frame # 23419
+[2021.01.31-02.01.00:629][419]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000186E77A1A80), frame # 23419
+[2021.01.31-02.01.00:792][419]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.31-02.01.00:810][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.01.31-02.01.00:833][419]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.31-02.01.00:834][419]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,166ms to complete.
+[2021.01.31-02.01.00:834][419]LogFileHelpers: Loading map 'EndScene' took 0.411
+[2021.01.31-02.01.08:206][277]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/EndScene.EndScene:PersistentLevel.EndScene
+[2021.01.31-02.01.21:651][663]BlueprintLog: New page: Compile EndScene
+[2021.01.31-02.01.21:686][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.01.31-02.01.26:039][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-02.01.26:098][ 59]LogFMOD: Creating runtime Studio System
+[2021.01.31-02.01.26:106][ 59]LogFMOD: Default sample rate = 48000
+[2021.01.31-02.01.26:106][ 59]LogFMOD: System sample rate = 48000
+[2021.01.31-02.01.26:106][ 59]LogFMOD: Matching system sample rate 48000
+[2021.01.31-02.01.26:115][ 59]LogFMOD: Loading Banks
+[2021.01.31-02.01.26:158][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-02.01.26:158][ 59]PIE: New page: PIE session: EndScene (31.01.2021, 04:01:26)
+[2021.01.31-02.01.26:158][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndScene
+[2021.01.31-02.01.26:160][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002433s)
+[2021.01.31-02.01.26:161][ 59]LogAIModule: Creating AISystem for world EndScene
+[2021.01.31-02.01.26:161][ 59]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001861D13D600), frame # 26059
+[2021.01.31-02.01.26:161][ 59]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001860FC091C0), frame # 26059
+[2021.01.31-02.01.26:161][ 59]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2021.01.31-02.01.26:161][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndScene.EndScene to /Game/UEDPIE_0_EndScene.EndScene (0.003611s)
+[2021.01.31-02.01.26:181][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.01.31-02.01.26:182][ 59]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-02.01.26:182][ 59]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-02.01.26:182][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-02.01.26:182][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-02.01.26:182][ 59]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-02.01.26:182][ 59]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-02.01.26:182][ 59]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-02.01.26:182][ 59]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-02.01.26:183][ 59]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-02.01.26:183][ 59]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-02.01.26:193][ 59]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-02.01.26:193][ 59]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-02.01.26:212][ 59]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-02.01.26:212][ 59]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-02.01.26:212][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-02.01.26:212][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-02.01.26:213][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-02.01.26:225][ 59]LogInit: FAudioDevice initialized.
+[2021.01.31-02.01.26:231][ 59]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-02.01.26:232][ 59]LogWorld: Bringing World /Game/UEDPIE_0_EndScene.EndScene up for play (max tick rate 0) at 2021.01.31-03.01.26
+[2021.01.31-02.01.26:232][ 59]LogWorld: Bringing up level for play took: 0.000465
+[2021.01.31-02.01.26:232][ 59]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.01.31-02.01.26:235][ 59]PIE: Server logged in
+[2021.01.31-02.01.26:235][ 59]PIE: Play in editor total start time 0,181 seconds.
+[2021.01.31-02.01.30:567][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-02.01.30:567][537]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndScene
+[2021.01.31-02.01.30:568][537]LogWorld: UWorld::CleanupWorld for EndScene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-02.01.30:568][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.01.30:574][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-02.01.30:578][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.01.30:600][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-02.01.30:614][537]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001860FC091C0), frame # 26537
+[2021.01.31-02.01.30:614][537]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001861D13D600), frame # 26537
+[2021.01.31-02.01.30:617][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.01.31-02.01.30:657][538]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.01.31-02.02.07:404][389]BlueprintLog: New page: Compile EndScene
+[2021.01.31-02.02.07:439][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.31-02.02.07:969][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EndScene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/EndScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-02.02.07:990][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.01.31-02.02.08:046][429]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/EndScene9D4A846841D0A608D12FFD88C5652AC2.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/EndScene.umap'
+[2021.01.31-02.02.08:070][429]LogFileHelpers: Saving map 'EndScene' took 0.101
+[2021.01.31-02.02.08:085][429]AssetCheck: New page: Asset Save: EndScene
+[2021.01.31-02.02.08:085][429]LogContentValidation: Display: Validating World /Game/EndScene.EndScene
+[2021.01.31-02.02.37:314][710]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.31-02.02.37:357][710]LogFMOD: Creating runtime Studio System
+[2021.01.31-02.02.37:364][710]LogFMOD: Default sample rate = 48000
+[2021.01.31-02.02.37:364][710]LogFMOD: System sample rate = 48000
+[2021.01.31-02.02.37:364][710]LogFMOD: Matching system sample rate 48000
+[2021.01.31-02.02.37:372][710]LogFMOD: Loading Banks
+[2021.01.31-02.02.37:418][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.31-02.02.37:418][710]PIE: New page: PIE session: EndScene (31.01.2021, 04:02:37)
+[2021.01.31-02.02.37:418][710]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndScene
+[2021.01.31-02.02.37:420][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002443s)
+[2021.01.31-02.02.37:421][710]LogAIModule: Creating AISystem for world EndScene
+[2021.01.31-02.02.37:421][710]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001861D25BE00), frame # 33710
+[2021.01.31-02.02.37:421][710]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001869F72C400), frame # 33710
+[2021.01.31-02.02.37:421][710]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2021.01.31-02.02.37:421][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndScene.EndScene to /Game/UEDPIE_0_EndScene.EndScene (0.003573s)
+[2021.01.31-02.02.37:441][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.01.31-02.02.37:442][710]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.31-02.02.37:442][710]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.31-02.02.37:442][710]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.31-02.02.37:442][710]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.31-02.02.37:442][710]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.31-02.02.37:442][710]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.31-02.02.37:442][710]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.31-02.02.37:442][710]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.31-02.02.37:442][710]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.31-02.02.37:442][710]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.31-02.02.37:452][710]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.31-02.02.37:452][710]LogAudioMixer: Display: 1: FrontRight
+[2021.01.31-02.02.37:470][710]LogAudioMixer: Display: Using Audio Device Kopfhörer Gehäuseanschluss (CABLE-A Input) (VB-Audio Cable A)
+[2021.01.31-02.02.37:470][710]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.31-02.02.37:470][710]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.31-02.02.37:470][710]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.31-02.02.37:471][710]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.31-02.02.37:482][710]LogInit: FAudioDevice initialized.
+[2021.01.31-02.02.37:489][710]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.31-02.02.37:490][710]LogWorld: Bringing World /Game/UEDPIE_0_EndScene.EndScene up for play (max tick rate 0) at 2021.01.31-03.02.37
+[2021.01.31-02.02.37:490][710]LogWorld: Bringing up level for play took: 0.000496
+[2021.01.31-02.02.37:490][710]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.01.31-02.02.37:493][710]PIE: Server logged in
+[2021.01.31-02.02.37:493][710]PIE: Play in editor total start time 0,164 seconds.
+[2021.01.31-02.02.41:698][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-02.02.41:698][169]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndScene
+[2021.01.31-02.02.41:699][169]LogWorld: UWorld::CleanupWorld for EndScene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-02.02.41:699][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.02.41:707][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.31-02.02.41:711][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-02.02.41:743][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.31-02.02.41:744][169]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001869F72C400), frame # 34169
+[2021.01.31-02.02.41:744][169]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001861D25BE00), frame # 34169
+[2021.01.31-02.02.41:746][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.01.31-02.02.41:781][170]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.01.31-02.03.13:391][232]BlueprintLog: New page: Compile EndScene
+[2021.01.31-02.03.13:425][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.01.31-02.03.15:412][379]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.31-02.03.15:483][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:626][156]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
+[2021.01.31-02.03.23:798][156]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
