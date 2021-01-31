@@ -780,3 +780,46 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.31-09.48.02:205][614]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
 [2021.01.31-09.48.02:205][614]SourceControl: fatal: D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Programme/Unreal Engine/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam'
 [2021.01.31-09.48.02:410][614]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMOD/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
+[2021.01.31-09.48.22:110][614]LogSlate: Window 'Submit Files' being destroyed
+[2021.01.31-09.48.23:589][761]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-09.48.23:639][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.01.31-09.48.23:642][761]Cmd: MAP LOAD FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.31-09.48.23:642][761]LightingResults: New page: Lighting Build
+[2021.01.31-09.48.23:642][761]LoadErrors: New page: Loading map: Kuppel_Scene.umap
+[2021.01.31-09.48.23:677][761]LogWorld: UWorld::CleanupWorld for EndScene, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.48.23:677][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.31-09.48.23:677][761]MapCheck: New page: Map Check
+[2021.01.31-09.48.23:677][761]LightingResults: New page: Lighting Build
+[2021.01.31-09.48.23:708][761]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BE6AEAFEC0), frame # 23761
+[2021.01.31-09.48.23:708][761]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BE8270FE00), frame # 23761
+[2021.01.31-09.48.23:715][761]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.01.31-09.48.23:903][761]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.31-09.48.23:903][761]LogAIModule: Creating AISystem for world Kuppel_Scene
+[2021.01.31-09.48.23:903][761]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BE9F0C9000), frame # 23761
+[2021.01.31-09.48.23:903][761]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BE9A09DBC0), frame # 23761
+[2021.01.31-09.48.23:928][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.01.31-09.48.23:953][761]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.31-09.48.23:953][761]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,084ms to complete.
+[2021.01.31-09.48.23:953][761]LogFileHelpers: Loading map 'Kuppel_Scene' took 0.311
+[2021.01.31-09.48.24:013][761]PIE: Warning: Constraint in '/Engine/Transient.World_9:PersistentLevel.BP_Swing_C_0.left' attempting to create a joint between objects that are both static.  No joint created.
+[2021.01.31-09.48.24:013][761]PIE: Warning: Constraint in '/Engine/Transient.World_9:PersistentLevel.BP_Swing_C_0.right' attempting to create a joint between objects that are both static.  No joint created.
+[2021.01.31-09.48.32:611][759]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Intro_Credits/Overlapping_Text_Kuppel.Overlapping_Text_Kuppel
+[2021.01.31-09.49.07:541][595]BlueprintLog: New page: Compile Overlapping_Text_Kuppel
+[2021.01.31-09.49.07:569][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.01.31-09.49.08:768][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Intro_Credits/Overlapping_Text_Kuppel" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Intro_Credits/Overlapping_Text_Kuppel.uasset" SILENT=true
+[2021.01.31-09.49.08:853][712]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Overlapping_Text_Kuppel398931C54CCB0F0A0C14A485D2C6B7A2.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Intro_Credits/Overlapping_Text_Kuppel.uasset'
+[2021.01.31-09.49.08:867][712]AssetCheck: New page: Asset Save: Overlapping_Text_Kuppel
+[2021.01.31-09.49.08:867][712]LogContentValidation: Display: Validating WidgetBlueprint /Game/Intro_Credits/Overlapping_Text_Kuppel.Overlapping_Text_Kuppel
+[2021.01.31-09.49.12:024][ 68]LogTemp: Repeating last play command: Standalone Game
+[2021.01.31-09.49.12:059][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.01.31-09.49.50:249][ 89]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Kuppel_Scene.Kuppel_Scene:PersistentLevel.Kuppel_Scene
+[2021.01.31-09.49.57:352][693]BlueprintLog: New page: Compile Kuppel_Scene
+[2021.01.31-09.49.57:395][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.01.31-09.49.58:126][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kuppel_Scene" FILE="F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.31-09.49.58:149][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.01.31-09.49.58:813][744]LogSavePackage: Moving 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Saved/Kuppel_SceneE332A64E4175CACDE5FAE5AE39003CB8.tmp' to 'F:/UnrealEngineProjects/Papercut/Papercuts_GameJam/Content/Kuppel_Scene.umap'
+[2021.01.31-09.49.58:838][744]LogFileHelpers: Saving map 'Kuppel_Scene' took 0.713
+[2021.01.31-09.49.58:879][744]AssetCheck: New page: Asset Save: Kuppel_Scene
+[2021.01.31-09.49.58:879][744]LogContentValidation: Display: Validating World /Game/Kuppel_Scene.Kuppel_Scene
+[2021.01.31-09.50.00:655][900]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.01.31-09.50.00:655][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
